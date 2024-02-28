@@ -94,3 +94,7 @@ Competitive players are provided with a series of progressively challenging ques
 ### Social Gamer Goal
 
 The goal for social gamers diving into the Quiz Game is to deliver an interactive and shared gaming experience that bridges the joy of cartoon trivia with the fun of social interaction. This game is tailored to those who find the most enjoyment in playing alongside friends and family. 
+
+### Visually Impaired User Goal
+
+The goal for visually impaired users is to ensure a fully accessible and inclusive gaming experience that allows everyone to participate fully and enjoyably. Recognizing the unique challenges faced by visually impaired users, this game is designed with accessibility at its core, enabling these users to navigate, interact, and compete on an equal footing with all other players.
