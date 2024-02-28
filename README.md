@@ -24,7 +24,8 @@ Dive into a vibrant journey through various questions ranging from the golden ag
   * [Casual Player Goal](#casual-player-goal)
   * [Competitive User Goal](#business-goal)
   * [Social Gamer Goal](#social-gamer-goal)
-  * [Visually Impaired User goal](#visually-impaired-user-goal)
+  * [Visually Impaired User Goal](#visually-impaired-user-goal)
+  * [Business Goal](#business-goal)
   * [User Stories](#user-stories)
   
 
@@ -98,3 +99,7 @@ The goal for social gamers diving into the Quiz Game is to deliver an interactiv
 ### Visually Impaired User Goal
 
 The goal for visually impaired users is to ensure a fully accessible and inclusive gaming experience that allows everyone to participate fully and enjoyably. Recognizing the unique challenges faced by visually impaired users, this game is designed with accessibility at its core, enabling these users to navigate, interact, and compete on an equal footing with all other players.
+
+### Business Goal
+
+The primary business goal of the CN Toons Quiz Game is to establish a vibrant, engaging online platform that not only entertains users but also fosters a community around a shared love for cartoons. By providing an interactive and educational experience, the game aims to attract a diverse audience, from casual players to trivia enthusiasts and competitive gamers, thereby increasing user engagement and retention.
