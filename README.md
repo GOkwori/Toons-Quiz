@@ -20,11 +20,11 @@ Dive into a vibrant journey through various questions ranging from the golden ag
 
 * [User Experience](#user-experience-ux)
   * [Project Goal](#project-goal)
-  * [Trivia Enthusiast Goals](#trivia-enthusiast-goals)
-  * [Casual Player Goals](#casual-player-goals)
-  * [Competitive User Goals](#business-goals)
-  * [Social Gamer Goals](social-gamer-goals)
-  * [Visually Impaired User goals](visually-impaired-user-goals)
+  * [Trivia Enthusiast Goal](#trivia-enthusiast-goal)
+  * [Casual Player Goal](#casual-player-goal)
+  * [Competitive User Goal](#business-goal)
+  * [Social Gamer Goal](social-gamer-goal)
+  * [Visually Impaired User goal](visually-impaired-user-goal)
   * [User Stories](#user-stories)
   
 
@@ -72,3 +72,15 @@ The primary goal of the CN Toons Quiz Game is to create an engaging, interactive
 By leveraging HTML, CSS, and JavaScript, this app will present interactive data in a user-friendly manner, allowing for dynamic interaction and a tailored experience based on user input. The quiz will feature a variety of questions related to cartoons across different eras, challenging users of all ages and fostering a deeper appreciation and understanding of the animated world.
 
 Through this project, I seek to not only entertain users but also to provide a platform for learning and engagement. 
+
+### Trivia Enthusiast Goal
+
+The goal for trivia enthusiasts engaging with the Quiz Game is to provide a rich, interactive platform where they can challenge their knowledge of the cartoon universe in a fun and engaging way. This project is designed to cater to users who are passionate about cartoons, offering them an opportunity to explore a wide array of trivia questions that span across different genres, time periods, and styles of animation.
+
+Trivia enthusiasts are encouraged to delve into the depths of their cartoon knowledge, rediscover classics, and learn about new series, all while navigating through an intuitive and responsive interface. By offering a variety of difficulty levels and question types, the game aims to keep enthusiasts engaged and motivated, pushing them to achieve higher scores and deepen their understanding of the cartoon world.
+
+### Casual Player Goal
+
+The objective for casual players is to offer a delightful and straightforward way to engage with cartoon-related trivia without the need for extensive knowledge or commitment. This game is designed to be accessible and enjoyable for players who seek a quick and entertaining break in their day, providing an interactive experience that can be enjoyed at their own pace.
+
+Casual players will find the game inviting, with a focus on fun rather than competition. The game aims to offer an intuitive user experience, where getting started, selecting answers, and seeing results is seamless and immediate. With a variety of questions that cater to a broad range of cartoon knowledge, casual players can learn interesting facts and discover new cartoons, enhancing their appreciation of the genre without feeling the pressure to perform.
