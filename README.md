@@ -20,9 +20,11 @@ Dive into a vibrant journey through various questions ranging from the golden ag
 
 * [User Experience](#user-experience-ux)
   * [Project Goals](#project-goals)
-  * [Art Lovers' Goals](#art-lovers-goals)
-  * [Artists' Goals](#artists-goals)
-  * [Business Goals](#business-goals)
+  * [Trivia Enthusiast Goals](#trivia-enthusiast-goals)
+  * [Casual Player Goals](#casual-player-goals)
+  * [Competitive User Goals](#business-goals)
+  * [Social Gamer Goals](social-gamer-goals)
+  * [Visually Impaired User goals](visually-impaired-user-goals)
   * [User Stories](#user-stories)
   
 
@@ -33,11 +35,9 @@ Dive into a vibrant journey through various questions ranging from the golden ag
   * [Wireframes](#wireframes)
   * [Features](#features)
     * [The Home Page](#the-home-page)
-    * [The Gallery Page](#the-gallery-page)
-    * [The Exhibition Page](#the-exhibition-page)
-    * [The Booking Page](#the-booking-page)
-    * [The Thank you Page](#the-thank-you-page)
-    * [The Coming soon Page](#the-coming-soon-page)
+    * [The Game Page](#the-game-page)
+    * [The How-To-Play Page](#the-how-to-play-page)
+    * [The Settings Page](#the-settings-page)
     * [Future Implementations](#future-implementations)
   * [Accessibility](#accessibility)
 
@@ -61,4 +61,4 @@ Dive into a vibrant journey through various questions ranging from the golden ag
   * [Acknowledgments](#acknowledgments)
 
 - - -
-![Grizk Art Gallery Banner](documentation/features/grizk-gallery-banner.PNG)
+![CN Toons Quiz Banner](assets/favicon_io/android-chrome-192x192.png)
