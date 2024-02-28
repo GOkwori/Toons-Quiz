@@ -23,8 +23,8 @@ Dive into a vibrant journey through various questions ranging from the golden ag
   * [Trivia Enthusiast Goal](#trivia-enthusiast-goal)
   * [Casual Player Goal](#casual-player-goal)
   * [Competitive User Goal](#business-goal)
-  * [Social Gamer Goal](social-gamer-goal)
-  * [Visually Impaired User goal](visually-impaired-user-goal)
+  * [Social Gamer Goal](#social-gamer-goal)
+  * [Visually Impaired User goal](#visually-impaired-user-goal)
   * [User Stories](#user-stories)
   
 
@@ -84,3 +84,13 @@ Trivia enthusiasts are encouraged to delve into the depths of their cartoon know
 The objective for casual players is to offer a delightful and straightforward way to engage with cartoon-related trivia without the need for extensive knowledge or commitment. This game is designed to be accessible and enjoyable for players who seek a quick and entertaining break in their day, providing an interactive experience that can be enjoyed at their own pace.
 
 Casual players will find the game inviting, with a focus on fun rather than competition. The game aims to offer an intuitive user experience, where getting started, selecting answers, and seeing results is seamless and immediate. With a variety of questions that cater to a broad range of cartoon knowledge, casual players can learn interesting facts and discover new cartoons, enhancing their appreciation of the genre without feeling the pressure to perform.
+
+### Competitive User Goal
+
+The goal for competitive users is to create a challenging and rewarding environment where they can test their mastery of cartoon trivia against themselves and others. This game is meticulously designed to cater to those who thrive on competition, offering a platform where knowledge, speed, and accuracy are key to achieving high scores and securing a place on the leaderboard.
+
+Competitive players are provided with a series of progressively challenging questions that require not just a love for cartoons but a keen eye for detail and a deep understanding of the genre. 
+
+### Social Gamer Goal
+
+The goal for social gamers diving into the Quiz Game is to deliver an interactive and shared gaming experience that bridges the joy of cartoon trivia with the fun of social interaction. This game is tailored to those who find the most enjoyment in playing alongside friends and family. 
