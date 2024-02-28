@@ -19,7 +19,7 @@ Dive into a vibrant journey through various questions ranging from the golden ag
 ## CONTENTS
 
 * [User Experience](#user-experience-ux)
-  * [Project Goals](#project-goals)
+  * [Project Goal](#project-goal)
   * [Trivia Enthusiast Goals](#trivia-enthusiast-goals)
   * [Casual Player Goals](#casual-player-goals)
   * [Competitive User Goals](#business-goals)
@@ -62,3 +62,13 @@ Dive into a vibrant journey through various questions ranging from the golden ag
 
 - - -
 ![CN Toons Quiz Banner](assets/favicon_io/android-chrome-192x192.png)
+
+## User Experience (UX)
+
+### Project Goal
+
+The primary goal of the CN Toons Quiz Game is to create an engaging, interactive web application that offers users a fun and educational way to test their knowledge of cartoons. This project aims to deliver an immersive experience where users can interact with the site in their unique way to achieve their personal goals and find answers to their specific questions.
+
+By leveraging HTML, CSS, and JavaScript, this app will present interactive data in a user-friendly manner, allowing for dynamic interaction and a tailored experience based on user input. The quiz will feature a variety of questions related to cartoons across different eras, challenging users of all ages and fostering a deeper appreciation and understanding of the animated world.
+
+Through this project, I seek to not only entertain users but also to provide a platform for learning and engagement. 
