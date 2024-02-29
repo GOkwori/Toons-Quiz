@@ -29,6 +29,7 @@ body {
 h1 {
     text-align: center;
     font-family: 'comic neue', cursive;
+    font-weight: 900;
     transition: transform 0.3s ease-in-out;
     font-size: 3rem;
 }
@@ -41,6 +42,20 @@ h1:hover {
     display: flex;
     align-items: center;
 }
+
+h2 {
+    font-family: 'comic neue', cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: 'comic neue', cursive;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}   
 
 /*---- Semantic Header ----*/
 header {
