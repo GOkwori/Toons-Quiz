@@ -234,7 +234,39 @@ The development of CN Toons Quiz Game leverages a combination of modern web tech
 
 - - -
 
-### Development Tools
+## Deployment & Local Development
 
-VS Code: A versatile and powerful code editor used by our developers for writing and debugging the game’s code. Its extensive library of extensions and built-in support for HTML, CSS, and JavaScript make it an ideal choice for web development.
-GitHub: Facilitates version control and collaboration, allowing our team to track and share changes to the project codebase efficiently. It also serves as the platform for hosting the game’s source code and managing contributions from the development community.
+### Deployment
+
+The site is deployed using GitHub Pages - [CN Toons Quiz](https://gokwori.github.io/CN-Toons-Quiz/).
+
+To Deploy the site using GitHub Pages:
+
+1. Login (or signup) to Github.
+2. Go to the repository for this project, [CN Toons Quiz](https://gokwori.github.io/CN-Toons-Quiz/).
+3. Click the settings button.
+4. Select pages in the left hand navigation menu.
+5. From the source dropdown select main branch and "/(root)", then press save.
+6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+
+### Local Development
+
+#### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, [CN Toons Quiz](https://gokwori.github.io/CN-Toons-Quiz/)
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, [CN Toons Quiz](https://gokwori.github.io/CN-Toons-Quiz/)
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+- - -
