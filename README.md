@@ -166,3 +166,24 @@ CN Toons Quiz Game's development process began with the creation of detailed wir
 ![Game Page](documentation/wireframes/game-page.png)
 ![How to Play Page](documentation/wireframes/how-to-play.png)
 ![Settings Page](documentation/wireframes/settings-page.png)
+
+### Features
+
+The CN Toons Quiz Game is designed with the following features to create an engaging, informative, and user-friendly experience for all types of players: ########
+
+### Accessibility
+
+In developing the Quiz Game, my priority is to ensure that every player, regardless of ability, can fully participate in the fun and challenge of cartoon trivia. Accessibility isn't just a feature—it's a foundational aspect of the game's design and development.
+
+I have also been mindful during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by:
+
+* Using semantic HTML.
+* Optimising the website's design to be responsive and accessible on various devices, including desktops, tablets, and phones.
+* Maintaining a clear and intuitive navigation structure.
+* Ensuring that users can easily navigate through the website using both keyboard and mouse.
+* Implementing accessible forms with proper labels, instructions, and error messages.
+* Choosing readable font styles and sizes, allowing users to adjust text as needed.
+* Ensuring there is sufficient color contrast between text and background.
+* Providiing descriptive alternative text for all images to assist users with visual impairments.
+* Using concise and meaningful descriptions.
+
