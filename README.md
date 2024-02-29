@@ -187,3 +187,22 @@ I have also been mindful during coding to ensure that the website is as accessib
 * Providiing descriptive alternative text for all images to assist users with visual impairments.
 * Using concise and meaningful descriptions.
 
+- - -
+
+## Technologies Used
+
+The development of CN Toons Quiz Game leverages a combination of modern web technologies and software tools to ensure a robust, interactive, and user-friendly experience. Here’s a brief overview of the key technologies and tools employed in the game’s creation:
+
+### Languages Used
+
+|  |  |
+| -- | --|
+| ![HTML](https://img.shields.io/badge/1%20-%20HTML%20-%20green) | The backbone of our game, used to structure the content and layout of the web pages.|
+| ![CSS](https://img.shields.io/badge/2%20-%20CSS%20-%20orange) | Empowers the visual design of our game, including layouts, colors, and fonts, ensuring an engaging and responsive interface.|
+| ![JavaScript](https://img.shields.io/badge/3%20-%20Javascript%20-%20yellow) | The driving force behind the game's interactivity, enabling dynamic content manipulation, real-time feedback, and seamless user interactions.|
+| | |
+
+### Development Tools
+
+VS Code: A versatile and powerful code editor used by our developers for writing and debugging the game’s code. Its extensive library of extensions and built-in support for HTML, CSS, and JavaScript make it an ideal choice for web development.
+GitHub: Facilitates version control and collaboration, allowing our team to track and share changes to the project codebase efficiently. It also serves as the platform for hosting the game’s source code and managing contributions from the development community.
