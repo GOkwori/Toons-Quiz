@@ -5,7 +5,7 @@
     --content-text: 'Comic Neue', cursive;
     --info-text: 'Roboto', sans-serif;
     /*------- Colours ------*/
-    --color: #, #, #;
+    --color: #192135, #, #;
 }
 
 /* Removes all margins & Padding on everything so they can be fully customised */
@@ -19,7 +19,7 @@
 body {
     font-family: "comic neue", cursive;
     background-color: #f5f5f5;
-    color: #333;
+    color: #192135;
     font-size: 1.2rem;
     line-height: 1.6;
 }
@@ -86,4 +86,17 @@ section {
     height: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #fff;
+}
+/*---- Buttons ----*/
+
+.button {
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.1);
 }
