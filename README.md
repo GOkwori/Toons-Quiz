@@ -7,14 +7,11 @@ Welcome to the CN Toons Quiz Game! A thrilling interactive web application desig
 
 Dive into a vibrant journey through various questions ranging from the golden age of cartoons to the contemporary masterpieces that have captured the hearts of millions. Our app challenges you with an array of questions that will intrigue both casual viewers and avid enthusiasts.
 
-
-![GitHub Last Commit](#)
-![GitHub Languages](#)
-![HTML](#)
-![CSS](#)
-![Static Badge](#)
-![LightHouse](#)
-
+![GitHub Last Commit](https://img.shields.io/badge/Last%20Commit%20-April%202024%20-%20green)
+![GitHub Languages](https://img.shields.io/badge/Languages%20-%203%20-%20orange)
+![Contributors](https://img.shields.io/badge/Contributors%20-%201%20-%20cyan)
+![W3](https://img.shields.io/badge/W3%20-%20Validated%20-%20pink)
+![Testing](https://img.shields.io/badge/Testing%20-%20Passed%20-%20yellow)
 
 ## CONTENTS
 
