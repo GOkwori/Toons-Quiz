@@ -292,3 +292,40 @@ Please refer to [Testing.md](testing.md) file for all testing carried out.
 
 - - -
 
+## Credits
+
+### Code Used
+| No | Component | Comment | Source | Code Snippet | 
+| --- | --- | --- | --- | --- |
+| 1 |   |   | [#](#) | ![#](#) |
+| 2 |   |   | [#](#) | ![#](#) |
+| 3 |   |   | [#](#) | ![#](#) |
+| 4 |   |   | [#](#) | ![#](#) |
+| 5 |   |   | [#](#) | ![#](#) |
+| 6 |   |   | [#](#) | ![#](#) |
+| 7 |   |   | [#](#) | ![#](#) |
+| 8 |   |   | [#](#) | ![#](#) |
+| 9 |   |   | [#](#) | ![#](#) |
+| 10 |   |   | [#](#) | ![#](#) |
+
+
+### Content
+| No | Content | Remark | Source | Screenshot |
+| --- | --- | --- | --- | --- |
+| 1 |    |   | [#](#)| ![#](#)|
+| 2 |    |   | [#](#)| ![#](#)|
+| 3 |    |   | [#](#)| ![#](#)|
+| 4 |    |   | [#](#)| ![#](#)|
+| 5 |    |   | [#](#)| ![#](#)|
+| 6 |    |   | [#](#)| ![#](#)|
+| 7 |    |   | [#](#)| ![#](#)|
+| 8 |    |   | [#](#)| ![#](#)|
+| 9 |    |   | [#](#)| ![#](#)|
+| 10 |    |   | [#](#)| ![#](#)|
+
+
+### Acknowledgments
+
+I would like to acknowledge:
+
+* Jubril Akolade - My Code Institute Mentor for his guidance and encouragement.
