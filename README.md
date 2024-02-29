@@ -270,3 +270,25 @@ To clone the repository:
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 - - -
+
+## Testing
+
+Please refer to [Testing.md](testing.md) file for all testing carried out.
+
+### Solved Bugs
+
+| No | Bug | Description | Solution Applied | 
+| --- | --- | --- | --- | 
+| 1 |  | | ![#](#) |
+| 2 |  | | ![#](#) |
+| 3 |  | | ![#](#) |
+| 4 |  | | ![#](#) |
+| 5 |  | | ![#](#) |
+| 6 |  | | ![#](#) |
+| 7 |  | | ![#](#) |
+| 8 |  | | ![#](#) |
+| 9 |  | | ![#](#) |
+| 10 |  | | ![#](#) |
+
+- - -
+
