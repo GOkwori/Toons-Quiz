@@ -5,7 +5,7 @@
     --content-text: 'Comic Neue', cursive;
     --info-text: 'Roboto', sans-serif;
     /*------- Colours ------*/
-    --color: #192135, #, #;
+    --color: #192135, #fff;
 }
 
 /* Removes all margins & Padding on everything so they can be fully customised */
@@ -17,8 +17,11 @@
 
 /*---- Body ----*/
 body {
+    background: url(../images/kung-fu-panda.jpg);
+    position: relative;
+    background-size: cover;
     font-family: "comic neue", cursive;
-    background-color: #192135;
+    background-color: #fff;
     color: #192135;
     font-size: 1.2rem;
     line-height: 1.6;
@@ -27,45 +30,57 @@ body {
 
 /*---- Heading & Text ----*/
 h1 {
-    text-align: center;
-    color: #fff;
+    color: #192135;
     font-family: 'comic neue', cursive;
     font-weight: 900;
-    transition: transform 0.3s ease-in-out;
-    font-size: 3rem;
+    font-size: 4rem;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0);
 }
 
-h1:hover {
-    transform: scale(1.1);
-}
-
+/*---- Header container----*/
 #h1-container {
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
     display: flex;
-    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+#h1-container:hover {
+    transform: scale(1.1);
 }
 
 h2 {
     font-family: 'comic neue', cursive;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 2rem;
     margin-bottom: 20px;
 }
 
 h3 {
     font-family: 'comic neue', cursive;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 1.5rem;
     margin-bottom: 20px;
 }   
 
+p {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}   
+
 /*---- Semantic Header ----*/
+/*---- Header Container----*/
 .main-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px;
+    padding: 5px 20px;
 }
 
+/*---- Logo ----*/
 #logo {
     width: 100px;
     height: 100px;
@@ -78,20 +93,24 @@ h3 {
 }
 
 /*---- Semantic Section ----*/
-
-.content-body {
+/*---- Content ----*/
+.content-background {
     padding: 40px;
     margin: 20px 200px;
     border-radius: 10px;
     width:auto;
     height: auto;
+    backdrop-filter: blur(5px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    transition: transform 0.3s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
-.content-body:hover {
-    transform: scale(1.1);
+.content-body {
+    position: relative;
+}
+
+.content-body h2, .content-body h3, .content-body p {
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0); 
 }
 
 /*---- Buttons ----*/
