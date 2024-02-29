@@ -131,3 +131,38 @@ The primary business goal of the CN Toons Quiz Game is to establish a vibrant, e
 
 - - -
 
+## Design Choices
+
+### Colour Scheme
+
+In the design of the Quiz game website, I've intentionally selected a colour scheme dominated by `#`, `#` and `#` to complement the background image. The soft `#` serves as a subtle and clean backdrop, preventing the background image from overwhelming users. Meanwhile, the deep `#` adds sophistication and contrast, contributing to an aesthetically pleasing and balanced visual experience. This careful integration of colors ensures that the background image enhances the overall design without overpowering or distracting users, creating a harmonious and engaging atmosphere on the website.
+
+* I have used `#` & `#` as the primary and secondary colours used for the sites text.
+* I have used `#` as the overlay used over the sites background image.
+
+![Colour Scheme](#)
+
+### Typography
+
+Google Fonts was used to import the chosen fonts for use in the site.
+
+* Primary Font: [Comic Neue](https://fonts.google.com/specimen/Comic+Neue?query=comic) - As a modern and cleaner twist on the classic comic book font, Comic Neue brings a playful yet readable style to our game's interface, perfect for the cartoon trivia theme.
+
+![Comic Neue](documentation/google-fonts/google-fonts/comic-neue.png)
+
+* Secondary Font: [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) - For detailed explanations, feedback, and any informational text, we use Roboto. Its high readability and versatile weights make it an excellent complement to our primary font, ensuring that all users can comfortably read game content.
+
+![Roboto](documentation/google-fonts/google-fonts/roboto.png)
+
+### Imagery
+
+The Toons Quiz Game is rich in vibrant and captivating imagery, carefully chosen to complement the trivia questions and immerse players in the world of cartoons.
+
+### Wireframes
+
+CN Toons Quiz Game's development process began with the creation of detailed wireframes using Balsamiq wireframes. These wireframes served as blueprints for the game's design, ensuring a user-friendly interface and a seamless experience across various screens. 
+
+![Home Page](documentation/wireframes/welcome-page.png)
+![Game Page](documentation/wireframes/game-page.png)
+![How to Play Page](documentation/wireframes/how-to-play.png)
+![Settings Page](documentation/wireframes/settings-page.png)
