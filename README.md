@@ -148,11 +148,11 @@ Google Fonts was used to import the chosen fonts for use in the site.
 
 * Primary Font: [Comic Neue](https://fonts.google.com/specimen/Comic+Neue?query=comic) - As a modern and cleaner twist on the classic comic book font, Comic Neue brings a playful yet readable style to our game's interface, perfect for the cartoon trivia theme.
 
-![Comic Neue](documentation/google-fonts/google-fonts/comic-neue.png)
+![Comic Neue](documentation/google-fonts/comic-neue.png)
 
 * Secondary Font: [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) - For detailed explanations, feedback, and any informational text, we use Roboto. Its high readability and versatile weights make it an excellent complement to our primary font, ensuring that all users can comfortably read game content.
 
-![Roboto](documentation/google-fonts/google-fonts/roboto.png)
+![Roboto](documentation/google-fonts/roboto.png)
 
 ### Imagery
 
@@ -160,7 +160,7 @@ The Toons Quiz Game is rich in vibrant and captivating imagery, carefully chosen
 
 ### Wireframes
 
-CN Toons Quiz Game's development process began with the creation of detailed wireframes using Balsamiq wireframes. These wireframes served as blueprints for the game's design, ensuring a user-friendly interface and a seamless experience across various screens. 
+CN Toons Quiz Game's development process began with the creation of detailed wireframes using Balsamiq wireframes. These wireframes served as blueprints for the game's design, ensuring a user-friendly interface and a seamless experience across various screens.
 
 ![Home Page](documentation/wireframes/welcome-page.png)
 ![Game Page](documentation/wireframes/game-page.png)
