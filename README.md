@@ -1,4 +1,5 @@
 # CN Toons Quiz
+
 ![CN Toons Quiz shown on a variety of screen sizes](./documentation/#)
 
 Visit the deployed site: [CN Toons Quiz](https://gokwori.github.io/CN-Toons-Quiz/)
@@ -25,7 +26,6 @@ Dive into a vibrant journey through various questions ranging from the golden ag
   * [Business Goal](#business-goal)
   * [User Stories](#user-stories)
   
-
 * [Design](#design)
   * [Colour Scheme](#colour-scheme)
   * [Typography](#typography)
@@ -69,7 +69,7 @@ The primary goal of the CN Toons Quiz Game is to create an engaging, interactive
 
 By leveraging HTML, CSS, and JavaScript, this app will present interactive data in a user-friendly manner, allowing for dynamic interaction and a tailored experience based on user input. The quiz will feature a variety of questions related to cartoons across different eras, challenging users of all ages and fostering a deeper appreciation and understanding of the animated world.
 
-Through this project, I seek to not only entertain users but also to provide a platform for learning and engagement. 
+Through this project, I seek to not only entertain users but also to provide a platform for learning and engagement.
 
 ### Trivia Enthusiast Goal
 
@@ -87,11 +87,11 @@ Casual players will find the game inviting, with a focus on fun rather than comp
 
 The goal for competitive users is to create a challenging and rewarding environment where they can test their mastery of cartoon trivia against themselves and others. This game is meticulously designed to cater to those who thrive on competition, offering a platform where knowledge, speed, and accuracy are key to achieving high scores and securing a place on the leaderboard.
 
-Competitive players are provided with a series of progressively challenging questions that require not just a love for cartoons but a keen eye for detail and a deep understanding of the genre. 
+Competitive players are provided with a series of progressively challenging questions that require not just a love for cartoons but a keen eye for detail and a deep understanding of the genre.
 
 ### Social Gamer Goal
 
-The goal for social gamers diving into the Quiz Game is to deliver an interactive and shared gaming experience that bridges the joy of cartoon trivia with the fun of social interaction. This game is tailored to those who find the most enjoyment in playing alongside friends and family. 
+The goal for social gamers diving into the Quiz Game is to deliver an interactive and shared gaming experience that bridges the joy of cartoon trivia with the fun of social interaction. This game is tailored to those who find the most enjoyment in playing alongside friends and family.
 
 ### Visually Impaired User Goal
 
@@ -103,22 +103,31 @@ The primary business goal of the CN Toons Quiz Game is to establish a vibrant, e
 
 ### User Stories
 
-#### As a trivia enthusiast: 
+#### As a trivia enthusiast
+
 * I want to access a wide range of questions about various cartoons so that I can challenge my knowledge and learn new facts.
 
-#### As a casual player:
+#### As a casual player
+
 * I want the game to be easy to play and enjoyable without requiring a lot of time or commitment so that I can have fun and relax during my free time.
 
-#### As a competitive user: 
+#### As a competitive user
+
 * I want to see how my scores compare to others and have the ability to achieve high scores so that I can challenge myself and others.
 
-#### As a social gamer: 
+#### As a social gamer
+
 * I want to share my quiz results on social media and invite friends to play so that I can enjoy the game as a social activity and connect with others who have similar interests.
 
-#### As a visually impaired user:
+#### As a visually impaired user
+
 * I need the game to be accessible with screen readers and have keyboard navigability so that I can fully participate and enjoy the quiz without any barriers.
 
-#### As the game developer:
+#### As the game developer
+
 * I want to attract a broad user base and keep them engaged so that the site can grow in popularity and explore potential monetization opportunities.
 * I aim to build a community around the game, encouraging users to return and share the game with others to increase user retention and engagement.
 * I need to ensure the game is accessible to all users, including those with visual impairments, to adhere to inclusivity standards and expand the game's reach.
+
+- - -
+
