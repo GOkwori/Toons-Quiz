@@ -199,8 +199,40 @@ The development of CN Toons Quiz Game leverages a combination of modern web tech
 | -- | --|
 | ![HTML](https://img.shields.io/badge/1%20-%20HTML%20-%20green) | The backbone of our game, used to structure the content and layout of the web pages.|
 | ![CSS](https://img.shields.io/badge/2%20-%20CSS%20-%20orange) | Empowers the visual design of our game, including layouts, colors, and fonts, ensuring an engaging and responsive interface.|
-| ![JavaScript](https://img.shields.io/badge/3%20-%20Javascript%20-%20yellow) | The driving force behind the game's interactivity, enabling dynamic content manipulation, real-time feedback, and seamless user interactions.|
+| ![JavaScript](https://img.shields.io/badge/3%20-%20JScript%20-%20yellow) | The driving force behind the game's interactivity, enabling dynamic content manipulation, real-time feedback, and seamless user interactions.|
 | | |
+
+### Frameworks, Libraries & Programs Used
+
+* [Adobe Express](https://new.express.adobe.com/tools/convert-to-gif) - Used to remove background from logo image
+
+* [Am I Responsive?](http://ami.responsivedesign.is/) - To show the website image on a range of devices.
+
+* [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
+
+* [Birme](https://www.birme.net/) - To resize images and convert to webp format.
+
+* [Favicon.io](https://favicon.io/) - To create favicon.
+
+* [Git](https://git-scm.com/) - For version control.
+
+* [Github](https://github.com/) - To save and store the files for the website.
+
+* [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
+
+* [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+* [jQuery](https://jquery.com/) - A JavaScript library.
+
+* [Shields.io](https://shields.io/) To add badges to the README
+
+* [TinyPNG](https://tinypng.com/) - To compress images
+
+* [VS Code](https://code.visualstudio.com/) - IDE used to create the site.
+
+* [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
+
+- - -
 
 ### Development Tools
 
