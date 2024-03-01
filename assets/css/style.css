@@ -33,8 +33,12 @@ h1 {
     color: #192135;
     font-family: 'comic neue', cursive;
     font-weight: 900;
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-shadow: 0 2px 6px rgba(0, 0, 0, 0);
+}
+
+a {
+    text-decoration: none;
 }
 
 /*---- Header container----*/
@@ -44,6 +48,7 @@ h1 {
     background-color: rgba(255, 255, 255, 0.5);
     display: flex;
     justify-content: center;
+    margin: 0 530px;
     transition: transform 0.3s ease-in-out;
 }
 
