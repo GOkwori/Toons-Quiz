@@ -93,7 +93,6 @@ p {
     margin-right: 10px;
 }
 
-
 /*---- Semantic Section ----*/
 /*---- Content ----*/
 .content-background {
@@ -131,4 +130,12 @@ p {
     background-color: #fff;
     color: #091f34;
     border: 2px solid #091f34;
+}
+
+/*---- Difficulty level buttons ----*/
+
+.difficulty-button {
+    padding: 0 250px;
+    height: 50px;
+    border-radius: 20%;
 }
