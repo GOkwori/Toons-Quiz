@@ -66,13 +66,13 @@ h2 {
 h3 {
     font-family: 'comic neue', cursive;
     font-weight: 900;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin-bottom: 20px;
 }   
 
 p {
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-bottom: 20px;
 }   
 
@@ -97,7 +97,7 @@ p {
 /*---- Content ----*/
 .content-background {
     padding: 40px;
-    margin: 20px 200px;
+    margin: 150px 200px 0 200px;
     border-radius: 10px;
     width:auto;
     height: auto;
