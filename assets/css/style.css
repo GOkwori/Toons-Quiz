@@ -5,7 +5,7 @@
     --content-text: 'Comic Neue', cursive;
     --info-text: 'Roboto', sans-serif;
     /*------- Colours ------*/
-    --color: #192135, #fff;
+    --color: #091f34, #fff;
 }
 
 /* Removes all margins & Padding on everything so they can be fully customised */
@@ -22,7 +22,7 @@ body {
     background-size: cover;
     font-family: "comic neue", cursive;
     background-color: #fff;
-    color: #192135;
+    color: #091f34;
     font-size: 1.2rem;
     line-height: 1.6;
 }
@@ -30,7 +30,7 @@ body {
 
 /*---- Heading & Text ----*/
 h1 {
-    color: #192135;
+    color: #091f34;
     font-family: 'comic neue', cursive;
     font-weight: 900;
     font-size: 3.5rem;
@@ -122,7 +122,7 @@ p {
 
 .btn {
     display: inline-block;
-    background-color: #192135;
+    background-color: #091f34;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -132,6 +132,6 @@ p {
 .btn:hover {
     transform: scale(1.1);
     background-color: #fff;
-    color: #192135;
-    border: 2px solid #192135;
+    color: #091f34;
+    border: 2px solid #091f34;
 }
