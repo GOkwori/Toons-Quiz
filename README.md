@@ -1,10 +1,10 @@
-# CN Toons Quiz
+# Toons Quiz
 
-![CN Toons Quiz shown on a variety of screen sizes](./documentation/#)
+![Toons Quiz shown on a variety of screen sizes](./documentation/#)
 
-Visit the deployed site: [CN Toons Quiz](https://gokwori.github.io/CN-Toons-Quiz/)
+Visit the deployed site: [Toons Quiz](https://gokwori.github.io/Toons-Quiz/)
 
-Welcome to the CN Toons Quiz Game! A thrilling interactive web application designed to test your knowledge and love for the colorful world of cartoons. Whether you’re a die-hard fan of classic animations or a follower of the latest animated series, this game is crafted just for you.
+Welcome to the Toons Quiz Game! A thrilling interactive web application designed to test your knowledge and love for the colorful world of cartoons. Whether you’re a die-hard fan of classic animations or a follower of the latest animated series, this game is crafted just for you.
 
 Dive into a vibrant journey through various questions ranging from the golden age of cartoons to the contemporary masterpieces that have captured the hearts of millions. Our app challenges you with an array of questions that will intrigue both casual viewers and avid enthusiasts.
 
@@ -59,13 +59,13 @@ Dive into a vibrant journey through various questions ranging from the golden ag
   * [Acknowledgments](#acknowledgments)
 
 - - -
-![CN Toons Quiz Banner](assets/favicon_io/android-chrome-192x192.png)
+![Toons Quiz Banner](assets/favicon_io/android-chrome-192x192.png)
 
 ## User Experience (UX)
 
 ### Project Goal
 
-The primary goal of the CN Toons Quiz Game is to create an engaging, interactive web application that offers users a fun and educational way to test their knowledge of cartoons. This project aims to deliver an immersive experience where users can interact with the site in their unique way to achieve their personal goals and find answers to their specific questions.
+The primary goal of the Toons Quiz Game is to create an engaging, interactive web application that offers users a fun and educational way to test their knowledge of cartoons. This project aims to deliver an immersive experience where users can interact with the site in their unique way to achieve their personal goals and find answers to their specific questions.
 
 By leveraging HTML, CSS, and JavaScript, this app will present interactive data in a user-friendly manner, allowing for dynamic interaction and a tailored experience based on user input. The quiz will feature a variety of questions related to cartoons across different eras, challenging users of all ages and fostering a deeper appreciation and understanding of the animated world.
 
@@ -99,7 +99,7 @@ The goal for visually impaired users is to ensure a fully accessible and inclusi
 
 ### Business Goal
 
-The primary business goal of the CN Toons Quiz Game is to establish a vibrant, engaging online platform that not only entertains users but also fosters a community around a shared love for cartoons. By providing an interactive and educational experience, the game aims to attract a diverse audience, from casual players to trivia enthusiasts and competitive gamers, thereby increasing user engagement and retention.
+The primary business goal of the Toons Quiz Game is to establish a vibrant, engaging online platform that not only entertains users but also fosters a community around a shared love for cartoons. By providing an interactive and educational experience, the game aims to attract a diverse audience, from casual players to trivia enthusiasts and competitive gamers, thereby increasing user engagement and retention.
 
 ### User Stories
 
@@ -160,7 +160,7 @@ The Toons Quiz Game is rich in vibrant and captivating imagery, carefully chosen
 
 ### Wireframes
 
-CN Toons Quiz Game's development process began with the creation of detailed wireframes using Balsamiq wireframes. These wireframes served as blueprints for the game's design, ensuring a user-friendly interface and a seamless experience across various screens.
+Toons Quiz Game's development process began with the creation of detailed wireframes using Balsamiq wireframes. These wireframes served as blueprints for the game's design, ensuring a user-friendly interface and a seamless experience across various screens.
 
 ![Home Page](documentation/wireframes/welcome-page.png)
 ![Game Page](documentation/wireframes/game-page.png)
@@ -169,7 +169,7 @@ CN Toons Quiz Game's development process began with the creation of detailed wir
 
 ### Features
 
-The CN Toons Quiz Game is designed with the following features to create an engaging, informative, and user-friendly experience for all types of players: ########
+The Toons Quiz Game is designed with the following features to create an engaging, informative, and user-friendly experience for all types of players: ########
 
 ### Accessibility
 
@@ -191,7 +191,7 @@ I have also been mindful during coding to ensure that the website is as accessib
 
 ## Technologies Used
 
-The development of CN Toons Quiz Game leverages a combination of modern web technologies and software tools to ensure a robust, interactive, and user-friendly experience. Here’s a brief overview of the key technologies and tools employed in the game’s creation:
+The development of Toons Quiz Game leverages a combination of modern web technologies and software tools to ensure a robust, interactive, and user-friendly experience. Here’s a brief overview of the key technologies and tools employed in the game’s creation:
 
 ### Languages Used
 
@@ -238,12 +238,12 @@ The development of CN Toons Quiz Game leverages a combination of modern web tech
 
 ### Deployment
 
-The site is deployed using GitHub Pages - [CN Toons Quiz](https://gokwori.github.io/CN-Toons-Quiz/).
+The site is deployed using GitHub Pages - [Toons Quiz](https://gokwori.github.io/CN-Toons-Quiz/).
 
 To Deploy the site using GitHub Pages:
 
 1. Login (or signup) to Github.
-2. Go to the repository for this project, [CN Toons Quiz](https://gokwori.github.io/CN-Toons-Quiz/).
+2. Go to the repository for this project, [Toons Quiz](https://gokwori.github.io/CN-Toons-Quiz/).
 3. Click the settings button.
 4. Select pages in the left hand navigation menu.
 5. From the source dropdown select main branch and "/(root)", then press save.
@@ -256,7 +256,7 @@ To Deploy the site using GitHub Pages:
 To fork the repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, [CN Toons Quiz](https://gokwori.github.io/CN-Toons-Quiz/)
+2. Go to the repository for this project, [Toons Quiz](https://gokwori.github.io/CN-Toons-Quiz/)
 3. Click the Fork button in the top right corner.
 
 #### How to Clone
@@ -264,7 +264,7 @@ To fork the repository:
 To clone the repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, [CN Toons Quiz](https://gokwori.github.io/CN-Toons-Quiz/)
+2. Go to the repository for this project, [Toons Quiz](https://gokwori.github.io/CN-Toons-Quiz/)
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
