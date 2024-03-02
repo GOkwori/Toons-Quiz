@@ -172,6 +172,7 @@ p {
 }   
 
 
+
 /*---- Difficulty level buttons ----*/
 
 .difficulty-button {
@@ -184,6 +185,11 @@ p {
 .answer-btn {
     width: 500px;
     height: 50px;
+}
+
+/*---- Exit buttons ----*/
+.exit-button {
+   width: 200px;
 }
 
 /*---- Quiz question ----*/
