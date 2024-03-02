@@ -127,6 +127,8 @@ p {
     display: inline-block;
     background-color: #091f34;
     border: none;
+    width: 500px;
+    height: 50px;
     border-radius: 5px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
