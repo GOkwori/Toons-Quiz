@@ -114,6 +114,13 @@ p {
     text-shadow: 0 2px 6px rgba(0, 0, 0, 0); 
 }
 
+/*---- Difficulty Header ----*/
+.difficulty-header {
+    display: flex;
+    justify-content:end;
+        padding: 5px 100px;
+}
+
 /*---- Buttons ----*/
 
 .btn {
@@ -132,12 +139,6 @@ p {
     border: 2px solid #091f34;
 }
 
-/*---- Difficulty Header ----*/
-.difficulty-header {
-    display: flex;
-    justify-content:end;
-        padding: 5px 100px;
-}
 
 /*---- Close button ----*/
 .close-button {
@@ -175,4 +176,20 @@ p {
     padding: 0 250px;
     height: 50px;
     border-radius: 20%;
+}
+
+/*---- Answer Buttons ----*/
+.answer-btn {
+    width: 500px;
+    height: 50px;
+}
+
+/*---- Quiz question ----*/
+#question-no {
+    text-align: left;
+}
+
+/*---- Score board ----*/
+#score {
+    text-align: left;
 }
