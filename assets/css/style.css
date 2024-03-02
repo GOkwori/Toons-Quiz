@@ -141,6 +141,10 @@ p {
     border: 2px solid #091f34;
 }
 
+/*---- How to play close button ----*/
+.how-to-play-close {
+   width: 200px;
+}
 
 /*---- Close button ----*/
 .close-button {
@@ -170,7 +174,6 @@ p {
     margin: 0;
     padding: 0;
 }   
-
 
 
 /*---- Difficulty level buttons ----*/
