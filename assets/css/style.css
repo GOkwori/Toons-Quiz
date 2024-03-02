@@ -209,3 +209,10 @@ p {
 #score {
     text-align: left;
 }
+
+/*---- High score header----*/
+.score-header {
+    display: flex;
+    justify-content: right;
+    padding: 5px 240px 5px 0;
+}
