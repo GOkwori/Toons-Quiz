@@ -195,6 +195,11 @@ p {
    width: 200px;
 }
 
+/*---- Clear High Scores Button ----*/
+.clear-button {
+    width: 300px;
+}
+
 /*---- Quiz question ----*/
 #question-no {
     text-align: left;
