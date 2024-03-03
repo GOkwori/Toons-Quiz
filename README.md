@@ -165,6 +165,9 @@ Toons Quiz Game's development process began with the creation of detailed wirefr
 ![Game Page](documentation/wireframes/game-page.png)
 ![How to Play Page](documentation/wireframes/how-to-play.png)
 ![Settings Page](documentation/wireframes/settings-page.png)
+![Difficulty-level Page](documentation/wireframes/difficulty-level.png)
+![High Score Page](documentation/wireframes/high-score.png)
+![Exit Game Page](documentation/wireframes/exit-game.png)
 
 ### Features
 
