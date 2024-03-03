@@ -212,8 +212,6 @@ The development of Toons Quiz Game leverages a combination of modern web technol
 
 * [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
 
-* [Birme](https://www.birme.net/) - To resize images and convert to webp format.
-
 * [Favicon.io](https://favicon.io/) - To create favicon.
 
 * [Git](https://git-scm.com/) - For version control.
@@ -227,8 +225,6 @@ The development of Toons Quiz Game leverages a combination of modern web technol
 * [jQuery](https://jquery.com/) - A JavaScript library.
 
 * [Shields.io](https://shields.io/) To add badges to the README
-
-* [TinyPNG](https://tinypng.com/) - To compress images
 
 * [VS Code](https://code.visualstudio.com/) - IDE used to create the site.
 
