@@ -216,3 +216,15 @@ p {
     justify-content: right;
     padding: 5px 240px 5px 0;
 }
+
+/*---- Sound effects settings ----*/
+input {
+    width: 20px;
+    height: 20px;
+    margin: 0 200px;
+    background-color: #091f34;
+}
+
+label {
+    margin-left: 200px;
+}
