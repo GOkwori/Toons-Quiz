@@ -229,3 +229,26 @@ input {
 label {
     margin-left: 200px;
 }
+
+/*----MEDIA QUERIES----*/
+
+/*---------- Styling for screens with (min-width: 320px) and (max-width: 575px) ----------*/
+@media (min-width: 320px) and (max-width: 575px) {
+
+}
+
+/*---------- Styling for screens with (min-width: 576px) and (max-width: 766px) ----------*/
+@media (min-width: 576px) and (max-width: 766px) {
+
+}
+
+/*---------- Styling for screens with (min-width: 768px) and (max-width: 820px) ----------*/
+@media (min-width: 768px) and (max-width: 820px) {
+
+}
+
+/*---------- Styling for screens with (min-width: 821px) and (max-width: 1024px) ----------*/
+@media (min-width: 821px) and (max-width: 1024px) {
+
+    
+}
