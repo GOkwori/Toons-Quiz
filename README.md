@@ -135,12 +135,11 @@ The primary business goal of the Toons Quiz Game is to establish a vibrant, enga
 
 ### Colour Scheme
 
-In the design of the Quiz game website, I've intentionally selected a colour scheme dominated by `#`, `#` and `#` to complement the background image. The soft `#` serves as a subtle and clean backdrop, preventing the background image from overwhelming users. Meanwhile, the deep `#` adds sophistication and contrast, contributing to an aesthetically pleasing and balanced visual experience. This careful integration of colors ensures that the background image enhances the overall design without overpowering or distracting users, creating a harmonious and engaging atmosphere on the website.
+In the design of the Quiz game website, I've intentionally selected a colour scheme dominated by `#091f34` and `#fff` to complement the background image. `#091f34` and `#fff` serves as a subtle and clean backdrop, preventing the background image from overwhelming users. Meanwhile, the `#091f34` adds sophistication and contrast, contributing to an aesthetically pleasing and balanced visual experience. This careful integration of colors ensures that the background image enhances the overall design without overpowering or distracting users, creating a harmonious and engaging atmosphere on the website.
 
-* I have used `#` & `#` as the primary and secondary colours used for the sites text.
-* I have used `#` as the overlay used over the sites background image.
+* I have used `#091f34` & `#fff` as the primary and secondary colours used for the sites text.
 
-![Colour Scheme](#)
+![Colour Scheme](documentation/colour-scheme/colour-scheme.PNG)
 
 ### Typography
 
