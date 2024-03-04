@@ -313,6 +313,20 @@ label {
          align-items: center;
     }
 
+    /*---- Game page button container ----*/
+    .btn-row {
+        display:block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*answer buttons*/
+    .answer-btn {
+        width: 200px;
+        height: 40px;
+        margin: 10px 0;
+    }
+
     /*---- Headings & Text ----*/
     h1,
     h2,
