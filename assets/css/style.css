@@ -201,6 +201,11 @@ p {
     width: 300px;
 }
 
+/*---- End Game Button ----*/
+.end-btn {
+    width: 200px;
+}
+
 /*---- Quiz question ----*/
 #question-no {
     text-align: left;
