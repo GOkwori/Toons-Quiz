@@ -272,13 +272,13 @@ label {
     }
 
     /*---- Semantic Section ----*/
-.content-background {
-    height: auto;
-    margin-top: 50px;
-}
+    .content-background {
+        height: auto;
+        margin-top: 50px;
+    }
 
 
-/*---- Buttons ----*/
+    /*---- Buttons ----*/
     .btn,
     .welcome-btn,
     .answer-btn,
@@ -295,8 +295,22 @@ label {
 
     .difficulty-header,
     .score-header {
-        padding: 5px 20px;
+        padding: 5px 40px;
     }
+
+    .difficulty-header {
+        padding: 5px 0;
+    }
+
+
+    .difficulty-button {
+        padding: 0;
+    }
+
+    .difficulty-button-container {
+        padding-left: 40px;
+    }
+
 
     .close-button {
         width: 40px;
@@ -309,14 +323,14 @@ label {
 
     #cls-btn {
         width: 25%;
-       display: flex;
-       justify-content: center;
-         align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     /*---- Game page button container ----*/
     .btn-row {
-        display:block;
+        display: block;
         justify-content: center;
         align-items: center;
         padding-left: 20px;
@@ -326,7 +340,7 @@ label {
     .answer-btn {
         width: 200px;
         height: 40px;
-        margin: 10px 0;
+        margin: 10px 0 0 30px;
     }
 
     /*---- Headings & Text ----*/
@@ -353,7 +367,7 @@ label {
 
     input {
         margin: 30px 0 0 80px;
-    }    
+    }
 
 }
 
