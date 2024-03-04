@@ -331,6 +331,14 @@ label {
         height: 80px;
     }
 
+    label {
+        margin: 20px 0 0 0;
+    }
+
+    input {
+        margin: 30px 0 0 80px;
+    }
+
 }
 
 /*---------- Styling for screens with (min-width: 576px) and (max-width: 766px) ----------*/
