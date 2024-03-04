@@ -297,12 +297,32 @@ label {
         padding: 5px 20px;
     }
 
+    .close-button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .close-button i {
+        font-size: 1.5rem;
+    }
+
+    #cls-btn {
+        width: 25%;
+       display: flex;
+       justify-content: center;
+         align-items: center;
+    }
+
     /*---- Headings & Text ----*/
     h1,
     h2,
     h3,
     p {
         font-size: 80%;
+    }
+
+    h2 {
+        margin-bottom: 0;
     }
 
     /*---- Logo ----*/
