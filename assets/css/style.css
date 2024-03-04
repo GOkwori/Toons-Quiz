@@ -201,6 +201,7 @@ p {
 /*---- Exit buttons ----*/
 .exit-button {
     width: 200px;
+    margin-bottom: 20px;
 }
 
 /*---- Clear High Scores Button ----*/
