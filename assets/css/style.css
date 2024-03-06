@@ -270,7 +270,7 @@ label {
     }
 
     #h1-container h1 {
-        font-size: 1.4rem;
+        font-size: 2rem;
     }
 
     /*---- Semantic Section ----*/
@@ -297,11 +297,19 @@ label {
 
     .difficulty-header,
     .score-header {
-        padding: 5px 40px;
+        padding: 5px 10px;
     }
 
     .difficulty-header {
         padding: 5px 0;
+    }
+
+    #mq-heading {
+        padding: 5px 10px;
+    }
+
+    #mq-heading-2 {
+        padding: 5px 20px;
     }
 
 
@@ -343,6 +351,7 @@ label {
         width: 200px;
         height: 40px;
         margin: 10px 0 0 30px;
+        font-size: 1.2rem;
     }
 
     /*---- Headings & Text ----*/
@@ -355,6 +364,7 @@ label {
 
     h2 {
         margin-bottom: 0;
+        font-size: 1.2rem;
     }
 
     /*---- Logo ----*/
