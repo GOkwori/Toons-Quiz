@@ -246,8 +246,8 @@ label {
 
 /*----MEDIA QUERIES----*/
 
-/*---------- Styling for screens with (min-width: 320px) ----------*/
-@media (min-width: 320px) {
+/*---------- Styling for screens with (min-width: 320px) and (max-width: 389px)----------*/
+@media (min-width: 320px) and (max-width: 389px) {
 
     /*---- Body ----*/
     body {
@@ -343,17 +343,18 @@ label {
         display: block;
         justify-content: center;
         align-items: center;
-        padding-left: 20px;
+        padding-right: 40px;
     }
 
     /*answer buttons*/
     .answer-btn {
         width: 200px;
         height: 40px;
-        margin: 10px 0 0 0px;
+        margin: 10px 0 0 20px;
         font-size: 1.2rem;
     }
 
+    
     /*---- Headings & Text ----*/
     h1,
     h2,
@@ -625,7 +626,7 @@ label {
     .answer-btn {
         width: 200px;
         height: 40px;
-        margin: 10px 0 0 30px;
+        margin: 10px 0 0 80px;
     }
 
     /*---- Headings & Text ----*/
