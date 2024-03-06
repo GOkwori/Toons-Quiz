@@ -246,8 +246,8 @@ label {
 
 /*----MEDIA QUERIES----*/
 
-/*---------- Styling for screens with (max-width: 320px) ----------*/
-@media (max-width: 320px) {
+/*---------- Styling for screens with (min-width: 320px) ----------*/
+@media (min-width: 320px) {
 
     /*---- Body ----*/
     body {
