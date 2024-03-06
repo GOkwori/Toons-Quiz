@@ -374,7 +374,133 @@ label {
 }
 
 /*---------- Styling for screens with (min-width: 576px) and (max-width: 766px) ----------*/
-@media (min-width: 576px) and (max-width: 766px) {}
+@media (min-width: 576px) and (max-width: 766px) {
+    /*---- Body ----*/
+    body {
+        background: url(../images/kung-fu-panda.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        font-family: "comic neue", cursive;
+        background-color: #fff;
+        color: #091f34;
+        font-size: 1.2rem;
+        line-height: 1.6;
+    }
+
+    /*---- Header container----*/
+    #h1-container,
+    .content-background {
+        margin: 0 10px;
+        padding: 20px;
+        height: 100px;
+    }
+
+    #h1-container h1 {
+        font-size: 2.2rem;
+    }
+
+    /*---- Semantic Section ----*/
+    .content-background {
+        height: auto;
+        margin-top: 50px;
+    }
+
+
+    /*---- Buttons ----*/
+    .btn,
+    .welcome-btn,
+    .answer-btn,
+    .settings-close,
+    .close-button,
+    .difficulty-button,
+    .exit-button,
+    .clear-button,
+    .end-btn {
+        width: 200px;
+        margin: 10px 0;
+        font-size: 1rem;
+    }
+
+    .difficulty-header,
+    .score-header {
+        padding: 5px 60px;
+    }
+
+    .how-to-play-p {
+        margin: 20px 0;
+    }
+
+    .difficulty-header {
+        padding: 5px 0;
+    }
+
+
+    .difficulty-button {
+        padding: 0;
+    }
+
+    .difficulty-button-container {
+        padding-left: 150px;
+    }
+
+
+    .close-button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .close-button i {
+        font-size: 1.5rem;
+    }
+
+    #cls-btn {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*---- Game page button container ----*/
+    .btn-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 50px;
+    }
+
+    /*answer buttons*/
+    .answer-btn {
+        width: 200px;
+        height: 40px;
+        margin: 10px 0 0 30px;
+    }
+
+    /*---- Headings & Text ----*/
+    h1,
+    h2,
+    h3,
+    p {
+        font-size: 100%;
+    }
+
+    h2 {
+        margin-bottom: 0;
+    }
+
+    /*---- Logo ----*/
+    #logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    label {
+        margin: 20px 0 0 0;
+    }
+
+    input {
+        margin: 30px 0 0 80px;
+    }
+}
 
 /*---------- Styling for screens with (min-width: 768px) and (max-width: 820px) ----------*/
 @media (min-width: 768px) and (max-width: 820px) {}
