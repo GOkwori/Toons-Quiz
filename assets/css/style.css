@@ -1,11 +1,11 @@
 /*---- Google fonts ----*/
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'):root {
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
     --content-text: 'Comic Neue', cursive;
     --info-text: 'Roboto', sans-serif;
-    /*------- Colours ------*/
-    --color: #091f34, #fff;
+    /* Other variables */
 }
-
 /* Removes all margins & Padding on everything so they can be fully customised */
 * {
     padding: 0;
@@ -23,8 +23,16 @@ body {
     color: #091f34;
     font-size: 1.2rem;
     line-height: 1.6;
+    display: grid;
+    place-items: center;
 }
 
+.parent-container {
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
 
 /*---- Header container----*/
 #h1-container {
