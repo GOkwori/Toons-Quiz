@@ -277,7 +277,6 @@ label {
     body {
         background: url(../images/kung-fu-panda.jpg);
         position: relative;
-        background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
         font-family: "comic neue", cursive;
@@ -289,6 +288,10 @@ label {
         place-items: center;
     }
 
+
+    /*---- Header ----*/
+
+
     /*---- Header container----*/
     #h1-container,
     .content-background {
@@ -297,9 +300,11 @@ label {
         height: 100px;
     }
 
+
     #h1-container h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
+
 
     /*---- Content container ----*/
     .content-background {
@@ -367,17 +372,22 @@ label {
         align-items: center;
     }
 
+    /*---- Game page question container ----*/
+    .question-section {
+        padding: 20px 0;
+    }
+
     /*---- Game page button container ----*/
     .btn-row {
         display: block;
         justify-content: center;
         align-items: center;
-        padding-right: 40px;
+        padding-left: 10px;
     }
 
     /*---- Game page answer buttons ----*/
     .answer-btn {
-        width: 200px;
+        width: 150px;
         height: 40px;
         margin: 10px 0 0 20px;
         font-size: 1.2rem;
@@ -426,7 +436,6 @@ label {
     body {
         background: url(../images/kung-fu-panda.jpg);
         position: relative;
-        background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
         font-family: "comic neue", cursive;
@@ -496,7 +505,7 @@ label {
     }
 
     .difficulty-button-container {
-        padding-left: 40px;
+        padding-left: 25px;
     }
 
     /*---- Close buttons ----*/
@@ -516,13 +525,18 @@ label {
         align-items: center;
     }
 
+    /*---- Game page question container ----*/
+    .question-section {
+        padding: 20px 0;
+    }
+
     /*---- Game page button container ----*/
     .btn-row {
         display: block;
         justify-content: center;
         align-items: center;
-        padding-left: 20px;
     }
+
 
     /*---- Game page answer buttons ----*/
     .answer-btn {
@@ -907,7 +921,7 @@ label {
         margin: 20px 0;
     }
 
-/*---- Difficulty page button ----*/
+    /*---- Difficulty page button ----*/
     .difficulty-button {
         padding: 0;
     }
@@ -916,7 +930,7 @@ label {
         padding: 0 300px;
     }
 
-/*---- Close buttons ----*/
+    /*---- Close buttons ----*/
     .close-button {
         width: 40px;
         height: 40px;
