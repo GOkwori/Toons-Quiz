@@ -757,11 +757,11 @@ label {
     /*---- Content headers ----*/
     .difficulty-header,
     .score-header {
-        padding: 5px 110px;
+        padding: 5px 80px;
     }
 
     #mq-heading {
-        padding: 5px 130px;
+        padding: 5px 100px;
     }
 
     .how-to-play-p {
@@ -779,7 +779,7 @@ label {
     }
 
     .difficulty-button-container {
-        padding-left: 230px;
+        padding: 0 160px;
     }
 
     /*---- Close buttons ----*/
