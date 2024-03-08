@@ -492,7 +492,7 @@ label {
     }
 
     #mq-heading {
-        padding: 5px 40px;
+        padding: 5px 20px;
     }
 
     #mq-heading-2 {
@@ -505,7 +505,7 @@ label {
     }
 
     .difficulty-button-container {
-        padding-left: 25px;
+        padding: 0 30px;
     }
 
     /*---- Close buttons ----*/
@@ -527,7 +527,8 @@ label {
 
     /*---- Game page question container ----*/
     .question-section {
-        padding: 20px 0;
+        width: 100%;
+        padding: 20px;
     }
 
     /*---- Game page button container ----*/
@@ -537,10 +538,11 @@ label {
         align-items: center;
     }
 
+  
 
     /*---- Game page answer buttons ----*/
     .answer-btn {
-        width: 200px;
+        width: 150%;
         height: 40px;
         margin: 10px 0 0 30px;
         font-size: 1.2rem;
