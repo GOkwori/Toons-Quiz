@@ -19,6 +19,7 @@ body {
     background: url(../images/kung-fu-panda.jpg);
     position: relative;
     background-size: cover;
+    background-repeat: no-repeat;
     font-family: "comic neue", cursive;
     background-color: #fff;
     color: #091f34;
@@ -277,6 +278,7 @@ label {
         background: url(../images/kung-fu-panda.jpg);
         position: relative;
         background-size: cover;
+        background-repeat: no-repeat;
         font-family: "comic neue", cursive;
         background-color: #fff;
         color: #091f34;
@@ -424,6 +426,7 @@ label {
         background: url(../images/kung-fu-panda.jpg);
         position: relative;
         background-size: cover;
+        background-repeat: no-repeat;
         font-family: "comic neue", cursive;
         background-color: #fff;
         color: #091f34;
@@ -565,6 +568,7 @@ label {
         background: url(../images/kung-fu-panda.jpg);
         position: relative;
         background-size: cover;
+        background-repeat: no-repeat;
         font-family: "comic neue", cursive;
         background-color: #fff;
         color: #091f34;
@@ -699,6 +703,7 @@ label {
         background: url(../images/kung-fu-panda.jpg);
         position: relative;
         background-size: cover;
+        background-repeat: no-repeat;
         font-family: "comic neue", cursive;
         background-color: #fff;
         color: #091f34;
@@ -843,6 +848,7 @@ label {
         background: url(../images/kung-fu-panda.jpg);
         position: relative;
         background-size: cover;
+        background-repeat: no-repeat;
         font-family: "comic neue", cursive;
         background-color: #fff;
         color: #091f34;
@@ -977,6 +983,7 @@ label {
         background: url(../images/kung-fu-panda.jpg);
         position: relative;
         background-size: cover;
+        background-repeat: no-repeat;
         font-family: "comic neue", cursive;
         background-color: #fff;
         color: #091f34;
