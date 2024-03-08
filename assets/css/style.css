@@ -302,7 +302,7 @@ label {
 
 
     #h1-container h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
 
@@ -310,6 +310,7 @@ label {
     .content-background {
         height: auto;
         margin-top: 50px;
+        width: 100%;
     }
 
 
