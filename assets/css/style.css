@@ -28,6 +28,7 @@ body {
     place-items: center;
 }
 
+/*---- Header ----*/
 header {
     width: 90%;
     max-width: 1200px;
@@ -35,6 +36,7 @@ header {
     box-sizing: border-box;
 }
 
+/*---- Content Container ----*/
 .parent-container {
     width: 90%;
     max-width: 1200px;
@@ -93,7 +95,6 @@ p {
     margin-bottom: 20px;
 }
 
-/*---- Semantic Header ----*/
 /*---- Header Container----*/
 .main-header {
     display: flex;
@@ -109,8 +110,7 @@ p {
     margin-right: 10px;
 }
 
-/*---- Semantic Section ----*/
-/*---- Content ----*/
+/*---- Content Container ----*/
 .content-background {
     padding: 40px;
     margin: 80px 200px 0 200px;
@@ -210,7 +210,7 @@ p {
     margin-bottom: 20px;
 }
 
-/*---- Answer Buttons ----*/
+/*---- Game page button container ----*/
 .answer-btn {
     width: 350px;
     height: 50px;
@@ -255,7 +255,7 @@ p {
 }
 
 
-/*---- Sound effects settings ----*/
+/*---- Form elements on settings page----*/
 input {
     width: 20px;
     height: 20px;
@@ -298,7 +298,7 @@ label {
         font-size: 1.5rem;
     }
 
-    /*---- Semantic Section ----*/
+    /*---- Content container ----*/
     .content-background {
         height: auto;
         margin-top: 50px;
@@ -320,6 +320,7 @@ label {
         font-size: 1rem;
     }
 
+    /*---- Content headers ----*/
     .difficulty-header,
     .score-header {
         padding: 5px 10px;
@@ -337,7 +338,7 @@ label {
         padding: 5px 20px;
     }
 
-
+    /*---- Difficulty page buttons ----*/
     .difficulty-button {
         padding: 0;
     }
@@ -346,7 +347,7 @@ label {
         padding-left: 20px;
     }
 
-
+    /*---- Close buttons ----*/
     .close-button {
         width: 40px;
         height: 40px;
@@ -371,7 +372,7 @@ label {
         padding-right: 40px;
     }
 
-    /*answer buttons*/
+    /*---- Game page answer buttons ----*/
     .answer-btn {
         width: 200px;
         height: 40px;
@@ -403,6 +404,7 @@ label {
         height: 80px;
     }
 
+    /*---- Form elements on settings page----*/
     label {
         margin: 20px 0 0 0;
     }
@@ -443,7 +445,7 @@ label {
         font-size: 2rem;
     }
 
-    /*---- Semantic Section ----*/
+    /*----Content container----*/
     .content-background {
         height: auto;
         margin-top: 50px;
@@ -465,6 +467,7 @@ label {
         font-size: 1rem;
     }
 
+    /*---- Content headers ----*/
     .difficulty-header,
     .score-header {
         padding: 5px 10px;
@@ -482,7 +485,7 @@ label {
         padding: 5px 20px;
     }
 
-
+    /*---- Difficulty page buttons ----*/
     .difficulty-button {
         padding: 0;
     }
@@ -491,7 +494,7 @@ label {
         padding-left: 40px;
     }
 
-
+    /*---- Close buttons ----*/
     .close-button {
         width: 40px;
         height: 40px;
@@ -516,7 +519,7 @@ label {
         padding-left: 20px;
     }
 
-    /*answer buttons*/
+    /*---- Game page answer buttons ----*/
     .answer-btn {
         width: 200px;
         height: 40px;
@@ -543,6 +546,7 @@ label {
         height: 80px;
     }
 
+    /*---- Form elements on settings page----*/
     label {
         margin: 20px 0 0 0;
     }
@@ -582,7 +586,7 @@ label {
         font-size: 2.2rem;
     }
 
-    /*---- Semantic Section ----*/
+    /*---- Content container ----*/
     .content-background {
         height: auto;
         margin-top: 50px;
@@ -604,6 +608,7 @@ label {
         font-size: 1rem;
     }
 
+    /*---- Content headers ----*/
     .difficulty-header,
     .score-header {
         padding: 5px 60px;
@@ -617,7 +622,7 @@ label {
         padding: 5px 0;
     }
 
-
+    /*---- Difficulty page buttons ----*/
     .difficulty-button {
         padding: 0;
     }
@@ -626,7 +631,7 @@ label {
         padding-left: 150px;
     }
 
-
+    /*---- Close buttons ----*/
     .close-button {
         width: 40px;
         height: 40px;
@@ -651,7 +656,7 @@ label {
         padding-right: 50px;
     }
 
-    /*answer buttons*/
+    /*---- Game page answer buttons ----*/
     .answer-btn {
         width: 200px;
         height: 40px;
@@ -676,6 +681,7 @@ label {
         height: 80px;
     }
 
+    /*---- Form elements on settings page----*/
     label {
         margin: 20px 0 0 0;
     }
@@ -718,7 +724,7 @@ label {
         font-size: 2.8rem;
     }
 
-    /*---- Semantic Section ----*/
+    /*---- Content container ----*/
     .content-background {
         height: auto;
         margin-top: 50px;
@@ -740,6 +746,7 @@ label {
         font-size: 1.2rem;
     }
 
+    /*---- Content headers ----*/
     .difficulty-header,
     .score-header {
         padding: 5px 110px;
@@ -753,11 +760,12 @@ label {
         margin: 20px 0;
     }
 
+    /*---- Difficulty page header container ----*/
     .difficulty-header {
         padding: 5px 60px 5px 0;
     }
 
-
+    /*---- Difficulty page buttons ----*/
     .difficulty-button {
         padding: 0;
     }
@@ -766,7 +774,7 @@ label {
         padding-left: 230px;
     }
 
-
+    /*---- Close buttons ----*/
     .close-button {
         width: 40px;
         height: 40px;
@@ -791,7 +799,7 @@ label {
         padding-right: 50px;
     }
 
-    /*answer buttons*/
+    /*---- Game page answer buttons ----*/
     .answer-btn {
         width: 200px;
         height: 40px;
@@ -816,6 +824,7 @@ label {
         height: 80px;
     }
 
+    /*---- Form elements on settings page----*/
     label {
         margin: 20px 0 0 0;
     }
@@ -924,7 +933,7 @@ label {
         padding-right: 50px;
     }
 
-    /*answer buttons*/
+    /*---- Game page answer buttons ----*/
     .answer-btn {
         width: 200px;
         height: 40px;
@@ -949,6 +958,7 @@ label {
         height: 80px;
     }
 
+    /*---- Form elements on settings page----*/
     label {
         margin: 20px 0 0 0;
     }
@@ -986,14 +996,14 @@ label {
         font-size: 3rem;
     }
 
-    /*---- Semantic Section ----*/
+    /*---- Content container ----*/
     .content-background {
         height: auto;
         margin: 50px;
     }
 
 
-    /*---- Buttons ----*/
+    /*---- Headings & text ----*/
 
     .score-header {
         padding: 5px 200px;
@@ -1011,12 +1021,13 @@ label {
         margin: 5px 0 20px 0;
     }
 
+    /*---- Difficulty page header container ----*/
     .difficulty-header {
         padding: 5px 40px 5px 0;
         margin-bottom: 20px;
     }
 
-
+    /*---- Difficulty page buttons ----*/
     .difficulty-button {
         padding: 0;
     }
@@ -1025,7 +1036,7 @@ label {
         padding-left: 200px;
     }
 
-
+    /*---- Close buttons ----*/
     .close-button {
         width: 40px;
         height: 40px;
@@ -1050,10 +1061,7 @@ label {
         padding-right: 50px;
     }
 
-
-    /*---- Headings & Text ----*/
-
-
+    /*---- Site Headings & Text ----*/
     h2 {
         margin-bottom: 0;
         font-size: 1.2rem;
@@ -1063,6 +1071,7 @@ label {
         font-size: 1.2rem;
     }
 
+    /*---- Content container ----*/
     .content-background h2 {
         font-size: 1.8rem;
     }
@@ -1077,6 +1086,7 @@ label {
         height: 80px;
     }
 
+    /*---- Form elements on settings page----*/
     label {
         margin: 20px 0 0 0;
     }
@@ -1096,15 +1106,16 @@ label {
         margin: 0 350px;
     }
 
+    /*---- Home page buttons ----*/
     .welcome-btn {
         margin: 15px 0;
     }
 
+    /*---- Content headings ----*/
     .score-header {
         padding: 5px 130px;
     }
 
- 
     #mq-heading-2 {
         padding: 5px 170px;
     }
