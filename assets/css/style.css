@@ -27,6 +27,13 @@ body {
     place-items: center;
 }
 
+header {
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 .parent-container {
     width: 90%;
     max-width: 1200px;
@@ -204,9 +211,13 @@ p {
 
 /*---- Answer Buttons ----*/
 .answer-btn {
-    width: 500px;
+    width: 400px;
     height: 50px;
     margin-bottom: 30px;
+}
+
+.question-section {
+    padding: 20px 40px;
 }
 
 /*---- Exit buttons ----*/
@@ -262,13 +273,15 @@ label {
     /*---- Body ----*/
     body {
         background: url(../images/kung-fu-panda.jpg);
-        background-position: top;
-        background-repeat: no-repeat;
+        position: relative;
+        background-size: cover;
         font-family: "comic neue", cursive;
         background-color: #fff;
         color: #091f34;
         font-size: 1.2rem;
         line-height: 1.6;
+        display: grid;
+        place-items: center;
     }
 
     /*---- Header container----*/
@@ -405,13 +418,15 @@ label {
     /*---- Body ----*/
     body {
         background: url(../images/kung-fu-panda.jpg);
-        background-position: top;
-        background-repeat: no-repeat;
+        position: relative;
+        background-size: cover;
         font-family: "comic neue", cursive;
         background-color: #fff;
         color: #091f34;
         font-size: 1.2rem;
         line-height: 1.6;
+        display: grid;
+        place-items: center;
     }
 
     /*---- Header container----*/
@@ -542,13 +557,15 @@ label {
     /*---- Body ----*/
     body {
         background: url(../images/kung-fu-panda.jpg);
-        background-position: top;
-        background-repeat: no-repeat;
+        position: relative;
+        background-size: cover;
         font-family: "comic neue", cursive;
         background-color: #fff;
         color: #091f34;
         font-size: 1.2rem;
         line-height: 1.6;
+        display: grid;
+        place-items: center;
     }
 
     /*---- Header container----*/
@@ -672,13 +689,15 @@ label {
     /*---- Body ----*/
     body {
         background: url(../images/kung-fu-panda.jpg);
-        background-position: top;
-        background-repeat: no-repeat;
+        position: relative;
+        background-size: cover;
         font-family: "comic neue", cursive;
         background-color: #fff;
         color: #091f34;
         font-size: 1.2rem;
         line-height: 1.6;
+        display: grid;
+        place-items: center;
     }
 
     /*---- Header container----*/
@@ -811,13 +830,15 @@ label {
     /*---- Body ----*/
     body {
         background: url(../images/kung-fu-panda.jpg);
-        background-position: top;
-        background-repeat: no-repeat;
+        position: relative;
+        background-size: cover;
         font-family: "comic neue", cursive;
         background-color: #fff;
         color: #091f34;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         line-height: 1.6;
+        display: grid;
+        place-items: center;
     }
 
     /*---- Header container----*/
@@ -942,13 +963,15 @@ label {
     /*---- Body ----*/
     body {
         background: url(../images/kung-fu-panda.jpg);
-        background-position: top;
-        background-repeat: no-repeat;
+        position: relative;
+        background-size: cover;
         font-family: "comic neue", cursive;
         background-color: #fff;
         color: #091f34;
         font-size: 1.2rem;
         line-height: 1.6;
+        display: grid;
+        place-items: center;
     }
 
     /*---- Header container----*/
