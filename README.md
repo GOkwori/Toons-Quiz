@@ -1,6 +1,6 @@
 # Toons Quiz
 
-![Toons Quiz shown on a variety of screen sizes](./documentation/#)
+![Toons Quiz shown on a variety of screen sizes](./documentation/responsive-layout/responsive%20sizes.PNG)
 
 Visit the deployed site: [Toons Quiz](https://gokwori.github.io/Toons-Quiz/)
 
