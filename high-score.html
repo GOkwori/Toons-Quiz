@@ -21,6 +21,7 @@
     <!--Page Title-->
     <title>Toons Quiz</title>
 </head>
+
 <body>
     <!--Header-->
     <header class="main-header container">
@@ -32,28 +33,28 @@
         </div>
     </header>
     <article class="parent-container container">
-    <!--Section-->
-    <section class="content-background">
-        <!--Main container that holds the content-->
-        <div class="container text-center content-body">
-            <div class="row">
-                <!--Hgh score header-->
-                <div class="col-9 text-center score-header" id="mq-heading-2">
-                    <h2>Score Board</h2>
+        <!--Section-->
+        <section class="content-background">
+            <!--Main container that holds the content-->
+            <div class="container text-center content-body">
+                <div class="row">
+                    <!--Hgh score header-->
+                    <div class="col-9 text-center score-header" id="mq-heading-2">
+                        <h2>Score Board</h2>
+                    </div>
+                    <!--Close button-->
+                    <div class="col-3" id="cls-btn">
+                        <a href="index.html" class="btn btn-primary btn-lg close-button" role="button">
+                            <i class="fa fa-power-off"></i>
+                        </a>
+                    </div>
                 </div>
-                <!--Close button-->
-                <div class="col-3" id="cls-btn">
-                    <a href="index.html" class="btn btn-primary btn-lg close-button" role="button">
-                        <i class="fa fa-power-off"></i>
-                    </a>
-                </div>
+                <!--High score list container-->
+                <ul id="highScoresList"></ul>
+                <button class="clear-button btn btn-primary btn-lg" onclick="clearHighScores()">Clear Scores</button>
             </div>
-            <!--High score list container-->
-            <ul id="highScoresList"></ul>
-            <button class="clear-button btn btn-primary btn-lg" onclick="clearHighScores()">Clear Scores</button>
-        </div>
-    </section>
-</article>
+        </section>
+    </article>
 </body>
 
 </html>

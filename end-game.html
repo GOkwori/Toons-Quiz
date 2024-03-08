@@ -33,37 +33,38 @@
         </div>
     </header>
     <article class="parent-container container">
-    <!--Section-->
-    <section class="content-background">
-        <!--Main container that holds the content-->
-        <div class="container text-center content-body">
-            <div class="row">
-                <!--How to play header-->
-                <div class="col-9 text-center score-header">
-                    <h2>Quiz Completed!</h2>
+        <!--Section-->
+        <section class="content-background">
+            <!--Main container that holds the content-->
+            <div class="container text-center content-body">
+                <div class="row">
+                    <!--How to play header-->
+                    <div class="col-9 text-center score-header">
+                        <h2>Quiz Completed!</h2>
+                    </div>
+                    <!--Close button-->
+                    <div class="col-3" id="cls-btn">
+                        <a href="index.html" class="btn btn-primary btn-lg close-button" role="button">
+                            <i class="fa fa-power-off"></i>
+                        </a>
+                    </div>
                 </div>
-                <!--Close button-->
-                <div class="col-3" id="cls-btn">
-                    <a href="index.html" class="btn btn-primary btn-lg close-button" role="button">
-                        <i class="fa fa-power-off"></i>
-                    </a>
+                <br>
+                <div class="score-summary">
+                    <h3>Your Score: <span id="finalScore"></span>/10</h3>
                 </div>
-            </div>
-            <br>
-            <div class="score-summary">
-                <h3>Your Score: <span id="finalScore"></span>/10</h3>
-            </div>
-            <br>    
-            <div class="row text-center">
-                <div class="col">
-                    <a href="difficulty-level.html" class="btn btn-primary btn-lg end-btn" role="button">Play Again</a>
+                <br>
+                <div class="row text-center">
+                    <div class="col">
+                        <a href="difficulty-level.html" class="btn btn-primary btn-lg end-btn" role="button">Play
+                            Again</a>
+                    </div>
+                    <div class="col">
+                        <a href="high-score.html" class="btn btn-primary btn-lg end-btn">View High Scores</a>
+                    </div>
                 </div>
-                <div class="col">
-                    <a href="high-score.html" class="btn btn-primary btn-lg end-btn">View High Scores</a>
-                </div>
-            </div>
-    </section>
-</article>
+        </section>
+    </article>
 </body>
 
 </html>
