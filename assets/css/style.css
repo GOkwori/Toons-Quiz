@@ -279,6 +279,7 @@ label {
         position: relative;
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: top;
         font-family: "comic neue", cursive;
         background-color: #fff;
         color: #091f34;
@@ -427,6 +428,7 @@ label {
         position: relative;
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: top;
         font-family: "comic neue", cursive;
         background-color: #fff;
         color: #091f34;
@@ -569,6 +571,7 @@ label {
         position: relative;
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: top;
         font-family: "comic neue", cursive;
         background-color: #fff;
         color: #091f34;
@@ -702,7 +705,7 @@ label {
     body {
         background: url(../images/kung-fu-panda.jpg);
         position: relative;
-        background-size: cover;
+        background-position: top;
         background-repeat: no-repeat;
         font-family: "comic neue", cursive;
         background-color: #fff;
@@ -847,7 +850,7 @@ label {
     body {
         background: url(../images/kung-fu-panda.jpg);
         position: relative;
-        background-size: cover;
+        background-position: top;
         background-repeat: no-repeat;
         font-family: "comic neue", cursive;
         background-color: #fff;
@@ -859,7 +862,10 @@ label {
     }
 
     /*---- Header container----*/
-    #h1-container,
+    #h1-container {
+        margin: 0 250px;
+    }
+
     .content-background {
         margin: 0 10px;
         padding: 20px;
@@ -894,27 +900,23 @@ label {
 
     .difficulty-header,
     .score-header {
-        padding: 5px 95px;
+        padding: 5px 150px;
     }
 
     .how-to-play-p {
         margin: 20px 0;
     }
 
-    .difficulty-header {
-        padding: 5px 40px 5px 0;
-    }
-
-
+/*---- Difficulty page button ----*/
     .difficulty-button {
         padding: 0;
     }
 
     .difficulty-button-container {
-        padding-left: 230px;
+        padding: 0 300px;
     }
 
-
+/*---- Close buttons ----*/
     .close-button {
         width: 40px;
         height: 40px;
@@ -941,7 +943,7 @@ label {
 
     /*---- Game page answer buttons ----*/
     .answer-btn {
-        width: 200px;
+        width: 300px;
         height: 40px;
         margin: 10px 0 0 30px;
     }
