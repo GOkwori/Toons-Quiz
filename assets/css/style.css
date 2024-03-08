@@ -1,11 +1,6 @@
 /*---- Google fonts ----*/
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-:root {
-    --content-text: 'Comic Neue', cursive;
-    --info-text: 'Roboto', sans-serif;
-    /* Other variables */
-}
 
 /* Removes all margins & Padding on everything so they can be fully customised */
 * {
@@ -20,6 +15,7 @@ body {
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100vw;
     font-family: "comic neue", cursive;
     background-color: #fff;
     color: #091f34;
@@ -29,21 +25,6 @@ body {
     place-items: center;
 }
 
-/*---- Header ----*/
-header {
-    width: 90%;
-    max-width: 1200px;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-/*---- Content Container ----*/
-.parent-container {
-    width: 90%;
-    max-width: 1200px;
-    padding: 20px;
-    box-sizing: border-box;
-}
 
 /*---- Header container----*/
 #h1-container {
@@ -51,14 +32,42 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
+    width: 40%;
+    height: 6rem;
+    margin-top: 10px;
+    padding-top: 5px;
     display: flex;
     justify-content: center;
-    margin: 0 530px;
     transition: transform 0.3s ease-in-out;
 }
 
 #h1-container:hover {
     transform: scale(1.1);
+}
+
+
+/*---- Logo ----*/
+#logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+/*---- Header link to home page ----*/
+a {
+    text-decoration: none;
+}
+
+/*---- Content Container ----*/
+.content-body {
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    margin: 10% 0;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 
@@ -70,11 +79,6 @@ h1 {
     font-size: 3.5rem;
     text-shadow: 0 2px 6px rgba(0, 0, 0, 0);
 }
-
-a {
-    text-decoration: none;
-}
-
 
 h2 {
     font-family: 'comic neue', cursive;
@@ -96,49 +100,6 @@ p {
     margin-bottom: 20px;
 }
 
-/*---- Header Container----*/
-.main-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 20px;
-}
-
-/*---- Logo ----*/
-#logo {
-    width: 100px;
-    height: 100px;
-    margin-right: 10px;
-}
-
-/*---- Content Container ----*/
-.content-background {
-    padding: 40px;
-    margin: 80px 200px 0 200px;
-    border-radius: 10px;
-    width: auto;
-    height: auto;
-    backdrop-filter: blur(5px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.8);
-}
-
-.content-body {
-    position: relative;
-}
-
-.content-body h2,
-.content-body h3,
-.content-body p {
-    text-shadow: 0 2px 6px rgba(0, 0, 0, 0);
-}
-
-/*---- Difficulty Header ----*/
-.difficulty-header {
-    display: flex;
-    justify-content: end;
-    padding: 5px 200px;
-}
 
 /*---- Buttons ----*/
 
@@ -146,10 +107,7 @@ p {
     display: inline-block;
     background-color: #091f34;
     border: none;
-    width: 500px;
-    height: 50px;
     border-radius: 5px;
-    cursor: pointer;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -160,19 +118,18 @@ p {
     border: 2px solid #091f34;
 }
 
-/*---- Welcome button ----*/
+/*---- Buttons on home page ----*/
 .welcome-btn {
-    width: 200px;
-    margin: 15px 200px;
+    width: 40%;
+    margin: 2%;
 }
 
 /*---- Settings close button ----*/
 .settings-close {
-    width: 200px;
-    margin-left: 30px;
+    width: 20%;
 }
 
-/*---- Close button ----*/
+/*---- Power button on all pages----*/
 .close-button {
     position: absolute;
     background-color: #091f34;
@@ -202,57 +159,61 @@ p {
 }
 
 
-/*---- Difficulty level buttons ----*/
+/*---- Difficulty level buttons on difficulty page ----*/
 
 .difficulty-button {
-    padding: 0 450px;
+    width: 40%;
     height: 50px;
     border-radius: 20%;
     margin-bottom: 20px;
 }
 
+/*---- Difficulty level buttons container ----*/
+.difficulty-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+/*---- Difficulty Header ----*/
+.difficulty-header {
+    display: flex;
+    justify-content: end;
+    padding: 0 15%;
+}
+
 /*---- Game page button container ----*/
 .answer-btn {
-    width: 350px;
+    width: 80%;
     height: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 8%;
 }
 
-.question-section {
-    padding: 20px 40px;
-}
 
-/*---- Exit buttons ----*/
+/*---- Exit buttons on the exit game page----*/
 .exit-button {
-    width: 200px;
+    width: 20%;
     margin-bottom: 20px;
 }
 
-/*---- Clear High Scores Button ----*/
+/*---- Clear High Scores Button on the high score page ----*/
 .clear-button {
-    width: 200px;
+    width: 20%;
 }
 
 /*---- End Game Button ----*/
 .end-btn {
-    width: 200px;
+    width: 40%;
 }
 
-/*---- Quiz question ----*/
-#question-no {
-    text-align: left;
-}
 
-/*---- Score board ----*/
-#score {
-    text-align: left;
-}
-
-/*---- High score header----*/
+/*---- Content header on highscore and game setting page----*/
 .score-header {
     display: flex;
-    justify-content: right;
-    padding: 5px 240px 5px 0;
+    justify-content: end;
+    padding: 0 20%;
 }
 
 
@@ -271,878 +232,3 @@ label {
 /*----MEDIA QUERIES----*/
 
 /*---------- Styling for screens with (min-width: 320px) and (max-width: 389px)----------*/
-@media (min-width: 320px) and (max-width: 389px) {
-
-    /*---- Body ----*/
-    body {
-        background: url(../images/kung-fu-panda.jpg);
-        position: relative;
-        background-repeat: no-repeat;
-        background-position: top;
-        font-family: "comic neue", cursive;
-        background-color: #fff;
-        color: #091f34;
-        font-size: 1.2rem;
-        line-height: 1.6;
-        display: grid;
-        place-items: center;
-    }
-
-
-    /*---- Header ----*/
-
-
-    /*---- Header container----*/
-    #h1-container,
-    .content-background {
-        margin: 0 10px;
-        padding: 20px;
-        height: 100px;
-    }
-
-
-    #h1-container h1 {
-        font-size: 1.2rem;
-    }
-
-
-    /*---- Content container ----*/
-    .content-background {
-        height: auto;
-        margin-top: 50px;
-        width: 100%;
-    }
-
-
-    /*---- Buttons ----*/
-    .btn,
-    .welcome-btn,
-    .answer-btn,
-    .settings-close,
-    .close-button,
-    .difficulty-button,
-    .exit-button,
-    .clear-button,
-    .end-btn {
-        width: 200px;
-        margin: 10px 0;
-        font-size: 1rem;
-    }
-
-    /*---- Content headers ----*/
-    .difficulty-header,
-    .score-header {
-        padding: 5px 10px;
-    }
-
-    .difficulty-header {
-        padding: 5px 0;
-    }
-
-    #mq-heading {
-        padding: 5px 20px;
-    }
-
-    #mq-heading-2 {
-        padding: 5px 20px;
-    }
-
-    /*---- Difficulty page buttons ----*/
-    .difficulty-button {
-        padding: 0;
-    }
-
-    .difficulty-button-container {
-        padding-left: 20px;
-    }
-
-    /*---- Close buttons ----*/
-    .close-button {
-        width: 40px;
-        height: 40px;
-    }
-
-    .close-button i {
-        font-size: 1.5rem;
-    }
-
-    #cls-btn {
-        width: 25%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    /*---- Game page question container ----*/
-    .question-section {
-        padding: 20px 0;
-    }
-
-    /*---- Game page button container ----*/
-    .btn-row {
-        display: block;
-        justify-content: center;
-        align-items: center;
-        padding-left: 10px;
-    }
-
-    /*---- Game page answer buttons ----*/
-    .answer-btn {
-        width: 150px;
-        height: 40px;
-        margin: 10px 0 0 20px;
-        font-size: 1.2rem;
-    }
-
-
-    /*---- Headings & Text ----*/
-    h1,
-    h2,
-    h3,
-    p {
-        font-size: 80%;
-    }
-
-    .how-to-play-p {
-        margin: 20px 0;
-    }
-
-    h2 {
-        margin-bottom: 0;
-        font-size: 1.2rem;
-    }
-
-    /*---- Logo ----*/
-    #logo {
-        width: 80px;
-        height: 80px;
-    }
-
-    /*---- Form elements on settings page----*/
-    label {
-        margin: 20px 0 0 0;
-    }
-
-    input {
-        margin: 30px 0 0 80px;
-    }
-
-}
-
-
-/*---------- Styling for screens with (min-width: 390px) and (max-width: 575px) ----------*/
-@media (min-width: 390px) and (max-width: 575px) {
-
-    /*---- Body ----*/
-    body {
-        background: url(../images/kung-fu-panda.jpg);
-        position: relative;
-        background-repeat: no-repeat;
-        background-position: top;
-        font-family: "comic neue", cursive;
-        background-color: #fff;
-        color: #091f34;
-        font-size: 1.2rem;
-        line-height: 1.6;
-        display: grid;
-        place-items: center;
-    }
-
-    /*---- Header container----*/
-    #h1-container,
-    .content-background {
-        margin: 0 10px;
-        padding: 20px;
-        height: 100px;
-    }
-
-    #h1-container h1 {
-        font-size: 2rem;
-    }
-
-    /*----Content container----*/
-    .content-background {
-        height: auto;
-        margin-top: 50px;
-    }
-
-
-    /*---- Buttons ----*/
-    .btn,
-    .welcome-btn,
-    .answer-btn,
-    .settings-close,
-    .close-button,
-    .difficulty-button,
-    .exit-button,
-    .clear-button,
-    .end-btn {
-        width: 200px;
-        margin: 10px 0;
-        font-size: 1rem;
-    }
-
-    /*---- Content headers ----*/
-    .difficulty-header,
-    .score-header {
-        padding: 5px 10px;
-    }
-
-    .difficulty-header {
-        padding: 5px 0;
-    }
-
-    #mq-heading {
-        padding: 5px 20px;
-    }
-
-    #mq-heading-2 {
-        padding: 5px 20px;
-    }
-
-    /*---- Difficulty page buttons ----*/
-    .difficulty-button {
-        padding: 0;
-    }
-
-    .difficulty-button-container {
-        padding: 0 30px;
-    }
-
-    /*---- Close buttons ----*/
-    .close-button {
-        width: 40px;
-        height: 40px;
-    }
-
-    .close-button i {
-        font-size: 1.5rem;
-    }
-
-    #cls-btn {
-        width: 25%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    /*---- Game page question container ----*/
-    .question-section {
-        width: 100%;
-        padding: 20px;
-    }
-
-    /*---- Game page button container ----*/
-    .btn-row {
-        display: block;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-
-    /*---- Game page answer buttons ----*/
-    .answer-btn {
-        width: 150%;
-        height: 40px;
-        margin: 10px 0 0 30px;
-        font-size: 1.2rem;
-    }
-
-    /*---- Headings & Text ----*/
-    h1,
-    h2,
-    h3,
-    p {
-        font-size: 80%;
-    }
-
-    h2 {
-        margin-bottom: 0;
-        font-size: 1.2rem;
-    }
-
-    /*---- Logo ----*/
-    #logo {
-        width: 80px;
-        height: 80px;
-    }
-
-    /*---- Form elements on settings page----*/
-    label {
-        margin: 20px 0 0 0;
-    }
-
-    input {
-        margin: 30px 0 0 80px;
-    }
-
-}
-
-/*---------- Styling for screens with (min-width: 576px) and (max-width: 766px) ----------*/
-@media (min-width: 576px) and (max-width: 766px) {
-
-    /*---- Body ----*/
-    body {
-        background: url(../images/kung-fu-panda.jpg);
-        position: relative;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top;
-        font-family: "comic neue", cursive;
-        background-color: #fff;
-        color: #091f34;
-        font-size: 1.2rem;
-        line-height: 1.6;
-        display: grid;
-        place-items: center;
-    }
-
-    /*---- Header container----*/
-    #h1-container,
-    .content-background {
-        margin: 0 10px;
-        padding: 20px;
-        height: 100px;
-    }
-
-    #h1-container h1 {
-        font-size: 2.2rem;
-    }
-
-    /*---- Content container ----*/
-    .content-background {
-        height: auto;
-        margin-top: 50px;
-    }
-
-
-    /*---- Buttons ----*/
-    .btn,
-    .welcome-btn,
-    .answer-btn,
-    .settings-close,
-    .close-button,
-    .difficulty-button,
-    .exit-button,
-    .clear-button,
-    .end-btn {
-        width: 200px;
-        margin: 10px 0;
-        font-size: 1rem;
-    }
-
-    /*---- Content headers ----*/
-    .difficulty-header,
-    .score-header {
-        padding: 5px 60px;
-    }
-
-    .how-to-play-p {
-        margin: 20px 0;
-    }
-
-    .difficulty-header {
-        padding: 5px 0;
-    }
-
-    /*---- Difficulty page buttons ----*/
-    .difficulty-button {
-        padding: 0;
-    }
-
-    .difficulty-button-container {
-        padding-left: 150px;
-    }
-
-    /*---- Close buttons ----*/
-    .close-button {
-        width: 40px;
-        height: 40px;
-    }
-
-    .close-button i {
-        font-size: 1.5rem;
-    }
-
-    #cls-btn {
-        width: 25%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    /*---- Game page button container ----*/
-    .btn-row {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-right: 50px;
-    }
-
-    /*---- Game page answer buttons ----*/
-    .answer-btn {
-        width: 200px;
-        height: 40px;
-        margin: 10px 0 0 80px;
-    }
-
-    /*---- Headings & Text ----*/
-    h1,
-    h2,
-    h3,
-    p {
-        font-size: 100%;
-    }
-
-    h2 {
-        margin-bottom: 0;
-    }
-
-    /*---- Logo ----*/
-    #logo {
-        width: 80px;
-        height: 80px;
-    }
-
-    /*---- Form elements on settings page----*/
-    label {
-        margin: 20px 0 0 0;
-    }
-
-    input {
-        margin: 30px 0 0 80px;
-    }
-}
-
-/*---------- Styling for screens with (min-width: 768px) and (max-width: 820px) ----------*/
-@media (min-width: 768px) and (max-width: 820px) {
-
-    /*---- Body ----*/
-    body {
-        background: url(../images/kung-fu-panda.jpg);
-        position: relative;
-        background-position: top;
-        background-repeat: no-repeat;
-        font-family: "comic neue", cursive;
-        background-color: #fff;
-        color: #091f34;
-        font-size: 1.2rem;
-        line-height: 1.6;
-        display: grid;
-        place-items: center;
-    }
-
-    /*---- Header container----*/
-    #h1-container {
-        margin: 0 100px;
-    }
-
-
-    .content-background {
-        margin: 0 20px;
-        padding: 20px;
-        height: 100px;
-    }
-
-    #h1-container h1 {
-        font-size: 2.8rem;
-    }
-
-    /*---- Content container ----*/
-    .content-background {
-        height: auto;
-        margin-top: 50px;
-    }
-
-
-    /*---- Buttons ----*/
-    .btn,
-    .welcome-btn,
-    .answer-btn,
-    .settings-close,
-    .close-button,
-    .difficulty-button,
-    .exit-button,
-    .clear-button,
-    .end-btn {
-        width: 200px;
-        margin: 10px 0;
-        font-size: 1.2rem;
-    }
-
-    /*---- Content headers ----*/
-    .difficulty-header,
-    .score-header {
-        padding: 5px 80px;
-    }
-
-    #mq-heading {
-        padding: 5px 100px;
-    }
-
-    .how-to-play-p {
-        margin: 20px 0;
-    }
-
-    /*---- Difficulty page header container ----*/
-    .difficulty-header {
-        padding: 5px 60px 5px 0;
-    }
-
-    /*---- Difficulty page buttons ----*/
-    .difficulty-button {
-        padding: 0;
-    }
-
-    .difficulty-button-container {
-        padding: 0 160px;
-    }
-
-    /*---- Close buttons ----*/
-    .close-button {
-        width: 40px;
-        height: 40px;
-    }
-
-    .close-button i {
-        font-size: 1.5rem;
-    }
-
-    #cls-btn {
-        width: 25%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    /*---- Game page button container ----*/
-    .btn-row {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-right: 50px;
-    }
-
-    /*---- Game page answer buttons ----*/
-    .answer-btn {
-        width: 200px;
-        height: 40px;
-        margin: 10px 0 0 30px;
-    }
-
-    /*---- Headings & Text ----*/
-    h1,
-    h2,
-    h3,
-    p {
-        font-size: 100%;
-    }
-
-    h2 {
-        margin-bottom: 0;
-    }
-
-    /*---- Logo ----*/
-    #logo {
-        width: 80px;
-        height: 80px;
-    }
-
-    /*---- Form elements on settings page----*/
-    label {
-        margin: 20px 0 0 0;
-    }
-
-    input {
-        margin: 30px 0 0 80px;
-    }
-
-}
-
-/*---------- Styling for screens with (min-width: 821px) and (max-width: 1024px) ----------*/
-@media (min-width: 821px) and (max-width: 1024px) {
-
-    /*---- Body ----*/
-    body {
-        background: url(../images/kung-fu-panda.jpg);
-        position: relative;
-        background-position: top;
-        background-repeat: no-repeat;
-        font-family: "comic neue", cursive;
-        background-color: #fff;
-        color: #091f34;
-        font-size: 1.2rem;
-        line-height: 1.6;
-        display: grid;
-        place-items: center;
-    }
-
-    /*---- Header container----*/
-    #h1-container {
-        margin: 0 250px;
-    }
-
-    .content-background {
-        margin: 0 10px;
-        padding: 20px;
-        height: 100px;
-    }
-
-    #h1-container h1 {
-        font-size: 3rem;
-    }
-
-    /*---- Semantic Section ----*/
-    .content-background {
-        height: auto;
-        margin-top: 50px;
-    }
-
-
-    /*---- Buttons ----*/
-    .btn,
-    .welcome-btn,
-    .answer-btn,
-    .settings-close,
-    .close-button,
-    .difficulty-button,
-    .exit-button,
-    .clear-button,
-    .end-btn {
-        width: 200px;
-        margin: 10px 0;
-        font-size: 1.2rem;
-    }
-
-    .difficulty-header,
-    .score-header {
-        padding: 5px 150px;
-    }
-
-    .how-to-play-p {
-        margin: 20px 0;
-    }
-
-    /*---- Difficulty page button ----*/
-    .difficulty-button {
-        padding: 0;
-    }
-
-    .difficulty-button-container {
-        padding: 0 300px;
-    }
-
-    /*---- Close buttons ----*/
-    .close-button {
-        width: 40px;
-        height: 40px;
-    }
-
-    .close-button i {
-        font-size: 1.5rem;
-    }
-
-    #cls-btn {
-        width: 25%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    /*---- Game page button container ----*/
-    .btn-row {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-right: 50px;
-    }
-
-    /*---- Game page answer buttons ----*/
-    .answer-btn {
-        width: 300px;
-        height: 40px;
-        margin: 10px 0 0 30px;
-    }
-
-    /*---- Headings & Text ----*/
-    h1,
-    h2,
-    h3,
-    p {
-        font-size: 100%;
-    }
-
-    h2 {
-        margin-bottom: 0;
-    }
-
-    /*---- Logo ----*/
-    #logo {
-        width: 80px;
-        height: 80px;
-    }
-
-    /*---- Form elements on settings page----*/
-    label {
-        margin: 20px 0 0 0;
-    }
-
-    input {
-        margin: 30px 0 0 80px;
-    }
-
-}
-
-/*---------- Styling for screens with (min-width: 1025px) ----------*/
-@media (min-width: 1025px) {
-
-    /*---- Body ----*/
-    body {
-        background: url(../images/kung-fu-panda.jpg);
-        position: relative;
-        background-size: cover;
-        background-repeat: no-repeat;
-        font-family: "comic neue", cursive;
-        background-color: #fff;
-        color: #091f34;
-        font-size: 1.2rem;
-        line-height: 1.6;
-        display: grid;
-        place-items: center;
-    }
-
-    /*---- Header container----*/
-    #h1-container,
-    .content-background {
-        height: 100px;
-    }
-
-    #h1-container h1 {
-        font-size: 3rem;
-    }
-
-    /*---- Content container ----*/
-    .content-background {
-        height: auto;
-        margin: 50px;
-    }
-
-
-    /*---- Headings & text ----*/
-
-    .score-header {
-        padding: 5px 200px;
-    }
-
-    #mq-heading {
-        padding: 5px 200px;
-    }
-
-    #mq-heading-2 {
-        padding: 5px 250px;
-    }
-
-    .how-to-play-p {
-        margin: 5px 0 20px 0;
-    }
-
-    /*---- Difficulty page header container ----*/
-    .difficulty-header {
-        padding: 5px 40px 5px 0;
-        margin-bottom: 20px;
-    }
-
-    /*---- Difficulty page buttons ----*/
-    .difficulty-button {
-        padding: 0;
-    }
-
-    .difficulty-button-container {
-        padding-left: 200px;
-    }
-
-    /*---- Close buttons ----*/
-    .close-button {
-        width: 40px;
-        height: 40px;
-    }
-
-    .close-button i {
-        font-size: 1.5rem;
-    }
-
-    #cls-btn {
-        width: 25%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    /*---- Game page button container ----*/
-    .btn-row {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-right: 50px;
-    }
-
-    /*---- Site Headings & Text ----*/
-    h2 {
-        margin-bottom: 0;
-        font-size: 1.2rem;
-    }
-
-    h3 {
-        font-size: 1.2rem;
-    }
-
-    /*---- Content container ----*/
-    .content-background h2 {
-        font-size: 1.8rem;
-    }
-
-    .content-background p {
-        font-size: 1.4rem;
-    }
-
-    /*---- Logo ----*/
-    #logo {
-        width: 80px;
-        height: 80px;
-    }
-
-    /*---- Form elements on settings page----*/
-    label {
-        margin: 20px 0 0 0;
-    }
-
-    input {
-        margin: 30px 0 0 100px;
-    }
-
-}
-
-
-/*---------- Styling for screens with (min-width: 1280px) ----------*/
-@media (min-width: 1280px) {
-
-    /*---- Header container----*/
-    #h1-container {
-        margin: 0 350px;
-    }
-
-    /*---- Home page buttons ----*/
-    .welcome-btn {
-        margin: 15px 0;
-    }
-
-    /*---- Content headings ----*/
-    .score-header {
-        padding: 5px 130px;
-    }
-
-    #mq-heading-2 {
-        padding: 5px 170px;
-    }
-}
