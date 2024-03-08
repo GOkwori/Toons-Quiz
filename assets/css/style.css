@@ -6,6 +6,7 @@
     --info-text: 'Roboto', sans-serif;
     /* Other variables */
 }
+
 /* Removes all margins & Padding on everything so they can be fully customised */
 * {
     padding: 0;
@@ -135,7 +136,7 @@ p {
 .difficulty-header {
     display: flex;
     justify-content: end;
-    padding: 5px 100px;
+    padding: 5px 200px;
 }
 
 /*---- Buttons ----*/
@@ -252,6 +253,7 @@ p {
     justify-content: right;
     padding: 5px 240px 5px 0;
 }
+
 
 /*---- Sound effects settings ----*/
 input {
@@ -377,7 +379,7 @@ label {
         font-size: 1.2rem;
     }
 
-    
+
     /*---- Headings & Text ----*/
     h1,
     h2,
@@ -702,7 +704,7 @@ label {
 
     /*---- Header container----*/
     #h1-container {
-        margin: 0 100px;    
+        margin: 0 100px;
     }
 
 
@@ -1011,6 +1013,7 @@ label {
 
     .difficulty-header {
         padding: 5px 40px 5px 0;
+        margin-bottom: 20px;
     }
 
 
@@ -1019,7 +1022,7 @@ label {
     }
 
     .difficulty-button-container {
-        padding-left: 340px;
+        padding-left: 200px;
     }
 
 
@@ -1101,10 +1104,7 @@ label {
         padding: 5px 170px;
     }
 
-    #mq-heading {
-        padding: 5px 40px;
-    }
-
+ 
     #mq-heading-2 {
         padding: 5px 190px;
     }
