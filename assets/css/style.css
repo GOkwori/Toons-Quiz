@@ -340,6 +340,8 @@ label {
 
     /*---- Game page question number heading ----*/
     #question-no {
+        display: flex;
+        justify-self: flex-start;
         padding: 5% 10% 5% 0;
     }
 
@@ -501,6 +503,8 @@ label {
 
     /*---- Game page question number heading ----*/
     #question-no {
+        display: flex;
+        justify-self: flex-start;
         padding: 5% 20% 5% 0;
     }
 
