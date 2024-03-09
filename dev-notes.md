@@ -1,4 +1,4 @@
-# CN Toons Dev Notes
+# Toons Dev Notes
 
 | No | Item | Description | Remark |
 | --- | --- | --- | --- | 
