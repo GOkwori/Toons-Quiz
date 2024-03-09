@@ -184,6 +184,12 @@ p {
     padding: 0 15%;
 }
 
+#question-no {
+    display: flex;
+    justify-self: flex-start;
+    padding: 0 0 0 5%;
+}
+
 /*---- Game page button container ----*/
 .answer-btn {
     width: 80%;
@@ -552,9 +558,9 @@ label {
     }
 }
 
-/*---------- Styling for screens with (min-width: 992px)----------*/
+/*---------- Styling for screens with (min-width: 992px) and (max-width: 1024px)----------*/
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1024px){
 
     /*---- Body ----*/
     body {
@@ -647,7 +653,6 @@ label {
     #question-no {
         padding: 3% 20% 2% 0;
         margin-left: 0;
-
     }
 
     /*---- Game page question container ----*/
@@ -658,7 +663,7 @@ label {
 
     /*---- Game page buttons ----*/
     .answer-btn {
-        width: 20%;
+        width: 80%;
         margin: 7%;
         font-size: 100%;
     }
