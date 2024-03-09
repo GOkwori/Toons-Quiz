@@ -1,14 +1,17 @@
-// Constant variables for accessing the HTML elements 
-const question = document.getElementById("question");
-const options = Array.from(document.getElementsByClassName("option-text"));
+// Constant variables for accessing the HTML elements
+const question = document.getElementsByClassName("question");
+const options = Array.from(
+  document.getElementsByClassName("option-text")
+);
+const score = document.getElementById("score");
+const nextButton = document.getElementById("next-btn"); 
 
 // Variables
 let currentQuestion = {};
 let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
-let availableQuestions = [];
-
+let questions = [];
 
 // Easy Questions
 let easyQuestions = [
@@ -236,3 +239,89 @@ let hardQuestions = [
     answer: "Marceline",
   },
 ];
+
+// Constants
+const EASY = "easy";
+const MEDIUM = "medium";
+const HARD = "hard";
+const MAX_QUESTIONS = 10;
+const CORRECT_BONUS = 10;
+
+// Function to start the game
+function startGame(difficulty) {
+  score = 0;
+  questionCounter = 0;
+  // Determine which set of questions to use based on difficulty
+  if (difficulty === "easy") {
+    questions = easyQuestions;
+  } else if (difficulty === "medium") {
+    questions = mediumQuestions;
+  } else if (difficulty === "hard") {
+    questions = hardQuestions;
+  }
+  availableQuestions = [...questions];
+  getNewQuestion();
+}
+
+// Function to load a new question
+function getNewQuestion() {
+  if (availableQuestions.length === 0 || questionCounter >= questions.length) {
+    // Save the score to local storage or handle end game
+    localStorage.setItem("mostRecentScore", score);
+    // Redirect to end game page
+    return window.location.assign("/end-game.html"); // Adjust path as needed
+  }
+
+  questionCounter++;
+  const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+  currentQuestion = availableQuestions[questionIndex];
+
+  questionElement.innerText = currentQuestion.question;
+
+  optionsElements.forEach((option, index) => {
+    option.innerText = currentQuestion.options[index];
+  });
+
+  // Remove this question from the available pool
+  availableQuestions.splice(questionIndex, 1);
+
+  acceptingAnswers = true;
+}
+
+// Event listeners for each option
+optionsElements.forEach((option, index) => {
+  option.addEventListener("click", () => {
+    if (!acceptingAnswers) return;
+
+    acceptingAnswers = false;
+    const selectedAnswer = option.dataset["number"];
+    const classToApply =
+      selectedAnswer === currentQuestion.answer ? "correct" : "incorrect";
+
+    if (classToApply === "correct") {
+      incrementScore(10); // Increment score by 10 for a correct answer
+    }
+
+    // Add class to show correct/incorrect answer, then remove it after 1 second and load next question
+    option.parentElement.classList.add(classToApply);
+    setTimeout(() => {
+      option.parentElement.classList.remove(classToApply);
+      getNewQuestion(); // Load the next question
+    }, 1000);
+  });
+});
+
+// Function to increment score
+function incrementScore(num) {
+  score += num;
+  scoreElement.innerText = score;
+}
+
+// Start the game with easy questions
+startGame("easy");
+startGame("medium");
+startGame("hard");
+
+
+//next button event listener
+nextButton.addEventListener("click", getNewQuestion);
