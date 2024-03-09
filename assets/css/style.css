@@ -551,3 +551,155 @@ label {
         font-size: 100%;
     }
 }
+
+/*---------- Styling for screens with (min-width: 992px)----------*/
+
+@media (min-width: 992px) {
+
+    /*---- Body ----*/
+    body {
+        background: url(../images/kung-fu-panda.jpg);
+        background-position: top;
+        position: relative;
+        background-repeat: no-repeat;
+    }
+
+    /*---- Header container----*/
+    #h1-container {
+        width: 50%;
+    }
+
+
+    /*---- Content Container ----*/
+    .content-body {
+        width: 100%;
+        height: auto;
+    }
+
+    /*---- Headings & text ----*/
+    h1 {
+        font-size: 300%;
+    }
+
+    h2 {
+        font-size: 170%;
+        margin: 0 20%;
+    }
+
+    h3 {
+        font-size: 150%;
+    }
+
+    p {
+        font-size: 130%;
+    }
+
+
+    /*---- Home page button container ----*/
+   
+    /*---- Home page buttons ----*/
+    .welcome-btn {
+        width: 50%;
+        margin: 4%;
+        font-size: 100%;
+    }
+
+
+    /*---- How to play content header container  ----*/
+    .score-header {
+        padding: 2% 0;
+    }
+
+    /*---- Power button container ----*/
+    #cls-btn {
+        padding: 2% 10% 0 0;
+    }
+
+    /*---- Power button  ----*/
+    .close-button {
+        width: 40px;
+        height: 40px;
+        padding: .6%;        
+    }
+
+    .close-button i {
+        font-size: 140%;
+    }
+
+    /*---- Clear button on high score page ----*/
+    .clear-button {
+        width: 20%;
+        font-size: 100%;
+    }
+
+    /*---- Difficulty header on the difficulty level page ----*/
+    .difficulty-header {
+        padding: 2%;
+    }
+
+    /*---- Difficulty level buttons ----*/
+    .difficulty-button {
+        width: 50%;
+        font-size: 100%;
+    }
+
+    /*---- Game page question number heading ----*/
+    #question-no {
+        padding: 3% 20% 2% 0;
+        margin-left: 0;
+
+    }
+
+    /*---- Game page question container ----*/
+    .question h2 {
+        margin: 0 1%;
+    }
+
+
+    /*---- Game page buttons ----*/
+    .answer-btn {
+        width: 20%;
+        margin: 7%;
+        font-size: 100%;
+    }
+
+    /*---- Exit button on the exit game page ----*/
+    .exit-button {
+        width: 20%;
+        font-size: 100%;
+    }
+
+    /*---- Settings header container ----*/
+    #settings-header {
+        padding: 2% 0;
+        justify-content: center;
+    }
+
+    /*---- Form elements container ----*/
+    .setting {
+        padding: 3%;
+        margin: 1%;
+    }
+
+    /*---- Form elements on settings page ----*/
+    label {
+        margin: 0 0 0 5%;
+    }
+
+    input {
+      margin: 0 5% 0 0;
+    }
+
+
+    /*---- Save settings button ----*/
+    .settings-close {
+        width: 20%;
+        font-size: 100%;
+    }
+
+    /*---- End game button ----*/
+    .end-btn {
+        width: 40%;
+        font-size: 100%;
+    }
+}
