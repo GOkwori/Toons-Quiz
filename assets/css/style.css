@@ -226,9 +226,175 @@ input {
 }
 
 label {
-    margin-left: 200px;
+    margin-left: 20%;
 }
 
-/*----MEDIA QUERIES----*/
+/*----Media Query----*/
 
-/*---------- Styling for screens with (min-width: 320px) and (max-width: 389px)----------*/
+/*---------- Styling for screens with (min-width: 320px) and (max-width: 575px) ----------*/
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    /*---- Body ----*/
+    body {
+        background: url(../images/kung-fu-panda.jpg);
+        position: relative;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+
+    /*---- Header container----*/
+    #h1-container {
+        width: 100%;
+        height: 50%;
+    }
+
+    /*---- Logo ----*/
+    #logo {
+        width: 30%;
+        height: 30%;
+    }
+
+
+    /*---- Content Container ----*/
+    .content-body {
+        width: 100%;
+        height: auto;
+    }
+
+    /*---- Headings & text ----*/
+    h1 {
+        font-size: 180%;
+    }
+
+    h2 {
+        font-size: 120%;
+        margin: 0 10%;
+    }
+
+    h3 {
+        font-size: 100%;
+    }
+
+    p {
+        font-size: 90%;
+    }
+
+
+    /*---- Home page button container ----*/
+    .wel-btn {
+        display: block;
+    }
+
+    /*---- Home page buttons ----*/
+    .welcome-btn {
+        width: 50%;
+        margin: 2%;
+        font-size: 100%;
+    }
+
+
+    /*---- How to play content header container  ----*/
+    .score-header {
+        padding: 2% 0;
+    }
+
+
+    /*---- Power button container ----*/
+    #cls-btn {
+        padding: 2% 10% 0 0;
+    }
+
+    /*---- Power button  ----*/
+    .close-button {
+        width: 30px;
+        height: 30px;
+        padding: 1% 0;
+    }
+
+    .close-button i {
+        font-size: 110%;
+    }
+
+    /*---- Clear button on high score page ----*/
+    .clear-button {
+        width: 50%;
+        font-size: 100%;
+    }
+
+    /*---- Difficulty header on the difficulty level page ----*/
+    .difficulty-header {
+        padding: 3%;
+    }
+
+    /*---- Difficulty level buttons ----*/
+    .difficulty-button {
+        width: 70%;
+        font-size: 100%;
+    }
+
+    /*---- Game page question number heading ----*/
+    #question-no {
+        padding: 5% 10% 5% 0;
+    }
+
+    /*---- Game page question container ----*/
+    .question h2 {
+        margin: 0 .8%;
+    }
+
+    /*---- Game page button container ----*/
+    .btn-row {
+        display: block;
+    }
+
+    /*---- Game page buttons ----*/
+    .answer-btn {
+        width: 200%;
+        margin: 7%;
+        font-size: 100%;
+    }
+
+    /*---- Exit button on the exit game page ----*/
+    .exit-button {
+        width: 50%;
+        font-size: 100%;
+    }
+
+    /*---- Settings header container ----*/
+    #settings-header {
+        padding: 3%;
+        justify-content: center;
+    }
+
+    /*---- Form elements container ----*/
+    .setting {
+        padding: 3%;
+        margin: 4%;
+    }
+
+    /*---- Form elements on settings page ----*/
+    label {
+        margin: 2%;
+    }
+
+    input {
+        width: 20px;
+        height: 20px;
+        margin: 0 18%;
+    }
+
+
+    /*---- Save settings button ----*/
+    .settings-close {
+        width: 50%;
+        font-size: 100%;
+    }
+
+}
+
+/*---------- Styling for screens with (min-width: 768px) ----------*/
+
+@media (min-width: 768px) {
+
+}
