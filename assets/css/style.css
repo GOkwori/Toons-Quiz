@@ -388,7 +388,11 @@ label {
         font-size: 100%;
     }
 
-
+    /*---- End game button ----*/
+    .end-btn {
+        width: 100%;
+        font-size: 100%;
+    }
 
 }
 
