@@ -221,7 +221,6 @@ p {
 input {
     width: 20px;
     height: 20px;
-    margin: 0 200px;
     background-color: #091f34;
 }
 
@@ -375,13 +374,11 @@ label {
 
     /*---- Form elements on settings page ----*/
     label {
-        margin: 2%;
+        margin: 0 0 0 5%;
     }
 
     input {
-        width: 20px;
-        height: 20px;
-        margin: 0 18%;
+      margin: 0 5% 0 0;
     }
 
 
@@ -390,6 +387,8 @@ label {
         width: 50%;
         font-size: 100%;
     }
+
+
 
 }
 
