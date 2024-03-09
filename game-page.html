@@ -36,6 +36,10 @@
         <!--Section-->
         <section>
             <!--Main container that holds the Quiz-->
+            <div class="row content-body timer-board">
+                <div class="col-6 score-count"><h2>Score:</h2></div>
+                <div class="col-6 timer"><h2>Timer:</h2></div>
+            </div>
             <div class="container text-center content-body quiz-info">
                 <div class="row">
                     <!--Question-->
@@ -60,24 +64,24 @@
                         <div class="row btn-row">
                             <div class="col-6">
                                 <button class="answer-btn btn btn-primary btn-lg" data-answer="Goofy">
-                                    <h3>Goofy</h3>
+                                    <h3 class="option-text" data-number="1">Goofy</h3>
                                 </button>
                             </div>
                             <div class="col-6">
                                 <button class="answer-btn btn btn-primary btn-lg" data-answer="Pluto">
-                                    <h3>Pluto</h3>
+                                    <h3 class="option-text" data-number="2">Pluto</h3>
                                 </button>
                             </div>
                         </div>
                         <div class="row btn-row">
                             <div class="col-6">
                                 <button class="answer-btn btn btn-primary btn-lg" data-answer="Max">
-                                    <h3>Max</h3>
+                                    <h3 class="option-text" data-number="3">Max</h3>
                                 </button>
                             </div>
                             <div class="col-6">
                                 <button class="answer-btn btn btn-primary btn-lg" data-answer="Fido">
-                                    <h3>Fido</h3>
+                                    <h3 class="option-text" data-number="4">Fido</h3>
                                 </button>
                             </div>
                         </div>
@@ -86,6 +90,7 @@
             </div>
         </section>
     </article>
+    <script src="assets/js/my-game.js"></script>
 </body>
 
 </html>
