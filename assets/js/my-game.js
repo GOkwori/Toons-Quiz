@@ -252,6 +252,7 @@ let selectedDifficulty = "easy";
 const SCORE_POINTS = 10;
 const MAX_QUESTIONS = 10;
 
+// Function to start the game
 function startGame(difficulty = "easy") {
   questionCounter = 0;
   score = 0;
@@ -259,3 +260,13 @@ function startGame(difficulty = "easy") {
   nextButton.classList.add("hide"); // Ensure the Next button is hidden at the start
   nextQuestion();
 }
+
+// Function to get the next question
+function nextQuestion() {
+    acceptingAnswers = true;
+    if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+      localStorage.setItem('mostRecentScore', score);
+      return window.location.assign('/end-game.html'); // Adjust as necessary
+    }
+
+
