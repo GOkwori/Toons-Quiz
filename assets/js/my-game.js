@@ -254,6 +254,12 @@ let easyQuestions = [
 
     // Get New Question Function
     getNewQuestion = () => {
+        if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+            
+            // Go to the End Page
+            return window.location.assign('/end-game.html');
+        }
+
         questionCounter++;
         const questionIndex = Math.floor(Math.random() * availableQuestions.length);
         currentQuestion = availableQuestions[questionIndex];
@@ -271,5 +277,12 @@ let easyQuestions = [
         // Accepting Answers
         acceptingAnswers = true;
     }
+
+    // Select Option Function
+
+
+  
+
+
 
     startGame();
