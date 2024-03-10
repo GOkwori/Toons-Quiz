@@ -248,7 +248,6 @@ let easyQuestions = [
         questionCounter = 0;
         score = 0;
         availableQuestions = [...easyQuestions, ...mediumQuestions, ...hardQuestions];
-        console.log(availableQuestions);
         getNewQuestion();
     };
 
@@ -283,15 +282,24 @@ let easyQuestions = [
         option.addEventListener('click', (e) => {
             if (!acceptingAnswers) return;
 
+            // Prevent Multiple Clicks
             acceptingAnswers = false;
             const selectedOption = e.target;
             const selectedAnswer = selectedOption.dataset['number'];
-            console.log(selectedAnswer);
+
+            // Apply Class to Selected Answer
+            const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+
+            selectedOption.parentElement.classList.add(classToApply);
+
+            selectedOption.parentElement.classList.remove(classToApply);
+
+            
             getNewQuestion();
         });
     });
 
-            // Apply Correct or Incorrect Class
+    
 
 
   
