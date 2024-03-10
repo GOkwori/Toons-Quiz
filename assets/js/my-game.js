@@ -287,3 +287,30 @@ function nextQuestion() {
   availableQuestions.splice(questionIndex, 1);
   nextButton.classList.add("hide"); // Hide Next button again for the new question
 }
+
+// Function to increment the score
+function selectOption(e) {
+    if (!acceptingAnswers) return;
+  
+    // Prevent multiple selections
+    acceptingAnswers = true;
+    const selectedOption = e.target;
+    const correctAnswer = currentQuestion.answer;
+  
+    // Check if the selected option is correct
+    const isCorrect = selectedOption.dataset['number'] == correctAnswer;
+  
+    // Increment the score if the answer is correct
+    if (isCorrect) {
+      incrementScore(SCORE_POINTS);
+      selectedOption.parentElement.classList.add('correct');
+    } else {
+      selectedOption.parentElement.classList.add('incorrect');
+    }
+  
+    // Show the Next button
+    optionsEls.forEach(option => {
+      if (option.dataset['number'] == correctAnswer) {
+        option.parentElement.classList.add('correct');
+      }
+    });
