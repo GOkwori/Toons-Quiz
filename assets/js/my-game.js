@@ -263,10 +263,27 @@ function startGame(difficulty = "easy") {
 
 // Function to get the next question
 function nextQuestion() {
-    acceptingAnswers = true;
-    if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-      localStorage.setItem('mostRecentScore', score);
-      return window.location.assign('/end-game.html'); // Adjust as necessary
-    }
+  acceptingAnswers = true;
+  if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+    localStorage.setItem("mostRecentScore", score);
+    return window.location.assign("/end-game.html"); // Adjust as necessary
+  }
+  // Update the question counter
+  questionCounter++;
+  questionCounterEl.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
 
+  // Get a random question from the available questions
+  const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+  currentQuestion = availableQuestions[questionIndex];
+  questionEl.innerText = currentQuestion.question;
 
+  // Update the options with the current question's options
+  optionsEls.forEach((option, index) => {
+    option.innerText = currentQuestion.options[index];
+    option.parentElement.classList.remove("correct", "incorrect"); // Reset option visuals
+  });
+
+  // Remove the question from the available questions
+  availableQuestions.splice(questionIndex, 1);
+  nextButton.classList.add("hide"); // Hide Next button again for the new question
+}
