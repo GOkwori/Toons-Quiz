@@ -37,21 +37,21 @@
         <section>
             <!--Main container that holds the Quiz-->
             <div class="row content-body timer-board">
-                <div class="col-6 score-count"><h2>Score:</h2></div>
-                <div class="col-6 timer"><h2>Timer:</h2></div>
+                <div class="col-6 score-count">
+                    <h2>Score:</h2>
+                </div>
+                <!--Close button-->
+                <div class="col-6 timer">
+                    <a href="exit-game-page.html" class="btn btn-primary btn-lg close-button" role="button">
+                        <i class="fa fa-power-off"></i>
+                    </a>
+                </div>
             </div>
             <div class="container text-center content-body quiz-info">
                 <div class="row">
                     <!--Question-->
                     <div class="col-9">
                         <h2 id="question-no"></h2>
-                    </div>
-
-                    <!--Close button-->
-                    <div class="col-3" id="cls-btn">
-                        <a href="exit-game-page.html" class="btn btn-primary btn-lg close-button" role="button">
-                            <i class="fa fa-power-off"></i>
-                        </a>
                     </div>
                 </div>
                 <br>
@@ -87,7 +87,7 @@
                         </div>
                     </div>
                     <div>
-                        <button class="btn btn-primary btn-lg hide" id="next-btn-container">
+                        <button class="btn btn-primary btn-lg" id="next-btn-container">
                             <h3 id="next-btn">Next</h3>
                         </button>
                     </div>
