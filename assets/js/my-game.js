@@ -4,7 +4,7 @@ const options = Array.from(document.getElementsByClassName('option-text'));
 
 // Variables
 let currentQuestion = {};
-let acceptingAnswers = true;
+let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
@@ -264,6 +264,12 @@ let easyQuestions = [
             const number = option.dataset['number'];
             option.innerText = currentQuestion.options[index];
         });
+
+        // Remove Question from Available Questions
+        availableQuestions.splice(questionIndex, 1);
+
+        // Accepting Answers
+        acceptingAnswers = true;
     }
 
     startGame();
