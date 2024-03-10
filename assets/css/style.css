@@ -239,7 +239,7 @@ p {
 .timer {
     display: flex;
     justify-content: flex-end;
-    
+
 }
 
 /*---- Game page question container ----*/
@@ -417,6 +417,11 @@ label {
         display: block;
     }
 
+    /*---- Question counter ----*/
+    #questionCounter {
+        margin: 0;
+    }
+
     /*---- Game page buttons ----*/
     .answer-btn {
         width: 200%;
@@ -575,6 +580,22 @@ label {
         margin: 0 1%;
     }
 
+    #score-count-h2 {
+        margin: 0;
+      padding-left: 9%; 
+    }
+
+    #score {
+        margin: 0%;
+    }
+
+    #hud-q {
+        padding-right: 30%;
+    }
+
+    #questionCounter {
+        margin: 0;
+    }
 
     /*---- Game page buttons ----*/
     .answer-btn {
@@ -727,6 +748,22 @@ label {
         margin: 0 1%;
     }
 
+    #score-count-h2 {
+        margin: 0;
+      padding-left: 9%; 
+    }
+
+    #score {
+        margin: 0%;
+    }
+
+    #hud-q {
+        padding-right: 30%;
+    }
+
+    #questionCounter {
+        margin: 0;
+    }
 
     /*---- Game page buttons ----*/
     .answer-btn {
