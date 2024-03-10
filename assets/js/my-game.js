@@ -1,17 +1,22 @@
-// Constant variables for accessing the HTML elements
-const question = document.getElementsByClassName("question");
-const options = Array.from(
-  document.getElementsByClassName("option-text")
-);
-const score = document.getElementById("score");
-const nextButton = document.getElementById("next-btn"); 
+//Constants for accessing the game elements
+const question = document.getElementById("question");
+const options = Array.from(document.getElementsByClassName("option-text"));
+const questionCounterText = document.getElementById("question-no");
+const scoreText = document.getElementById("score-count");
+const nextButton = document.getElementById("next-btn");
+const restartButton = document.getElementById("restart-btn");
+const endGame = document.getElementById("end-game");
 
-// Variables
+// Constants for the game counters
+const SCORE_POINTS = 10;
+const MAX_QUESTIONS = 10;
+
+// Variables for the game
 let currentQuestion = {};
 let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
-let questions = [];
+let availableQuestions = [];
 
 // Easy Questions
 let easyQuestions = [
@@ -240,88 +245,91 @@ let hardQuestions = [
   },
 ];
 
-// Constants
-const EASY = "easy";
-const MEDIUM = "medium";
-const HARD = "hard";
-const MAX_QUESTIONS = 10;
-const CORRECT_BONUS = 10;
-
 // Function to start the game
-function startGame(difficulty) {
-  score = 0;
+function startGame() {
   questionCounter = 0;
-  // Determine which set of questions to use based on difficulty
-  if (difficulty === "easy") {
-    questions = easyQuestions;
-  } else if (difficulty === "medium") {
-    questions = mediumQuestions;
-  } else if (difficulty === "hard") {
-    questions = hardQuestions;
-  }
-  availableQuestions = [...questions];
+  score = 0;
+  availableQuestions = [...easyQuestions, ...mediumQuestions, ...hardQuestions];
   getNewQuestion();
-}
+};
 
-// Function to load a new question
+// Function to get a new question
 function getNewQuestion() {
-  if (availableQuestions.length === 0 || questionCounter >= questions.length) {
-    // Save the score to local storage or handle end game
-    localStorage.setItem("mostRecentScore", score);
-    // Redirect to end game page
-    return window.location.assign("/end-game.html"); // Adjust path as needed
+    // If there are no more questions or the question counter is greater than the max questions, end the game
+  if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+    endGame.classList.remove("hidden");
+    return;
   }
 
+  // Increment the question counter
   questionCounter++;
+
+  // Update the question counter text
+  questionCounterText.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
+
+  // Get a random question from the available questions
   const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+  
+  // Set the current question to the question at the question index
   currentQuestion = availableQuestions[questionIndex];
+  question.innerText = currentQuestion.question;
 
-  questionElement.innerText = currentQuestion.question;
-
-  optionsElements.forEach((option, index) => {
-    option.innerText = currentQuestion.options[index];
+  // Set the options for the current question
+  options.forEach((option) => {
+    const number = option.dataset["number"];
+    option.innerText = currentQuestion.options[number];
   });
 
-  // Remove this question from the available pool
+  // Remove the question from the available questions
   availableQuestions.splice(questionIndex, 1);
-
   acceptingAnswers = true;
-}
+};
 
-// Event listeners for each option
-optionsElements.forEach((option, index) => {
-  option.addEventListener("click", () => {
-    if (!acceptingAnswers) return;
+// Function to check the answer
+function checkAnswer(e) {
+  if (!acceptingAnswers) return;
 
-    acceptingAnswers = false;
-    const selectedAnswer = option.dataset["number"];
-    const classToApply =
-      selectedAnswer === currentQuestion.answer ? "correct" : "incorrect";
+  acceptingAnswers = false;
+  const selectedOption = e.target;
+  const selectedAnswer = selectedOption.innerText;
 
-    if (classToApply === "correct") {
-      incrementScore(10); // Increment score by 10 for a correct answer
-    }
+  // Check if the selected answer is correct
+  const classToApply =
+    selectedAnswer === currentQuestion.answer ? "correct" : "incorrect";
 
-    // Add class to show correct/incorrect answer, then remove it after 1 second and load next question
-    option.parentElement.classList.add(classToApply);
-    setTimeout(() => {
-      option.parentElement.classList.remove(classToApply);
-      getNewQuestion(); // Load the next question
-    }, 1000);
-  });
-});
+  // If the answer is correct, increment the score
+  if (classToApply === "correct") {
+    incrementScore(SCORE_POINTS);
+  }
 
-// Function to increment score
+  // Add the class to the selected option
+  selectedOption.parentElement.classList.add(classToApply);
+
+  // Set a timeout to remove the class from the selected option
+  setTimeout(() => {
+    selectedOption.parentElement.classList.remove(classToApply);
+    getNewQuestion();
+  }, 1000);
+};
+
+// Function to increment the score
 function incrementScore(num) {
   score += num;
-  scoreElement.innerText = score;
-}
+  scoreText.innerText = score;
+};
 
-// Start the game with easy questions
-startGame("easy");
-startGame("medium");
-startGame("hard");
+// Event listeners for the options
+options.forEach((option) => {
+  option.addEventListener("click", checkAnswer);
+});
+
+// Event listener for the next button
+nextButton.addEventListener("click", () => {
+  getNewQuestion();
+});
 
 
-//next button event listener
-nextButton.addEventListener("click", getNewQuestion);
+// Start the game
+startGame();
+
+
