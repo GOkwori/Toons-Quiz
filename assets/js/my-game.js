@@ -290,12 +290,15 @@ let easyQuestions = [
             // Apply Class to Selected Answer
             const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
+            // Add class to selected option
             selectedOption.parentElement.classList.add(classToApply);
 
-            selectedOption.parentElement.classList.remove(classToApply);
+            // Timeout to Remove Class and Get New Question
+            setTimeout(() => {  
+                selectedOption.parentElement.classList.remove(classToApply);
+                getNewQuestion();
+            }, 1000);
 
-            
-            getNewQuestion();
         });
     });
 
