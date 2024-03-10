@@ -233,3 +233,22 @@ let easyQuestions = [
       answer: 2,
     },
   ];
+
+  const CORRECT_BONUS = 10;
+  const MAX_QUESTIONS = 10;
+
+    startGame = () => {
+        questionCounter = 0;
+        score = 0;
+        availableQuestions = [...easyQuestions, ...mediumQuestions, ...hardQuestions];
+        console.log(availableQuestions);
+        getNewQuestion();
+    };
+
+    getNewQuestion = () => {
+
+        questionCounter++;
+
+    }
+
+    startGame();
