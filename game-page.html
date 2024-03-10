@@ -38,7 +38,8 @@
             <!--Main container that holds the Quiz-->
             <div class="row content-body timer-board">
                 <div class="col-6 score-count">
-                    <h2>Score:</h2>
+                    <h2 class="hud-prefix">Score:</h2>
+                    <h2 class="hud-main-text" id="score">0</h2>
                 </div>
                 <!--Close button-->
                 <div class="col-6 timer">
@@ -50,8 +51,13 @@
             <div class="container text-center content-body quiz-info">
                 <div class="row">
                     <!--Question-->
-                    <div class="col-9">
-                        <h2 id="question-no"></h2>
+                    <div class="row">
+                        <div class="col-6" id="hud-q">
+                            <h2 class="hud-prefix">Question:</h2>
+                        </div>
+                        <div class="col-6">
+                            <h2 class="hud-main-text" id="questionCounter">1/10</h2>
+                        </div>
                     </div>
                 </div>
                 <br>

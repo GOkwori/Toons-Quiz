@@ -200,6 +200,7 @@ p {
     padding: 0 15%;
 }
 
+/*---- Game page question number heading ----*/
 #question-no {
     display: flex;
     justify-self: flex-start;
@@ -217,13 +218,28 @@ p {
     display: flex;
     justify-content: flex-start;
     padding: 0 5% 0 0;
+    gap: 20px;
 }
+
+
+/*---- Game page HUD container ----*/
+#hud-q {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*---- Game page question container ----*/
+#questionCounter {
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 /*---- Game page timer container ----*/
 .timer {
     display: flex;
     justify-content: flex-end;
-    padding: 0 5% 0 0;
+    
 }
 
 /*---- Game page question container ----*/
@@ -495,7 +511,7 @@ label {
     }
 
     p {
-        font-size: 85%;
+        font-size: 100%;
     }
 
 
@@ -566,6 +582,7 @@ label {
         margin: 7%;
         font-size: 100%;
     }
+
 
     /*---- Exit button on the exit game page ----*/
     .exit-button {
