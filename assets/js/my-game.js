@@ -1,12 +1,15 @@
+//DOM Elements
 const queestion = document.getElementById('question');
 const options = Array.from(document.getElementsByClassName('option-text'));
 
+// Variables
 let currentQuestion = {};
 let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
+// Questions
 // Easy Questions
 let easyQuestions = [
     {
@@ -234,9 +237,13 @@ let easyQuestions = [
     },
   ];
 
+// Constants
   const CORRECT_BONUS = 10;
   const MAX_QUESTIONS = 10;
 
+  // Functions
+  
+  // Start Game Function
     startGame = () => {
         questionCounter = 0;
         score = 0;
@@ -245,10 +252,18 @@ let easyQuestions = [
         getNewQuestion();
     };
 
+    // Get New Question Function
     getNewQuestion = () => {
-
         questionCounter++;
+        const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+        currentQuestion = availableQuestions[questionIndex];
+        question.innerText = currentQuestion.question;
 
+        // Question Options
+        options.forEach((option, index) => {
+            const number = option.dataset['number'];
+            option.innerText = currentQuestion.options[index];
+        });
     }
 
     startGame();
