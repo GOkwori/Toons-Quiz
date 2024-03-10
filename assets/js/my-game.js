@@ -307,4 +307,9 @@ options.forEach((option) => {
   });
 });
 
+incrementScore = (num) => {
+    score += num;
+    scoreText.innerText = score;
+    };
+
 startGame();
