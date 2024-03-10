@@ -255,7 +255,7 @@ let easyQuestions = [
     // Get New Question Function
     getNewQuestion = () => {
         if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-            
+
             // Go to the End Page
             return window.location.assign('/end-game.html');
         }
@@ -276,9 +276,22 @@ let easyQuestions = [
 
         // Accepting Answers
         acceptingAnswers = true;
-    }
+    };
 
     // Select Option Function
+    options.forEach((option) => {
+        option.addEventListener('click', (e) => {
+            if (!acceptingAnswers) return;
+
+            acceptingAnswers = false;
+            const selectedOption = e.target;
+            const selectedAnswer = selectedOption.dataset['number'];
+            console.log(selectedAnswer);
+            getNewQuestion();
+        });
+    });
+
+            // Apply Correct or Incorrect Class
 
 
   
