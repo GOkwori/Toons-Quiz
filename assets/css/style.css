@@ -247,6 +247,22 @@ p {
     margin: 5% 0;
 }
 
+/*---- Game page progress bar container ----*/
+#progressBar {
+    width: 100%;
+    height: 10px;
+    border: 0rem solid #091f34;
+    border-radius: 10px;
+    margin: 2% 0;
+}
+
+#progressBarFull {
+    background-color: #091f34;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+}
+
 /*---- Game page button container ----*/
 .answer-btn {
     width: 80%;
@@ -619,6 +635,11 @@ label {
         margin: 0;
     }
 
+    /*---- Game page progress bar container ----*/
+    #progressBar {
+        margin: 4% 0;
+    }
+
     /*---- Game page buttons ----*/
     .answer-btn {
         width: 90%;
@@ -790,6 +811,11 @@ label {
 
     #questionCounter {
         margin: 0;
+    }
+
+     /*---- Game page progress bar container ----*/
+     #progressBar {
+        margin: 4% 0;
     }
 
     /*---- Game page buttons ----*/
