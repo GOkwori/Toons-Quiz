@@ -251,7 +251,7 @@ p {
 #progressBar {
     width: 100%;
     height: 10px;
-    border: 0rem solid #091f34;
+    border: 0.1rem solid #091f34;
     border-radius: 10px;
     margin: 2% 0;
 }
@@ -303,6 +303,16 @@ p {
     margin: 0 0 5% 0%;
 }
 
+button#saveScoreBtn {
+    background-color: #091f34;
+}
+
+button#saveScoreBtn:hover {
+    opacity: 1;
+    background-color: #fff;
+    color: #091f34;
+    border: 2px solid #091f34;
+}
 
 /*---- Content header on highscore and game setting page----*/
 .score-header {
