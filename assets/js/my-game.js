@@ -296,6 +296,11 @@ options.forEach((option) => {
     const classToApply =
       selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
 
+    // Increment Score
+    if (classToApply === "correct") {
+      incrementScore(CORRECT_BONUS);
+    }
+
     // Add class to selected option
     selectedOption.parentElement.classList.add(classToApply);
 
