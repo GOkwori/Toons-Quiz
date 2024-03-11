@@ -12,3 +12,10 @@
 | 8 |![youtube tutorial](#)| Javascript Tutorial | Used this tutorial to load my hard coded questions to my JS file [youtube tutorial](https://www.youtube.com/watch?v=zZdQGs62cR8&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=3)|
 | 9 |![youtube tutorial](#)| Javascript Tutorial | Used this tutorial to load my hard coded questions to my JS file [youtube tutorial](https://www.youtube.com/watch?v=zZdQGs62cR8&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=3)|
 | 10 |![youtube tutorial](#)| Javascript Tutorial | Used this tutorial to load my hard coded questions to my JS file [youtube tutorial](https://www.youtube.com/watch?v=zZdQGs62cR8&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=3)|
+
+
+1. Known Bug - classToApply on Question options for checking correctness and incorrectness not functional
+2. known bug - Save validation for end-game js not functional yet (disabled buttion-revisit)
+3. Known bug - blurry web pages across several devices once loaded
+4. Known bug - Font-family not applied on MacOS systems and IOS phones
+5. Known bug - Web pages rendered incorrectly on Edge browser for resolution 1920 * 800px
