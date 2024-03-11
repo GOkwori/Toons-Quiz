@@ -247,87 +247,92 @@ const MAX_QUESTIONS = 10;
 
 // Functions
 
-// Start Game Function
+// Initialize the game
 startGame = () => {
   questionCounter = 0;
   score = 0;
   availableQuestions = [...easyQuestions, ...mediumQuestions, ...hardQuestions];
-  nextButton.style.display = "none";
+  nextButton.style.display = "none"; // Initially hide Next button
   getNewQuestion();
+
+  // Set click listener for the Next button
+  nextButton.addEventListener("click", () => {
+    options.forEach((option) => {
+      // Remove classes for next question
+      option.parentElement.classList.remove("correct", "incorrect");
+    });
+    getNewQuestion();
+    // Hide Next button until another option is selected
+    nextButton.style.display = "none";
+  });
 };
 
-// Get New Question Function
+// Fetch and display a new question
 getNewQuestion = () => {
   if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-
-    // Save the score to local storage
+    // Save the most recent score to local storage
     localStorage.setItem("mostRecentScore", score);
 
-    // Go to the End Page
+    // Go to the end page
     return window.location.assign("/end-game.html");
   }
 
-
+  // Update the question counter and progress bar
   acceptingAnswers = true;
-    nextButton.style.display = "none";
-
-  // Update Question Counter
   questionCounter++;
-
-  // Update Progress Text
-  progressText.innerText = `Question: ${questionCounter}/${MAX_QUESTIONS}`;
-
-  // Update Progress Bar
+  progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
   progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
-  // Random Question
+  // Fetch a random question
   const questionIndex = Math.floor(Math.random() * availableQuestions.length);
   currentQuestion = availableQuestions[questionIndex];
   question.innerText = currentQuestion.question;
 
-  // Question Options
-  options.forEach((option, index) => {
-    const number = option.dataset["number"];
-    option.innerText = currentQuestion.options[index];
+  // Display the options
+  options.forEach((option) => {
+    const number = option.dataset.number;
+    option.innerText = currentQuestion.options[number - 1];
   });
 
-  // Remove Question from Available Questions
+  // Remove the question from the available questions
   availableQuestions.splice(questionIndex, 1);
 };
 
-// Select Answer Function
-options.forEach(option => {
-    option.addEventListener('click', e => {
-        if (!acceptingAnswers) return;
-        acceptingAnswers = false; // Prevent more answers
-        const selectedOption = e.target;
-        const selectedAnswer = selectedOption.dataset.number;
+// Set click listeners for each option
+options.forEach((option) => {
+  option.addEventListener("click", (e) => {
+    if (!acceptingAnswers) return;
 
-        const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
-        if (classToApply === 'correct') {
-            incrementScore(CORRECT_BONUS);
-        }
+    // Prevent multiple answers
+    acceptingAnswers = false;
+    const selectedOption = e.target;
+    const selectedAnswer = selectedOption.dataset.number;
 
-        selectedOption.parentElement.classList.add(classToApply);
-        
-        if (classToApply === 'incorrect') {
-            options.find(option => option.dataset.number == currentQuestion.answer).parentElement.classList.add('correct');
-        }
+    // Apply the correct or incorrect class
+    const classToApply =
+      selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+    if (classToApply === "correct") {
+      incrementScore(CORRECT_BONUS);
+    }
 
-        nextButton.style.display = "block"; // Show Next button after answer selection
+    // Apply the class
+    selectedOption.parentElement.classList.add(classToApply);
 
-        nextButton.addEventListener('click', () => {
-            options.forEach(option => {
-                option.parentElement.classList.remove('correct', 'incorrect'); // Remove classes for next question
-            });
-            getNewQuestion();
-        });
-    });
+    if (classToApply === "incorrect") {
+      options
+        .find((option) => option.dataset.number == currentQuestion.answer)
+        .parentElement.classList.add("correct");
+    }
+
+    // Show Next button after an answer selection
+    nextButton.style.display = "block"; // Show Next button after an answer selection
+  });
 });
 
+// Increment the score
 incrementScore = (num) => {
-    score += num;
-    scoreText.innerText = score;
+  score += num;
+  scoreText.innerText = score;
 };
 
 startGame();
