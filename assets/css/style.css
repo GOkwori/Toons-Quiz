@@ -292,12 +292,17 @@ p {
     width: 40%;
 }
 
+#username {
+    width: 200px;
+    background-color: #fff;
+    height: 10%;
+    margin: 0 0 5% 0%;
+}
+
 
 /*---- Content header on highscore and game setting page----*/
 .score-header {
-    display: flex;
-    justify-content: end;
-    padding: 0 20%;
+        padding: 0 0 0 25%;
 }
 
 
@@ -379,13 +384,13 @@ label {
 
     /*---- How to play content header container  ----*/
     .score-header {
-        padding: 2% 0;
-    }
+        padding: 0 0 0 25%;
+}
 
 
     /*---- Power button container ----*/
     #cls-btn {
-        padding: 2% 10% 0 0;
+        padding: 0 10% 0 0;
     }
 
     /*---- Power button  ----*/
@@ -565,12 +570,12 @@ label {
 
     /*---- How to play content header container  ----*/
     .score-header {
-        padding: 2% 0;
+            padding: 0 0 0 25%;
     }
 
     /*---- Power button container ----*/
     #cls-btn {
-        padding: 2% 10% 0 0;
+        padding: 0 10% 0 0;
     }
 
     /*---- Power button  ----*/
@@ -744,12 +749,12 @@ label {
 
     /*---- How to play content header container  ----*/
     .score-header {
-        padding: 2% 0;
-    }
+        padding: 0 0 0 25%;
+}
 
     /*---- Power button container ----*/
     #cls-btn {
-        padding: 2% 10% 0 0;
+        padding: 0 10% 0 0;
     }
 
     /*---- Power button  ----*/
