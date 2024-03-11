@@ -1,3 +1,34 @@
+//This file contains the JavaScript code for the game.
+document.addEventListener('DOMContentLoaded', () => {
+    
+    // Initialization logic, including setting up the questions based on difficulty
+    setupGame(); 
+    
+    // Add event listener to the Next button only once
+    nextButton.addEventListener('click', handleNextButton);
+});
+
+// Function to set up the game
+function setupGame() {
+    let questions;
+    const difficulty = localStorage.getItem('difficulty');
+    
+    switch(difficulty) {
+        case 'easy':
+            questions = easyQuestions;
+            break;
+        case 'medium':
+            questions = mediumQuestions;
+            break;
+        case 'hard':
+            questions = hardQuestions;
+            break;
+        default:
+            questions = easyQuestions; // Fallback to easy if something goes wrong
+    }
+    startGame(questions);
+}
+
 //DOM Elements
 const question = document.getElementById("question");
 const options = Array.from(document.getElementsByClassName("option-text"));
@@ -248,10 +279,10 @@ const MAX_QUESTIONS = 10;
 // Functions
 
 // Initialize the game
-startGame = () => {
+startGame = (questions) => {
   questionCounter = 0;
   score = 0;
-  availableQuestions = [...easyQuestions, ...mediumQuestions, ...hardQuestions];
+  availableQuestions = [...questions];
   nextButton.style.display = "none"; // Initially hide Next button
   getNewQuestion();
 
