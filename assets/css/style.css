@@ -122,13 +122,7 @@ p {
     border: 2px solid #091f34;
 }
 
-.corrrect {
-    background-color: #28a745;
-}
 
-.incorrect {
-    background-color: #dc3545;
-}
 
 .hide {
     display: none;
@@ -270,10 +264,28 @@ p {
     margin-bottom: 8%;
 }
 
-#next-btn-container {
+.answer-btn.correct {
+    background-color: #10862b; /* Green */
+    color: white; /* Change text color to white for better readability */
+}
 
-    width: 40%;
+.answer-btn.incorrect {
+    background-color: #8d111e; /* Red */
+    color: white;
+}
+
+
+.next-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 5% 0;
+}
+
+#next-btn-container {
+    width: 20%;
     height: 50px;
+    display: none;
 }
 
 /*---- Exit buttons on the exit game page----*/

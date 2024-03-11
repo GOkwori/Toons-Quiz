@@ -17,7 +17,6 @@ finalScore.innerText = mostRecentScore;
 // Disable the save high score button if the username is empty
 username.addEventListener("keyup", () => {
   saveScoreBtn.disabled = !username.value;
-  console.log(username.value);  
 });
 
 // Get the high score form

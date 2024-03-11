@@ -4,10 +4,11 @@ const options = Array.from(document.getElementsByClassName("option-text"));
 const progressText = document.getElementById("progressText");
 const scoreText = document.getElementById("score");
 const progressBarFull = document.getElementById("progressBarFull");
+const nextButton = document.getElementById("next-btn-container");
 
 // Variables
 let currentQuestion = {};
-let acceptingAnswers = false;
+let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
@@ -251,12 +252,14 @@ startGame = () => {
   questionCounter = 0;
   score = 0;
   availableQuestions = [...easyQuestions, ...mediumQuestions, ...hardQuestions];
+  nextButton.style.display = "none";
   getNewQuestion();
 };
 
 // Get New Question Function
 getNewQuestion = () => {
   if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+
     // Save the score to local storage
     localStorage.setItem("mostRecentScore", score);
 
@@ -264,8 +267,14 @@ getNewQuestion = () => {
     return window.location.assign("/end-game.html");
   }
 
+
+  acceptingAnswers = true;
+    nextButton.style.display = "none";
+
   // Update Question Counter
   questionCounter++;
+
+  // Update Progress Text
   progressText.innerText = `Question: ${questionCounter}/${MAX_QUESTIONS}`;
 
   // Update Progress Bar
@@ -284,44 +293,41 @@ getNewQuestion = () => {
 
   // Remove Question from Available Questions
   availableQuestions.splice(questionIndex, 1);
-
-  // Accepting Answers
-  acceptingAnswers = true;
 };
 
-// Select Option Function
-options.forEach((option) => {
-  option.addEventListener("click", (e) => {
-    if (!acceptingAnswers) return;
+// Select Answer Function
+options.forEach(option => {
+    option.addEventListener('click', e => {
+        if (!acceptingAnswers) return;
+        acceptingAnswers = false; // Prevent more answers
+        const selectedOption = e.target;
+        const selectedAnswer = selectedOption.dataset.number;
 
-    // Prevent Multiple Clicks
-    acceptingAnswers = false;
-    const selectedOption = e.target;
-    const selectedAnswer = selectedOption.dataset["number"];
+        const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+        if (classToApply === 'correct') {
+            incrementScore(CORRECT_BONUS);
+        }
 
-    // Apply Class to Selected Answer
-    const classToApply =
-      selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+        selectedOption.parentElement.classList.add(classToApply);
+        
+        if (classToApply === 'incorrect') {
+            options.find(option => option.dataset.number == currentQuestion.answer).parentElement.classList.add('correct');
+        }
 
-    // Increment Score
-    if (classToApply === "correct") {
-      incrementScore(CORRECT_BONUS);
-    }
+        nextButton.style.display = "block"; // Show Next button after answer selection
 
-    // Add class to selected option
-    selectedOption.parentElement.classList.add(classToApply);
-
-    // Timeout to Remove Class and Get New Question
-    setTimeout(() => {
-      selectedOption.parentElement.classList.remove(classToApply);
-      getNewQuestion();
-    }, 1000);
-  });
+        nextButton.addEventListener('click', () => {
+            options.forEach(option => {
+                option.parentElement.classList.remove('correct', 'incorrect'); // Remove classes for next question
+            });
+            getNewQuestion();
+        });
+    });
 });
 
 incrementScore = (num) => {
-  score += num;
-  scoreText.innerText = score;
+    score += num;
+    scoreText.innerText = score;
 };
 
 startGame();
