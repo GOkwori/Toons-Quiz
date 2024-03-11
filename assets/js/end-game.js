@@ -1,4 +1,4 @@
-// Purpose: End game functionality
+//End game functionality
 const username = document.getElementById("username");
 const saveScoreBtn = document.getElementById("saveScoreBtn");
 const finalScore = document.getElementById("finalScore");
@@ -16,7 +16,8 @@ finalScore.innerText = mostRecentScore;
 
 // Disable the save high score button if the username is empty
 username.addEventListener("keyup", () => {
-  saveHighScore.disabled = !username.value;
+  saveScoreBtn.disabled = !username.value;
+  console.log(username.value);  
 });
 
 // Get the high score form

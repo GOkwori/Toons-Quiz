@@ -8,10 +8,12 @@
 | 4 | ![Badge](https://img.shields.io/badge/Last%20Commit%20-April%202024%20-%20green)| Badge | Created badges from this site [shields.io](https://shields.io/badges/static-badge)|
 | 5 |![youtube tutorial](https://www.youtube.com/watch?v=zZdQGs62cR8&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=3)| Javascript Tutorial | Used this tutorial to load my hard coded questions to my JS file [youtube tutorial](#)|
 | 6 |![youtube tutorial](#)| Javascript Tutorial | Used this tutorial to load my hard coded questions to my JS file [youtube tutorial](https://www.youtube.com/watch?v=zZdQGs62cR8&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=3)|
-| 7 |![youtube tutorial](#)| Javascript Tutorial | Used this tutorial to load my hard coded questions to my JS file [youtube tutorial](https://www.youtube.com/watch?v=zZdQGs62cR8&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=3)|
-| 8 |![youtube tutorial](#)| Javascript Tutorial | Used this tutorial to load my hard coded questions to my JS file [youtube tutorial](https://www.youtube.com/watch?v=zZdQGs62cR8&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=3)|
-| 9 |![youtube tutorial](#)| Javascript Tutorial | Used this tutorial to load my hard coded questions to my JS file [youtube tutorial](https://www.youtube.com/watch?v=zZdQGs62cR8&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=3)|
-| 10 |![youtube tutorial](#)| Javascript Tutorial | Used this tutorial to load my hard coded questions to my JS file [youtube tutorial](https://www.youtube.com/watch?v=zZdQGs62cR8&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=3)|
+| 7 |![youtube tutorial](#)| Javascript Tutorial | Used this tutorial to display feedback for correct/incorrect answers [youtube tutorial](https://https://www.youtube.com/watch?v=_LYxkClHnV0&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=4)|
+| 8 |![youtube tutorial](#)| Javascript Tutorial | Used this tutorial to create a Head's Up Display [youtube tutorial](https://www.youtube.com/watch?v=BOQLbu_Crc0&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=5)|
+| 9 |![youtube tutorial](#)| Javascript Tutorial | Used this tutorial to  create a progress Bar [youtube tutorial](https://www.youtube.com/watch?v=4bctmtuZVcM&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=6)|
+| 10 |![youtube tutorial](#)| Javascript Tutorial | Used this tutorial to save high scores in local storage [youtube tutorial](https://www.youtube.com/watch?v=DFhmNLKwwGw&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=8)|
+| 11 |![youtube tutorial](#)| Javascript Tutorial | Used this tutorial to load and display high scores from local storage [youtube tutorial](https://www.youtube.com/watch?v=jfOv18lCMmw&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=9)|
+
 
 
 1. Known Bug - classToApply on Question options for checking correctness and incorrectness not functional
