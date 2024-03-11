@@ -295,14 +295,18 @@ p {
 #username {
     width: 200px;
     background-color: #fff;
-    height: 10%;
+    border-radius: 5%;
+    border: none;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 30px;
     margin: 0 0 5% 0%;
 }
 
 
 /*---- Content header on highscore and game setting page----*/
 .score-header {
-        padding: 0 0 0 25%;
+    padding: 0 0 0 25%;
 }
 
 
@@ -385,7 +389,7 @@ label {
     /*---- How to play content header container  ----*/
     .score-header {
         padding: 0 0 0 25%;
-}
+    }
 
 
     /*---- Power button container ----*/
@@ -570,7 +574,7 @@ label {
 
     /*---- How to play content header container  ----*/
     .score-header {
-            padding: 0 0 0 25%;
+        padding: 0 0 0 25%;
     }
 
     /*---- Power button container ----*/
@@ -620,7 +624,7 @@ label {
 
     #score-count-h2 {
         margin: 0;
-      padding-left: 9%; 
+        padding-left: 9%;
     }
 
     #score {
@@ -628,8 +632,8 @@ label {
     }
 
     #hud-q {
-    padding-left: 5%;
-        
+        padding-left: 5%;
+
     }
 
     #hud-q h2 {
@@ -750,7 +754,7 @@ label {
     /*---- How to play content header container  ----*/
     .score-header {
         padding: 0 0 0 25%;
-}
+    }
 
     /*---- Power button container ----*/
     #cls-btn {
@@ -796,9 +800,9 @@ label {
         margin: 0 1%;
     }
 
-     #score-count-h2 {
+    #score-count-h2 {
         margin: 0;
-      padding-left: 9%; 
+        padding-left: 9%;
     }
 
     #score {
@@ -809,7 +813,7 @@ label {
         padding-left: 5%;
     }
 
-    #hud-q h2{
+    #hud-q h2 {
         margin: 0;
     }
 
@@ -818,8 +822,8 @@ label {
         margin: 0;
     }
 
-     /*---- Game page progress bar container ----*/
-     #progressBar {
+    /*---- Game page progress bar container ----*/
+    #progressBar {
         margin: 4% 0;
     }
 

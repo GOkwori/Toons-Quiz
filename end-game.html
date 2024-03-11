@@ -51,16 +51,17 @@
                 </div>
                 <br>
                 <div class="score-summary">
-                    <h3 id="finalScore">0</h3>
+                    <h3 id="finalScore"></h3>
                 </div>
                 <form>
                     <div class="mb-3">
-                        <input type="text" name="username" id ="username" placeholder="username">
+                        <input type="text" name="username" id="username" placeholder="username">
                 </form>
                 <br>
                 <div class="row text-center">
                     <div class="col">
-                        <button class="btn btn-primary btn-lg end-btn" id="end-game" onclick="saveHighScore(event)">Save</button>
+                        <button class="btn btn-primary btn-lg end-btn" id="end-game" onclick="saveHighScore(event)"
+                            disabled>Save</button>
                     </div>
                     <div class="col">
                         <a href="difficulty-level.html" class="btn btn-primary btn-lg end-btn" id="restart"

@@ -257,6 +257,9 @@ startGame = () => {
 // Get New Question Function
 getNewQuestion = () => {
   if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+    // Save the score to local storage
+    localStorage.setItem("mostRecentScore", score);
+
     // Go to the End Page
     return window.location.assign("/end-game.html");
   }
@@ -266,7 +269,7 @@ getNewQuestion = () => {
   progressText.innerText = `Question: ${questionCounter}/${MAX_QUESTIONS}`;
 
   // Update Progress Bar
-    progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+  progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
   // Random Question
   const questionIndex = Math.floor(Math.random() * availableQuestions.length);
@@ -317,8 +320,8 @@ options.forEach((option) => {
 });
 
 incrementScore = (num) => {
-    score += num;
-    scoreText.innerText = score;
-    };
+  score += num;
+  scoreText.innerText = score;
+};
 
 startGame();
