@@ -26,7 +26,6 @@ function clearHighScores() {
     // Refresh page
     alert("High scores cleared!");
   } else {
-    
     // User canceled, return to the home page
     window.location.href = "index.html";
     alert("Action canceled. Returning to the home page.");

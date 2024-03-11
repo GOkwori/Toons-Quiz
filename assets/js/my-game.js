@@ -1,32 +1,31 @@
 //This file contains the JavaScript code for the game.
-document.addEventListener('DOMContentLoaded', () => {
-    
-    // Initialization logic, including setting up the questions based on difficulty
-    setupGame(); 
-    
-    // Add event listener to the Next button only once
-    nextButton.addEventListener('click', handleNextButton);
+document.addEventListener("DOMContentLoaded", () => {
+  // Initialization logic, including setting up the questions based on difficulty
+  setupGame();
+
+  // Add event listener to the Next button only once
+  nextButton.addEventListener("click", handleNextButton);
 });
 
 // Function to set up the game
 function setupGame() {
-    let questions;
-    const difficulty = localStorage.getItem('difficulty');
-    
-    switch(difficulty) {
-        case 'easy':
-            questions = easyQuestions;
-            break;
-        case 'medium':
-            questions = mediumQuestions;
-            break;
-        case 'hard':
-            questions = hardQuestions;
-            break;
-        default:
-            questions = easyQuestions; // Fallback to easy if something goes wrong
-    }
-    startGame(questions);
+  let questions;
+  const difficulty = localStorage.getItem("difficulty");
+
+  switch (difficulty) {
+    case "easy":
+      questions = easyQuestions;
+      break;
+    case "medium":
+      questions = mediumQuestions;
+      break;
+    case "hard":
+      questions = hardQuestions;
+      break;
+    default:
+      questions = easyQuestions; // Fallback to easy if something goes wrong
+  }
+  startGame(questions);
 }
 
 //DOM Elements
