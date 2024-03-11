@@ -1,7 +1,7 @@
 //DOM Elements
 const question = document.getElementById("question");
 const options = Array.from(document.getElementsByClassName("option-text"));
-const questionCounterText = document.getElementById("questionCounter");
+const progressText = document.getElementById("progressText");
 const scoreText = document.getElementById("score");
 
 // Variables
@@ -262,7 +262,7 @@ getNewQuestion = () => {
 
   // Update Question Counter
   questionCounter++;
-  questionCounterText.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
+  progressText.innerText = `Question: ${questionCounter}/${MAX_QUESTIONS}`;
 
   // Random Question
   const questionIndex = Math.floor(Math.random() * availableQuestions.length);

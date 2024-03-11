@@ -417,6 +417,23 @@ label {
         display: block;
     }
 
+    #hud-q {
+        padding-left: 5%;
+    }
+
+    #hud-q h2 {
+        margin: 0;
+    }
+
+    #score-count-h2 {
+        margin: 0;
+        padding-left: 5%;
+    }
+
+    #score {
+        margin: 0%;
+    }
+
     /*---- Question counter ----*/
     #questionCounter {
         margin: 0;
@@ -516,7 +533,7 @@ label {
     }
 
     p {
-        font-size: 100%;
+        font-size: 110%;
     }
 
 
@@ -590,7 +607,12 @@ label {
     }
 
     #hud-q {
-        padding-right: 30%;
+    padding-left: 5%;
+        
+    }
+
+    #hud-q h2 {
+        margin: 0;
     }
 
     #questionCounter {
@@ -685,7 +707,7 @@ label {
     }
 
     p {
-        font-size: 100%;
+        font-size: 120%;
     }
 
 
@@ -748,7 +770,7 @@ label {
         margin: 0 1%;
     }
 
-    #score-count-h2 {
+     #score-count-h2 {
         margin: 0;
       padding-left: 9%; 
     }
@@ -758,8 +780,13 @@ label {
     }
 
     #hud-q {
-        padding-right: 30%;
+        padding-left: 5%;
     }
+
+    #hud-q h2{
+        margin: 0;
+    }
+
 
     #questionCounter {
         margin: 0;
