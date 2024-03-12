@@ -282,7 +282,7 @@ startGame = (questions) => {
   questionCounter = 0;
   score = 0;
   availableQuestions = [...questions];
-  nextButton.style.display = "none"; // Initially hide Next button
+  nextButton.style.display = "none";
   getNewQuestion();
 
   // Set click listener for the Next button
@@ -300,11 +300,12 @@ startGame = (questions) => {
 // Fetch and display a new question
 getNewQuestion = () => {
   if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+    
     // Save the most recent score to local storage
     localStorage.setItem("mostRecentScore", score);
 
     // Go to the end page
-    return window.location.assign("/end-game.html");
+    return window.location.assign("end-game.html");
   }
 
   // Update the question counter and progress bar
