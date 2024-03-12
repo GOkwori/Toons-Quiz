@@ -21,3 +21,4 @@
 3. Known bug - blurry web pages across several devices once loaded
 4. Known bug - Font-family not applied on MacOS systems and IOS phones
 5. Known bug - Web pages rendered incorrectly on Edge browser for resolution 1920 * 800px
+6. Wallpaper for dark theme - gotten from here - [Dark theme](https://wall.alphacoders.com/big.php?i=690190)

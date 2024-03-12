@@ -139,6 +139,44 @@ p {
     width: 20%;
 }
 
+/*---- Settings Page Form Elements ----*/
+.dark-theme {
+    background: url(../images/kung-fu-panda-dark.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #091f34;
+}
+
+.dark-theme #h1-container {
+    background-color: #091f34;
+    opacity: 0.9;
+}
+
+.dark-theme #h1-container h1 {
+    color: #FFA500;
+}
+
+.dark-theme .content-body {
+   background-color: #091f34;
+    opacity: 0.9;
+    color: #FFA500;
+}
+
+.dark-theme .close-button {
+    background-color: #FFA500;
+}
+
+.dark-theme .close-button i {
+    color: #091f34;
+}
+
+.dark-theme .settings-close {
+    background-color: #FFA500;
+    color: #091f34;
+}
+
+
 /*---- Power button on all pages----*/
 .close-button {
     position: absolute;
