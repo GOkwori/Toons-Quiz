@@ -176,6 +176,11 @@ p {
     color: #091f34;
 }
 
+.dark-theme .exit-button {
+    background-color: #FFA500;
+    color: #091f34;
+}
+
 
 /*---- Power button on all pages----*/
 .close-button {

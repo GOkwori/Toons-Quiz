@@ -1,11 +1,33 @@
 document.addEventListener('DOMContentLoaded', function() {
+    const body = document.body;
+    const music = document.getElementById("background-music");
+
+    // Retrieve settings from localStorage
+    const soundEnabled = localStorage.getItem("soundEnabled") === "true";
+    const darkThemeEnabled = localStorage.getItem("darkThemeEnabled") === "true";
+
+    // Apply sound setting
+    if (soundEnabled && music) {
+        music.play();
+    } else if (music) {
+        music.pause();
+    }
+
+    // Apply dark theme setting
+    if (darkThemeEnabled) {
+        body.classList.add("dark-theme");
+    } else {
+        body.classList.remove("dark-theme");
+    }
+
+    // Handle "No" button action
     const noButton = document.getElementById('noBtn'); 
-    noButton.addEventListener('click', function(event) {
-
-        // Prevent any default action
-        event.preventDefault(); 
-
-        // Go back to the previous page, which should be your game page
-        window.history.back(); 
-    });
+    if (noButton) {
+        noButton.addEventListener('click', function(event) {
+            event.preventDefault(); 
+            window.history.back(); 
+        });
+    } else {
+        console.error("No button not found.");
+    }
 });
