@@ -285,7 +285,6 @@ startGame = (questions) => {
   nextButton.style.display = "none";
   getNewQuestion();
 
-  
   // Set click listener for the Next button
   nextButton.addEventListener("click", () => {
     options.forEach((option) => {
@@ -301,7 +300,6 @@ startGame = (questions) => {
 // Fetch and display a new question
 getNewQuestion = () => {
   if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-    
     // Save the most recent score to local storage
     localStorage.setItem("mostRecentScore", score);
 
@@ -359,39 +357,6 @@ options.forEach((option) => {
     // Show Next button after an answer selection
     nextButton.style.display = "block"; // Show Next button after an answer selection
   });
-});
-
-// saveGameState function
-
-function saveGameState() {
-  const gameState = {
-      currentQuestionIndex: questionCounter, // Assume questionCounter is your current question index
-      currentScore: score, // Assume score holds the current score
-      progress: (questionCounter / MAX_QUESTIONS) * 100, // Calculate progress percentage
-  };
-  localStorage.setItem('gameState', JSON.stringify(gameState));
-}
-
-// Event listener for Restoring the game state
-document.addEventListener('DOMContentLoaded', () => {
-  const savedGameState = localStorage.getItem('gameState');
-  if (savedGameState) {
-      const gameState = JSON.parse(savedGameState);
-      questionCounter = gameState.currentQuestionIndex;
-      score = gameState.currentScore;
-      progressBarFull.style.width = gameState.progress + '%';
-      progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
-      scoreText.innerText = score;
-      
-      // Clear the saved game state to start fresh next time
-      localStorage.removeItem('gameState');
-
-      // Continue from the saved state...
-      getNewQuestion(); // Or however you resume your game
-  } else {
-      // Initialize a new game if no saved state is found
-      startGame();
-  }
 });
 
 // Increment the score
