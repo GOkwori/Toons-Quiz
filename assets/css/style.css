@@ -421,6 +421,14 @@ label {
         background-repeat: no-repeat;
     }
 
+    .dark-theme {
+        background: url(../images/kung-fu-panda-dark.jpg);
+        position: relative;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-color: #091f34;
+    }
+
     /*---- Header container----*/
     #h1-container {
         width: 100%;
@@ -480,7 +488,7 @@ label {
 
     /*---- Power button container ----*/
     #cls-btn {
-        padding: 0 10% 0 0;
+        padding: 2% 10% 0 0;
     }
 
     /*---- Power button  ----*/
@@ -611,6 +619,13 @@ label {
         background-repeat: no-repeat;
     }
 
+    .dark-theme {
+        background: url(../images/kung-fu-panda-dark.jpg);
+        position: relative;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+
     /*---- Header container----*/
     #h1-container {
         width: 60%;
@@ -665,18 +680,18 @@ label {
 
     /*---- Power button container ----*/
     #cls-btn {
-        padding: 0 10% 0 0;
+        padding: 2% 10% 0 0;
     }
 
     /*---- Power button  ----*/
     .close-button {
-        width: 30px;
-        height: 30px;
-        padding: 1% 0;
+        width: 35px;
+        height: 35px;
+        padding: .5% 0 0 0;
     }
 
     .close-button i {
-        font-size: 90%;
+        font-size: 140%;
     }
 
     /*---- Clear button on high score page ----*/
@@ -793,6 +808,13 @@ label {
         background: url(../images/kung-fu-panda.jpg);
         background-position: top;
         position: relative;
+        background-repeat: no-repeat;
+    }
+
+    .dark-theme {
+        background: url(../images/kung-fu-panda-dark.jpg);
+        position: relative;
+        background-position: top;
         background-repeat: no-repeat;
     }
 
