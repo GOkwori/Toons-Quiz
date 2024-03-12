@@ -939,15 +939,15 @@ label {
         color: #091f34;
         font-size: 1rem;
         line-height: 1.6;
-        display: grid;
-        place-items: center;
     }
 
     section {
-        width: 100%;
-        height: 100%;
-        margin: 0 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
+
 
     /*---- Text ----*/
 
@@ -976,14 +976,12 @@ label {
     p {
         font-weight: 400;
         font-size: 1.2rem;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     
 
     /*---- Content container ----*/
-h1-container {
-width: 80%;
-}
+
 
     .content-body {
         margin: 50px 0 0 0;
