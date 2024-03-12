@@ -919,3 +919,54 @@ label {
         font-size: 100%;
     }
 }
+
+
+/*---------- Styling for screens with (min-width: 1025px) and (max-width: 1860px)----------*/
+
+@media (min-width: 1025px) and (max-width: 1860px) {
+
+
+    /*---- Body ----*/
+
+    body {
+        background: url(../images/kung-fu-panda.jpg);
+        background-position: top;
+        position: relative;
+        background-repeat: no-repeat;
+    }
+
+    /*---- Text ----*/
+    p {
+        font-size: 120%;
+        margin: 5px 0;
+    }
+
+    /*---- Content container ----*/
+
+    
+
+    .content-body {
+        margin: 40px 0 0 0; 
+        height: fit-content;
+    }
+
+    /*---- Close button container ----*/
+    .close-button {
+        width: 40px;
+        height: 40px;
+        padding: 0.5%;
+    }
+
+    /*---- Close button  ----*/
+    .close-button i {
+        font-size: 140%;
+        padding: 0;
+    }
+
+    /*Game page----*/
+
+    .timer-board {
+        margin: 3% 0 0 0;
+        height: 80px;
+    }
+}
