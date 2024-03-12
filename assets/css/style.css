@@ -265,12 +265,15 @@ p {
 }
 
 .answer-btn.correct {
-    background-color: #10862b; /* Green */
-    color: white; /* Change text color to white for better readability */
+    background-color: #10862b;
+    /* Green */
+    color: white;
+    /* Change text color to white for better readability */
 }
 
 .answer-btn.incorrect {
-    background-color: #8d111e; /* Red */
+    background-color: #8d111e;
+    /* Red */
     color: white;
 }
 
@@ -958,34 +961,34 @@ label {
         font-size: 3.3rem;
         text-shadow: 0 2px 6px rgba(0, 0, 0, 0);
     }
-    
+
     h2 {
         font-family: 'comic neue', cursive;
         font-weight: 900;
         font-size: 1.8rem;
         margin-bottom: 20px;
     }
-    
+
     h3 {
         font-family: 'comic neue', cursive;
         font-weight: 900;
         font-size: 1.4rem;
         margin-bottom: 20px;
     }
-    
+
     p {
         font-weight: 400;
         font-size: 1.2rem;
-        margin-bottom: 5px;
+        margin: 0;
     }
-    
+
 
     /*---- Content container ----*/
 
 
     .content-body {
         margin: 50px 0 0 0;
-        padding: 2%; 
+        padding: 2%;
         height: fit-content;
         width: 80%;
     }
