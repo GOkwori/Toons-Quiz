@@ -1,11 +1,40 @@
 //This file contains the JavaScript code for the game.
 document.addEventListener("DOMContentLoaded", () => {
+
+  // Apply settings
+  applySettings();
+
   // Initialization logic, including setting up the questions based on difficulty
   setupGame();
 
   // Add event listener to the Next button only once
   nextButton.addEventListener("click", handleNextButton);
+  
 });
+
+// Apply settings
+function applySettings() {
+  const body = document.body;
+  const music = document.getElementById("background-music");
+
+  // Retrieve settings from localStorage
+  const soundEnabled = localStorage.getItem("soundEnabled") === "true";
+  const darkThemeEnabled = localStorage.getItem("darkThemeEnabled") === "true";
+
+  // Apply sound setting
+  if (soundEnabled && music) {
+    music.play();
+  } else if (music) {
+    music.pause();
+  }
+
+  // Apply dark theme setting
+  if (darkThemeEnabled) {
+    body.classList.add("dark-theme");
+  } else {
+    body.classList.remove("dark-theme");
+  }
+}
 
 // Function to set up the game
 function setupGame() {
