@@ -20,13 +20,13 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
+    height: 100vh;
     font-family: "comic neue", cursive;
     background-color: #fff;
     color: #091f34;
     font-size: 1.2rem;
     line-height: 1.6;
-    display: grid;
-    place-items: center;
+    overflow-y: hidden;
 }
 
 
@@ -38,9 +38,8 @@ body {
     border-radius: 10px;
     width: 40%;
     height: 6rem;
-    margin-top: 10px;
-    padding-top: 5px;
     display: flex;
+    margin-top: 2%;
     justify-content: center;
     transition: transform 0.3s ease-in-out;
 }
@@ -145,7 +144,7 @@ p {
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #091f34;
+    background-color: #FFA500;
 }
 
 .dark-theme #h1-container {
@@ -847,6 +846,7 @@ label {
         position: relative;
         background-position: top;
         background-repeat: no-repeat;
+        height: 100vh;
     }
 
     /*---- Header container----*/
@@ -1015,9 +1015,99 @@ label {
 }
 
 
-/*---------- Styling for screens with (min-width: 1025px) and (max-width: 1860px)----------*/
+/*---------- Styling for screens with (min-width: 1025px) and (max-width: 1199px)----------*/
 
-@media (min-width: 1025px) and (max-width: 1860px) {
+@media (min-width: 1025px) and (max-width: 1199px) {
+
+
+    /*---- Body ----*/
+    body {
+        background: url(../images/kung-fu-panda.jpg);
+        background-position: top;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    /*---- Text ----*/
+
+    h1 {
+        color: #091f34;
+        font-family: 'comic neue', cursive;
+        font-weight: 900;
+        font-size: 3rem;
+        text-shadow: 0 2px 6px rgba(0, 0, 0, 0);
+    }
+
+    h2 {
+        font-family: 'comic neue', cursive;
+        font-weight: 900;
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-family: 'comic neue', cursive;
+        font-weight: 900;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 1.1rem;
+        margin: 0;
+    }
+
+
+    /*---- Content container ----*/
+
+
+    .content-body {
+        margin: 50px 0 0 0;
+        padding: 2%;
+        height: fit-content;
+        width: 80%;
+    }
+
+    /*---- Close button container ----*/
+    .close-button {
+        width: 30px;
+        height: 30px;
+        padding: 0.5%;
+    }
+
+    /*---- Close button  ----*/
+    .close-button i {
+        font-size: 123%;
+        padding: 0;
+    }
+
+     /*---- Save settings button ----*/
+     .settings-close {
+        width: 20%;
+        font-size: 100%;
+    }
+
+    /*Game page----*/
+
+    .timer-board {
+        margin: 3% 0 0 0;
+        height: 80px;
+    }
+}
+
+/*---------- Styling for screens with (min-width: 1200px) and (max-width: 1860px)----------*/
+
+@media (min-width: 1200px) and (max-width: 1860px) {
 
 
     /*---- Body ----*/
@@ -1025,7 +1115,8 @@ label {
     body {
         background: url(../images/kung-fu-panda.jpg);
         position: relative;
-        background-size: cover;
+        background-position: top;
+        background-size: fit;
         background-repeat: no-repeat;
         width: 100vw;
         font-family: "comic neue", cursive;
@@ -1063,13 +1154,13 @@ label {
     h3 {
         font-family: 'comic neue', cursive;
         font-weight: 900;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         margin-bottom: 20px;
     }
 
     p {
         font-weight: 400;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         margin: 0;
     }
 
