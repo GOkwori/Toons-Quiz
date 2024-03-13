@@ -557,9 +557,9 @@ label {
 
     /*---- Power button  ----*/
     .close-button {
-        width: 30px;
-        height: 30px;
-        padding: 0;
+        width: 35px;
+        height: 35px;
+        padding: .5% 0 0 0;
     }
 
     .close-button i {
