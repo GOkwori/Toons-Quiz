@@ -1,6 +1,5 @@
 //This file contains the JavaScript code for the game.
 document.addEventListener("DOMContentLoaded", () => {
-
   // Apply settings
   applySettings();
 
@@ -9,7 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Add event listener to the Next button only once
   nextButton.addEventListener("click", handleNextButton);
-  
 });
 
 // Apply settings
