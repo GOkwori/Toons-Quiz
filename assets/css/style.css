@@ -181,6 +181,32 @@ p {
     color: #091f34;
 }
 
+.dark-theme .end-btn {
+    background-color: #FFA500;
+    color: #091f34;
+}
+
+.dark-theme #saveScoreBtn {
+    background-color: #FFA500;
+    color: #091f34;
+}
+
+.dark-theme .clear-button {
+    background-color: #FFA500;
+    color: #091f34;
+}
+
+.dark-theme .welcome-btn {
+    background-color: #FFA500;
+    color: #091f34;
+}
+
+.dark-theme .btn {
+    background-color: #FFA500;
+    color: #091f34;
+}
+
+
 
 /*---- Power button on all pages----*/
 .close-button {
