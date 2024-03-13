@@ -1,15 +1,23 @@
-//Display the high scores of the user
-const highScoresList = document.getElementById("highScoresList");
-const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
+document.addEventListener("DOMContentLoaded", () => {
+  applySettings();
+  displayHighScores();
+  setupEventListeners();
+});
 
-// Display the high scores in the list
-highScoresList.innerHTML = highScores
-  .map((score) => {
-    return `<li class="high-score">${score.name} - ${score.score}</li>`;
-  })
-  .join("");
+// Function to display high scores
+function displayHighScores() {
+  const highScoresList = document.getElementById("highScoresList");
+  const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 
-// Clear the high scores from local storage
+  // Display the high scores in the list
+  highScoresList.innerHTML = highScores
+    .map((score) => {
+      return `<li class="high-score">${score.name} - ${score.score}</li>`;
+    })
+    .join("");
+}
+
+// Function to clear high scores from local storage
 function clearHighScores() {
   // Confirmation prompt
   const confirmClear = confirm(
@@ -20,17 +28,44 @@ function clearHighScores() {
     // User confirmed, clear high scores from local storage
     localStorage.removeItem("highScores");
 
-    // Clear the display
-    highScoresList.innerHTML = "";
+    // Clear the display and refresh the high scores list
+    displayHighScores();
 
-    // Refresh page
     alert("High scores cleared!");
   } else {
-    // User canceled, return to the home page
-    window.location.href = "index.html";
-    alert("Action canceled. Returning to the home page.");
+    // User canceled, no need to navigate away
+    alert("Action canceled.");
   }
 }
 
-// Event listeners
-document.querySelector("clear").addEventListener("click", clearHighScores);
+// Function to set up event listeners
+function setupEventListeners() {
+  const clearButton = document.getElementById("clearHighScores"); // Assuming your clear button has this ID
+  if (clearButton) {
+    clearButton.addEventListener("click", clearHighScores);
+  }
+}
+
+// Function to apply settings for sound and dark theme
+function applySettings() {
+  const body = document.body;
+  const music = document.getElementById("background-music");
+
+  // Retrieve settings from localStorage
+  const soundEnabled = localStorage.getItem("soundEnabled") === "true";
+  const darkThemeEnabled = localStorage.getItem("darkThemeEnabled") === "true";
+
+  // Apply sound setting
+  if (soundEnabled && music) {
+    music.play();
+  } else if (music) {
+    music.pause();
+  }
+
+  // Apply dark theme setting
+  if (darkThemeEnabled) {
+    body.classList.add("dark-theme");
+  } else {
+    body.classList.remove("dark-theme");
+  }
+}
