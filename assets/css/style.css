@@ -15,15 +15,15 @@
 
 /*---- Body ----*/
 body {
-    background: url(../images/kung-fu-panda.jpg);
+    background: url(../images/kung-fu-panda-dark.jpg);
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
     font-family: "comic neue", cursive;
-    background-color: #fff;
-    color: #091f34;
+    background-color: #091f34;
+    color: #FFA500;
     font-size: 1.2rem;
     line-height: 1.6;
     overflow-y: hidden;
@@ -34,9 +34,10 @@ body {
 #h1-container {
     backdrop-filter: blur(5px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #091f34;
     border-radius: 10px;
     width: 40%;
+    opacity: 0.9;
     height: 6rem;
     display: flex;
     margin-top: 2%;
@@ -70,13 +71,14 @@ a {
     border-radius: 10px;
     backdrop-filter: blur(5px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #091f34;
+    opacity: 0.9;
 }
 
 
 /*---- Heading & Text ----*/
 h1 {
-    color: #091f34;
+    color: #FFA500;
     font-family: 'comic neue', cursive;
     font-weight: 900;
     font-size: 3.5rem;
@@ -108,7 +110,8 @@ p {
 
 .btn {
     display: inline-block;
-    background-color: #091f34;
+    background-color: #FFA500;
+    color: #091f34;
     border: none;
     border-radius: 5px;
     transition: transform 0.3s ease-in-out;
@@ -116,12 +119,10 @@ p {
 
 .btn:hover {
     transform: scale(1.1);
-    background-color: #fff;
-    color: #091f34;
-    border: 2px solid #091f34;
+    background-color: #091f34;
+    color: #FFA500;
+    border: 2px solid #FFA500;
 }
-
-
 
 .hide {
     display: none;
@@ -140,69 +141,84 @@ p {
 
 /*---- Settings Page Form Elements ----*/
 .dark-theme {
-    background: url(../images/kung-fu-panda-dark.jpg);
+    background: url(../images/kung-fu-panda.jpg);
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #FFA500;
+    background-color: #091f34;
 }
 
 .dark-theme #h1-container {
-    background-color: #091f34;
+    background-color: #fff;
     opacity: 0.9;
 }
 
 .dark-theme #h1-container h1 {
-    color: #FFA500;
+    color: #091f34;
 }
 
 .dark-theme .content-body {
-   background-color: #091f34;
+    background-color: #fff;
     opacity: 0.9;
-    color: #FFA500;
+    color: #091f34;
 }
 
 .dark-theme .close-button {
-    background-color: #FFA500;
+    background-color: #091f34;
 }
 
+.dark-theme .close-button:hover {
+    background-color: #fff;
+}
+
+
 .dark-theme .close-button i {
+    color: #fff;
+}
+
+.dark-theme .close-button i:hover {
     color: #091f34;
 }
 
 .dark-theme .settings-close {
-    background-color: #FFA500;
-    color: #091f34;
+    background-color: #091f34;
+    color: #fff;
 }
 
 .dark-theme .exit-button {
-    background-color: #FFA500;
-    color: #091f34;
+    background-color: #091f34;
+    color: #fff;
 }
 
 .dark-theme .end-btn {
-    background-color: #FFA500;
-    color: #091f34;
+    background-color: #091f34;
+    color: #fff;
 }
 
 .dark-theme #saveScoreBtn {
-    background-color: #FFA500;
-    color: #091f34;
+    background-color: #091f34;
+    color: #fff;
 }
 
 .dark-theme .clear-button {
-    background-color: #FFA500;
-    color: #091f34;
+    background-color: #091f34;
+    color: #fff;
 }
 
 .dark-theme .welcome-btn {
-    background-color: #FFA500;
-    color: #091f34;
+    background-color: #091f34;
+    color: #fff;
 }
 
 .dark-theme .btn {
-    background-color: #FFA500;
+    background-color: #091f34;
+    color: #fff;
+}
+
+.dark-theme .btn:hover {
+    background-color: #fff;
     color: #091f34;
+    border: 2px solid #091f34;
 }
 
 
@@ -210,8 +226,8 @@ p {
 /*---- Power button on all pages----*/
 .close-button {
     position: absolute;
-    background-color: #091f34;
-    color: #fff;
+    background-color: #FFA500;
+    color: #091f34;
     border: none;
     width: 50px;
     height: 50px;
@@ -222,9 +238,9 @@ p {
 
 .close-button:hover {
     transform: scale(1.1);
-    background-color: #fff;
-    color: #091f34;
-    border: 2px solid #091f34;
+    background-color: #091f34;
+    color: #FFA500;
+    border: 2px solid #FFA500;
 }
 
 .close-button i {
@@ -313,16 +329,25 @@ p {
 #progressBar {
     width: 100%;
     height: 10px;
-    border: 0.1rem solid #091f34;
+    border: 0.1rem solid #FFA500;
     border-radius: 10px;
     margin: 2% 0;
 }
 
+.dark-theme #progressBar {
+    border: 0.1rem solid #091f34;
+
+}
+
 #progressBarFull {
-    background-color: #091f34;
+    background-color: #FFA500;
     width: 0%;
     height: 100%;
     border-radius: 10px;
+}
+
+.dark-theme #progressBarFull {
+    background-color: #091f34;
 }
 
 /*---- Game page button container ----*/
@@ -401,10 +426,17 @@ p {
 }
 
 button#saveScoreBtn {
-    background-color: #091f34;
+    background-color: #FFA500;
 }
 
 button#saveScoreBtn:hover {
+    opacity: 1;
+    background-color: #091f34;
+    color: #FFA500;
+    border: 2px solid #FFA500;
+}
+
+.dark-theme button#saveScoreBtn:hover {
     opacity: 1;
     background-color: #fff;
     color: #091f34;
@@ -445,14 +477,15 @@ label {
 
     /*---- Body ----*/
     body {
-        background: url(../images/kung-fu-panda.jpg);
         position: relative;
         background-position: top;
         background-repeat: no-repeat;
+        height: 100vh;
+        overflow: auto;
     }
 
     .dark-theme {
-        background: url(../images/kung-fu-panda-dark.jpg);
+        background: url(../images/kung-fu-panda.jpg);
         position: relative;
         background-position: top;
         background-repeat: no-repeat;
@@ -513,23 +546,24 @@ label {
     /*---- How to play content header container  ----*/
     .score-header {
         padding: 0 0 0 25%;
+        margin-bottom: 3%;
     }
 
 
     /*---- Power button container ----*/
     #cls-btn {
-        padding: 2% 10% 0 0;
+        padding: 0% 10% 0 0;
     }
 
     /*---- Power button  ----*/
     .close-button {
         width: 30px;
         height: 30px;
-        padding: 1% 0;
+        padding: 0;
     }
 
     .close-button i {
-        font-size: 110%;
+        font-size: 150%;
     }
 
     /*---- Clear button on high score page ----*/
@@ -540,7 +574,8 @@ label {
 
     /*---- Difficulty header on the difficulty level page ----*/
     .difficulty-header {
-        padding: 3%;
+        padding: 0%;
+        margin: 1% 0;
     }
 
     /*---- Difficulty level buttons ----*/
@@ -601,12 +636,6 @@ label {
         font-size: 100%;
     }
 
-    /*---- Settings header container ----*/
-    #settings-header {
-        padding: 3%;
-        justify-content: center;
-    }
-
     /*---- Form elements container ----*/
     .setting {
         padding: 3%;
@@ -643,14 +672,14 @@ label {
 
     /*---- Body ----*/
     body {
-        background: url(../images/kung-fu-panda.jpg);
+        background: url(../images/kung-fu-panda-dark.jpg);
         position: relative;
         background-position: top;
         background-repeat: no-repeat;
     }
 
     .dark-theme {
-        background: url(../images/kung-fu-panda-dark.jpg);
+        background: url(../images/kung-fu-panda.jpg);
         position: relative;
         background-position: top;
         background-repeat: no-repeat;
@@ -706,11 +735,12 @@ label {
     /*---- How to play content header container  ----*/
     .score-header {
         padding: 0 0 0 25%;
+        margin-bottom: 2%;
     }
 
     /*---- Power button container ----*/
     #cls-btn {
-        padding: 2% 10% 0 0;
+        padding: 0 10% 0 0;
     }
 
     /*---- Power button  ----*/
@@ -732,7 +762,8 @@ label {
 
     /*---- Difficulty header on the difficulty level page ----*/
     .difficulty-header {
-        padding: 3%;
+        padding: 0%;
+        margin-bottom: 2%;
     }
 
     /*---- Difficulty level buttons ----*/
@@ -794,11 +825,6 @@ label {
         font-size: 100%;
     }
 
-    /*---- Settings header container ----*/
-    #settings-header {
-        padding: 2% 20%;
-        justify-content: center;
-    }
 
     /*---- Form elements container ----*/
     .setting {
@@ -835,14 +861,13 @@ label {
 
     /*---- Body ----*/
     body {
-        background: url(../images/kung-fu-panda.jpg);
         background-position: top;
         position: relative;
         background-repeat: no-repeat;
     }
 
     .dark-theme {
-        background: url(../images/kung-fu-panda-dark.jpg);
+        background: url(../images/kung-fu-panda.jpg);
         position: relative;
         background-position: top;
         background-repeat: no-repeat;
@@ -868,7 +893,6 @@ label {
 
     h2 {
         font-size: 170%;
-        margin: 0 20%;
     }
 
     h3 {
@@ -893,6 +917,7 @@ label {
     /*---- How to play content header container  ----*/
     .score-header {
         padding: 0 0 0 25%;
+        margin-bottom: 2%;
     }
 
     /*---- Power button container ----*/
@@ -904,7 +929,7 @@ label {
     .close-button {
         width: 40px;
         height: 40px;
-        padding: .6%;
+        padding: 0.5%;
     }
 
     .close-button i {
@@ -917,10 +942,6 @@ label {
         font-size: 100%;
     }
 
-    /*---- Difficulty header on the difficulty level page ----*/
-    .difficulty-header {
-        padding: 2%;
-    }
 
     /*---- Difficulty level buttons ----*/
     .difficulty-button {
@@ -979,12 +1000,6 @@ label {
         font-size: 100%;
     }
 
-    /*---- Settings header container ----*/
-    #settings-header {
-        padding: 2% 0;
-        justify-content: center;
-    }
-
     /*---- Form elements container ----*/
     .setting {
         padding: 3%;
@@ -1022,10 +1037,16 @@ label {
 
     /*---- Body ----*/
     body {
-        background: url(../images/kung-fu-panda.jpg);
         background-position: top;
         position: relative;
         background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .dark-theme {
+        background: url(../images/kung-fu-panda.jpg);
+        position: relative;
+        background-position: top;
         background-repeat: no-repeat;
     }
 
@@ -1040,7 +1061,7 @@ label {
     /*---- Text ----*/
 
     h1 {
-        color: #091f34;
+        color: #FFA500;
         font-family: 'comic neue', cursive;
         font-weight: 900;
         font-size: 3rem;
@@ -1091,9 +1112,9 @@ label {
         padding: 0;
     }
 
-     /*---- Save settings button ----*/
-     .settings-close {
-        width: 20%;
+    /*---- Save settings button ----*/
+    .settings-close {
+        width: 25%;
         font-size: 100%;
     }
 
@@ -1102,6 +1123,11 @@ label {
     .timer-board {
         margin: 3% 0 0 0;
         height: 80px;
+    }
+
+    /*---- Next button container ----*/
+    #next-btn-container h3 {
+        font-size: 120%;
     }
 }
 
@@ -1113,17 +1139,19 @@ label {
     /*---- Body ----*/
 
     body {
-        background: url(../images/kung-fu-panda.jpg);
         position: relative;
         background-position: top;
         background-size: fit;
         background-repeat: no-repeat;
-        width: 100vw;
-        font-family: "comic neue", cursive;
-        background-color: #fff;
-        color: #091f34;
         font-size: 1rem;
         line-height: 1.6;
+    }
+
+    .dark-theme {
+        background: url(../images/kung-fu-panda.jpg);
+        position: relative;
+        background-position: top;
+        background-repeat: no-repeat;
     }
 
     section {
@@ -1137,8 +1165,6 @@ label {
     /*---- Text ----*/
 
     h1 {
-        color: #091f34;
-        font-family: 'comic neue', cursive;
         font-weight: 900;
         font-size: 3.3rem;
         text-shadow: 0 2px 6px rgba(0, 0, 0, 0);
@@ -1184,7 +1210,7 @@ label {
 
     /*---- Close button  ----*/
     .close-button i {
-        font-size: 140%;
+        font-size: 150%;
         padding: 0;
     }
 
