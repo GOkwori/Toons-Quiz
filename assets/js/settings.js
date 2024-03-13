@@ -12,10 +12,14 @@ document.addEventListener("DOMContentLoaded", () => {
   soundCheckbox.checked = soundEnabled;
   themeCheckbox.checked = darkThemeEnabled;
 
+  // Automatically play music if sound is enabled, considering saved playback time
   if (soundEnabled) {
-    music.play();
+    const savedTime = parseFloat(localStorage.getItem("musicTime")) || 0;
+    music.currentTime = savedTime; // Set the saved playback time
+    music.play().catch((e) => console.error("Error playing music:", e));
   }
 
+  // Apply dark theme setting
   if (darkThemeEnabled) {
     body.classList.add("dark-theme");
   }
@@ -23,10 +27,12 @@ document.addEventListener("DOMContentLoaded", () => {
   // Event listeners for the checkboxes
   soundCheckbox.addEventListener("change", () => {
     if (soundCheckbox.checked) {
-      music.play();
+      music.currentTime = 0; // Reset time to start music from the beginning
+      music.play().catch((e) => console.error("Error playing music:", e));
       localStorage.setItem("soundEnabled", "true");
     } else {
       music.pause();
+      localStorage.removeItem("musicTime"); // Clear saved playback time since sound is disabled
       localStorage.setItem("soundEnabled", "false");
     }
   });
@@ -40,4 +46,11 @@ document.addEventListener("DOMContentLoaded", () => {
       localStorage.setItem("darkThemeEnabled", "false");
     }
   });
+});
+
+// Save the current time of the music when navigating away from the page, if sound is enabled
+window.addEventListener("beforeunload", () => {
+  if (localStorage.getItem("soundEnabled") === "true" && music) {
+    localStorage.setItem("musicTime", music.currentTime.toString());
+  }
 });
