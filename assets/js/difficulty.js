@@ -1,5 +1,4 @@
 // JavaScript file for the difficulty page.
-
 document.addEventListener("DOMContentLoaded", () => {
   applySettings();
 });

@@ -1,3 +1,4 @@
+// This script is used to handle the exit game page.
 document.addEventListener("DOMContentLoaded", function () {
   const body = document.body;
   const music = document.getElementById("background-music");

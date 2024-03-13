@@ -1,3 +1,4 @@
+// JavaScript for the settings page
 document.addEventListener("DOMContentLoaded", () => {
   // Get the sound effects and theme checkboxes
   const music = document.getElementById("background-music");

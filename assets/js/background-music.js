@@ -1,4 +1,4 @@
-// musicPlayback.js
+// Script is for playing background music on the website
 document.addEventListener("DOMContentLoaded", () => {
     const music = document.getElementById("background-music");
     if (music) {

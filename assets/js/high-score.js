@@ -1,3 +1,4 @@
+// JavaScript file for the high score page
 document.addEventListener("DOMContentLoaded", () => {
   applySettings();
   displayHighScores();

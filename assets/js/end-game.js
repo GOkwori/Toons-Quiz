@@ -1,3 +1,4 @@
+// This script is for the end game page.
 document.addEventListener("DOMContentLoaded", () => {
   applySettings();
 
