@@ -1,5 +1,3 @@
-//End game functionality
-
 document.addEventListener("DOMContentLoaded", () => {
   applySettings();
 
@@ -7,10 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const saveScoreBtn = document.getElementById("saveScoreBtn");
   const finalScore = document.getElementById("finalScore");
 
-  // Get the most recent score from local storage
-  const mostRecentScore = localStorage.getItem("mostRecentScore");
+  // Get the most recent score from local storage and parse it to an integer
+  const mostRecentScore = parseInt(localStorage.getItem("mostRecentScore"), 10);
 
-  // Get the high scores from local storage
+  // Get the high scores from local storage or initialize an empty array if none
   const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 
   // Constants
@@ -20,53 +18,53 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Disable the save high score button if the username is empty
   username.addEventListener("keyup", () => {
-    saveScoreBtn.disabled = !username.value;
+    saveScoreBtn.disabled = !username.value.trim();
   });
 
-  // Get the high score form
-  saveHighScore = (e) => {
+  // Save high score function
+  function saveHighScore(e) {
     e.preventDefault();
 
-    // Create a score object
     const score = {
-      score: Math.floor(Math.random() * 100),
-      name: username.value,
+      // Use the score from localStorage
+      score: mostRecentScore,
+      name: username.value.trim(),
     };
 
-    // Add the score to the high scores array
+    // Add the new score to the high scores array
     highScores.push(score);
 
-    // Sort the high scores array
+    // Sort the high scores array in descending order
     highScores.sort((a, b) => b.score - a.score);
 
-    // Remove the lowest score
-    highScores.splice(5);
+    // Keep only the top 5 scores
+    highScores.splice(MAX_HIGH_SCORES);
 
-    // Update the high scores in local storage
+    // Save the updated high scores back to localStorage
     localStorage.setItem("highScores", JSON.stringify(highScores));
 
-    // Go back to the home page
-    return window.location.assign("index.html");
-  };
+    // Redirect to the home page or high scores page
+    window.location.assign("index.html");
+  }
 
-  // Apply settings
+  // Attach the saveHighScore function to the click event of saveScoreBtn
+  saveScoreBtn.addEventListener("click", saveHighScore);
+
+  // Apply settings function defined as before
   function applySettings() {
     const body = document.body;
     const music = document.getElementById("background-music");
 
-    // Retrieve settings from localStorage
     const soundEnabled = localStorage.getItem("soundEnabled") === "true";
     const darkThemeEnabled =
       localStorage.getItem("darkThemeEnabled") === "true";
 
-    // Apply sound setting
     if (soundEnabled && music) {
       music.play();
     } else if (music) {
       music.pause();
     }
 
-    // Apply dark theme setting
     if (darkThemeEnabled) {
       body.classList.add("dark-theme");
     } else {
