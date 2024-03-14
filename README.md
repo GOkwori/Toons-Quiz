@@ -326,6 +326,7 @@ The Settings Page is designed to enhance player control and customisation of the
 ![Settings Page](documentation/page-layout/settings-page.PNG)
 
 #### The End of game page
+
 The End Game Page serves as a crucial component of the Toons Quiz Game, marking the culmination of a player's quiz journey. It's designed to provide a satisfying conclusion to the game while encouraging further engagement. Here's an overview of its features:
 
 * Quiz Completion Acknowledgment: As players reach the end of their quiz journey, they're greeted with a congratulatory message that acknowledges their achievement. This message adds a personal touch, enhancing the overall gaming experience.
@@ -345,6 +346,24 @@ The End Game Page serves as a crucial component of the Toons Quiz Game, marking 
 * Background Music Continuity: Echoing the game's emphasis on a cohesive auditory experience, the background music continues to play, maintaining the game's ambiance. Players have the option to toggle the sound settings according to their preference.
 
 ![End Game](documentation/page-layout/end-game-page.PNG)
+
+### Future Implementation
+
+Looking ahead, the Toons Quiz Game is poised for further enhancements that aim to enrich the user experience, expand content, and improve accessibility. Here are some of the anticipated future implementations:
+
+* Personalised Player Profiles: Introduction of user profiles that allow players to track their progress, save game states, and customise their quiz experiences based on preferences and history.
+
+* Wider Question Database: Expansion of the quiz database to include a broader range of cartoons, spanning more eras and genres, ensuring fresh and challenging trivia for all levels of cartoon aficionados.
+
+* Social Sharing Features: Integration of social sharing capabilities, enabling players to share their scores and favorite moments on social media platforms, fostering a community of cartoon trivia lovers.
+
+* Multiplayer Mode: Development of a multiplayer feature that allows users to compete against friends or random players in real-time, adding a competitive edge and social interaction to the game.
+
+* Custom Quiz Creation: Implementation of a tool for users to create and share their own quiz questions, encouraging community engagement and content diversity.
+
+* Advanced Progress Tracking: Enhanced tracking of players' progress over time with detailed statistics, leaderboards, and achievement badges, motivating continued play and improvement.
+
+* Themed Quiz Events: Regular introduction of themed quiz events centered around specific cartoons, holidays, or current events, keeping the content dynamic and engaging.
 
 ### Accessibility
 
@@ -398,8 +417,6 @@ The development of Toons Quiz Game leverages a combination of modern web technol
 * [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
 
 * [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
-
-* [jQuery](https://jquery.com/) - A JavaScript library.
 
 * [Shields.io](https://shields.io/) To add badges to the README
 
