@@ -205,17 +205,17 @@ All Pages Feature:
 
 * Dynamic Background Music: The site incorporates an option for background music, which continues seamlessly across pages without restarting, thanks to sophisticated sound settings that remember user preferences.
 
-  ![Background Music](documentation/features/#)
+  ![Background Music](documentation/features/background-music.gif)
 
 * Dark/Light Mode: Users can customize their visual experience by toggling between dark and light themes, ensuring comfort and accessibility.
 
-  ![Light theme](documentation/features/#)
+  ![Light theme](documentation/features/theme.gif)
 
 * Interactive Features: Including visual feedback for correct or incorrect responses, and the ability to save high scores to foster competitive play.
 
   |Visual Feedback for answers|Save Highscores|
   | --- | --- |
-  |![Visual Feedback](documentation/features/#)|![Saving Scores](documentation/features/#)|
+  |![Visual Feedback](documentation/features/visual-feedback.gif)|![Saving Scores](documentation/features/saving-score.gif)|
 
 Special Page Features:
 
