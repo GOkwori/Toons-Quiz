@@ -407,7 +407,7 @@ The development of Toons Quiz Game leverages a combination of modern web technol
 
 ### Frameworks, Libraries & Programs Used
 
-* [Adobe Express](https://new.express.adobe.com/tools/convert-to-gif) - Used to remove background from logo image
+* [Adobe Express](https://new.express.adobe.com/tools/convert-to-gif) - Used to remove background from logo image and to convert videos to GIF
 
 * [Am I Responsive?](http://ami.responsivedesign.is/) - To show the website image on a range of devices.
 
