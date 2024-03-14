@@ -25,7 +25,6 @@ Dive into a vibrant journey through various questions ranging from the golden ag
   * [Casual Player Goal](#casual-player-goal)
   * [Competitive User Goal](#business-goal)
   * [Social Gamer Goal](#social-gamer-goal)
-  * [Visually Impaired User Goal](#visually-impaired-user-goal)
   * [Business Goal](#business-goal)
   * [User Stories](#user-stories)
   
@@ -138,11 +137,19 @@ The primary business goal of the Toons Quiz Game is to establish a vibrant, enga
 
 ### Colour Scheme
 
-In the design of the Quiz game website, I've intentionally selected a colour scheme dominated by `#091f34` and `#fff` to complement the background image. `#091f34` and `#fff` serves as a subtle and clean backdrop, preventing the background image from overwhelming users. Meanwhile, the `#091f34` adds sophistication and contrast, contributing to an aesthetically pleasing and balanced visual experience. This careful integration of colors ensures that the background image enhances the overall design without overpowering or distracting users, creating a harmonious and engaging atmosphere on the website.
+In designing the Quiz game website, a carefully curated colour palette was chosen to complement the site's aesthetic and functionality, featuring `#091f34` (deep navy blue), `#FFA500` (vibrant orange), and `#fff` (white) as primary elements. Additionally, specific colours are employed to visually signify correctness and incorrectness within the game interface: `#10862b` (green) for correct answers and `#8d111e` (red) for incorrect ones.
 
-* I have used `#091f34` & `#fff` as the primary and secondary colours used for the sites text.
+* `#091f34` provides a sophisticated, deep blue backdrop, enhancing the visual depth and setting a professional tone for the site.
+* `#FFA500` is used to draw attention and guide user interaction, injecting vibrancy and energy into the quiz experience.
+* `#fff` ensures text is clear and readable against the website's darker backgrounds.
+* `#10862b` (green) visually communicates correct answers, reinforcing positive feedback and achievement.
+* `#8d111e` (red) highlights incorrect choices, serving as an intuitive cue for users to learn and adapt their knowledge.
 
-![Colour Scheme](documentation/colour-scheme/colour-scheme.PNG)
+This combination of colours not only creates a visually appealing interface but also incorporates colour-coded feedback mechanisms (`#10862b` for correct answers and `#8d111e` for incorrect ones) to enhance the interactive learning experience. The result is a harmonious, engaging atmosphere that supports the quiz's educational goals while ensuring a delightful user experience.
+
+The primary and accent colours utilized across the site for textual and interactive elements are `#091f34`, `#FFA500`, and `#fff`, with `#10862b` and `#8d111e` specifically used within the quiz for feedback on user responses.
+
+![Colour Scheme](documentation/colour-scheme/colour-palettes.PNG)
 
 ### Typography
 
