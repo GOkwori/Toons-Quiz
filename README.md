@@ -512,9 +512,9 @@ Please refer to [Testing.md](testing.md) file for all testing carried out.
 | 1 |  Logo  |  The icon used for my logo was gotten from Wallpaper access | [Wallpaper Access](https://wallpaperaccess.com/3d-cartoon#google_vignette)| ![Logo](./assets/images/logo.jpg)|
 | 2 | Logo   |  The logo background was then modified by removing the background colour using Adobe Express | [Adobe Express](https://new.express.adobe.com/tools/remove-background)| ![Logo](./assets/images/logo-main.png)|
 | 3 | Favicon   | Favicon was generated using the favicon converter   | [Favicon](https://favicon.io/favicon-converter/)| ![favicon](./assets/favicon_io/android-chrome-512x512.png)|
-| 4 |  Background images  | My background images were sourced from  Wall alpha coders  | [Wall Alpha Coders](https://wall.alphacoders.com/big.php?i=690190)| ![Background Image](assets/images/kung-fu-panda-dark.jpg) ![Background Image](assets/images/kung-fu-panda.jpg)|
-| 5 |  Background music  | Background music by Dance Monkey was sourced from Pagla Songs | [Pagla Songs](https://paglasongs.com/dance-monkey-tones-mp3-songs.html)| ![Album Art](documentation/features/dance-monkey.PNG)|
-| 6 |  Power button  | The icon used for my power button was gotten from Font Awesome  | [Font Awesome](https://fontawesome.com/icons)| ![Power button](documentation/features/power-icon.PNG)|
+| 4 |  Background Images  | My background images were sourced from  Wall alpha coders  | [Wall Alpha Coders](https://wall.alphacoders.com/big.php?i=690190)| ![Background Image](assets/images/kung-fu-panda-dark.jpg) ![Background Image](assets/images/kung-fu-panda.jpg)|
+| 5 |  Background Music  | Background music by Dance Monkey was sourced from Pagla Songs | [Pagla Songs](https://paglasongs.com/dance-monkey-tones-mp3-songs.html)| ![Album Art](documentation/features/dance-monkey.PNG)|
+| 6 |  Power Button  | The icon used for my power button was gotten from Font Awesome  | [Font Awesome](https://fontawesome.com/icons)| ![Power button](documentation/features/power-icon.PNG)|
 
 
 
