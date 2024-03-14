@@ -33,7 +33,9 @@ document.addEventListener("DOMContentLoaded", () => {
       localStorage.setItem("soundEnabled", "true");
     } else {
       music.pause();
-      localStorage.removeItem("musicTime"); // Clear saved playback time since sound is disabled
+      
+      // Clear saved playback time since sound is disabled
+      localStorage.removeItem("musicTime"); 
       localStorage.setItem("soundEnabled", "false");
     }
   });
