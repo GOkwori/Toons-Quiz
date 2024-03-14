@@ -164,7 +164,11 @@ The use of Comic Neue throughout the site not only reinforces the thematic eleme
 
 ### Imagery
 
-The Toons Quiz Game is rich in vibrant and captivating imagery, carefully chosen to complement the trivia questions and immerse players in the world of cartoons.
+The imagery used in the Quiz game website plays a pivotal role in creating an immersive and visually appealing experience that captivates users and enhances the thematic focus on cartoons and animation. Each visual element has been carefully selected and integrated to complement the game's design and user interface, providing a rich and engaging atmosphere that resonates with fans of animated content.
+
+* Background Images: The background of the website features high-resolution images inspired by popular animations, such as "Kung Fu Panda." These images set a vibrant and dynamic tone for the game, inviting users into the whimsical world of cartoons. The backgrounds are sourced from [Wall AlphaCoders](https://wall.alphacoders.com/big.php?i=690190), ensuring that they are of high quality and contribute positively to the aesthetic appeal of the site.
+
+* Iconography and Logo: The website's logo and icons are designed to echo the playful and animated theme of the quiz. The logo (sourced from [Wallpaperaccess](https://wallpaperaccess.com/3d-cartoon#google_vignette)), featuring a stylized representation of cartoon elements, serves as a visual anchor for the site, reinforcing the game's identity and purpose. The icons used throughout the site, are chosen for their clear visual communication, thematic consistency and sourced from [Font Awesome](https://fontawesome.com/icons) . 
 
 ### Wireframes
 
@@ -181,7 +185,166 @@ Toons Quiz Game's development process began with the creation of detailed wirefr
 
 ### Features
 
-The Toons Quiz Game is designed with the following features to create an engaging, informative, and user-friendly experience for all types of players: ########
+The Toons Quiz Game offers an engaging online platform, consisting of a series of interactive pages including the Home Page, How-to-Play, High Scores, Difficulty Level Selection, Quiz Game, Exit Game Confirmation, and Settings. Designed to cater to both casual browsers and avid quiz enthusiasts, the game ensures a seamless user experience across various devices with its responsive design.
+
+All Pages Feature:
+
+* A Favicon: Visible in the browser tab for easy identification.
+
+  ![Favicon](documentation/features/favicon.PNG)
+
+* Consistent Navigation: Each page features a header with the site's title, "Toons Quiz," which doubles as a clickable link redirecting users back to the Home Page. The navigation design is consistently intuitive across the site, enhancing user experience.
+
+  ![Site Title](documentation/features/site-title.PNG)
+
+* Dynamic Background Music: The site incorporates an option for background music, which continues seamlessly across pages without restarting, thanks to sophisticated sound settings that remember user preferences.
+
+  ![Background Music](documentation/features/#)
+
+* Dark/Light Mode: Users can customize their visual experience by toggling between dark and light themes, ensuring comfort and accessibility.
+
+  ![Light theme](documentation/features/#)
+
+* Interactive Features: Including visual feedback for correct or incorrect responses, and the ability to save high scores to foster competitive play.
+
+  |Visual Feedback for answers|Save Highscores|
+  | --- | --- |
+  |![Visual Feedback](documentation/features/#)|![Saving Scores](documentation/features/#)|
+
+Special Page Features:
+
+#### The Home Page
+
+The Home Page of the Toons Quiz Game serves as the gateway to a vibrant and engaging journey through the world of animated trivia. Designed with attention to detail and user engagement at its core, this page sets the tone for an exciting quiz experience. Here's a detailed overview of its features:
+
+* Welcoming Interface: Upon arrival, players are greeted with a captivating and visually appealing interface. The use of engaging graphics and a dynamic colour scheme immediately draws attention and sets an upbeat mood for the quiz.
+
+* Introduction and Invitation to Play: A brief introduction provides players with a snapshot of what to expect. Coupled with a direct invitation to start the game, it ensures that new visitors are quickly and effectively onboarded.
+
+* How to Play Guide: A dedicated section to a "How to Play" guide offers players insights into game mechanics, rules, and tips. This resource is invaluable for first-time visitors, ensuring they feel equipped and confident to begin their quiz journey.
+
+* High Score Access: A section to view the High Scores encourages a sense of competition and achievement. Players can see the top scores to beat, adding an extra layer of motivation.
+
+* Difficulty Level Selection: Direct access to choose the quiz difficulty level allows players to tailor their experience according to their knowledge and skill level, enhancing personalization and satisfaction.
+
+* Settings Customisation: Options to customise settings, such as toggling sound or selecting a theme, provide players with control over their gaming environment, ensuring a comfortable and personalised experience.
+
+* Engaging Background Music: The continuous play of background music enhances the immersive experience. With controls to adjust the audio, players can customize their auditory experience to match their preference.
+
+* Mobile Responsiveness: Recognizing the diversity of player devices, the Home Page is designed to be fully responsive. This ensures that the game is accessible and enjoyable on various screens, from desktops to smartphones.
+
+![Home Page](documentation/page-layout/welcome-page.PNG)
+
+#### How To Play Page
+
+The "How to Play" page of the Toons Quiz Game provides concise, easy-to-follow instructions tailored for players of all ages and skill levels. Here's what it includes:
+
+* Clear Instructions: Brief steps guide players from starting a game to navigating through questions and selecting answers.
+
+![How to play](documentation/page-layout/how-to-play-page.PNG)
+
+#### The High Score Page
+
+The High Score page stands as a motivational hub for the Toons Quiz Game, showcasing the achievements of top players. Here's a snapshot of its features:
+
+* Leaderboard Display: Lists the top scores in a clear, easy-to-navigate format, celebrating player success.
+
+* Dynamic Updates: Scores are updated in real-time, ensuring that new achievements are promptly recognised.
+
+* Player Names: Alongside scores, players' names or chosen aliases are displayed, adding a personal touch.
+
+* Reset Option: Includes a feature for clearing the leaderboard, allowing for fresh competition and new entries.
+
+* Navigation Ease: Direct links enable quick transitions to start a new game or adjust game settings, encouraging continuous play.
+
+* Inspirational Element: Acts as a challenge to new and returning players to surpass existing high scores.
+
+![High Scores](documentation/page-layout/high-score-page.PNG)
+
+#### The Difficulty Level Page
+
+The Difficulty Level page in the Toons Quiz Game serves as a crucial juncture for players, tailoring the game's challenge to their preference. Here's what it entails:
+
+* Customisable Experience: Offers a choice between 'Easy,' 'Medium,' and 'Hard' levels, allowing players to align the game's difficulty with their comfort and skill level.
+
+* Immediate Impact: The selected difficulty level dynamically adjusts the questions' complexity, ensuring a tailored quiz experience right from the start.
+
+* Sleek Design: With clear, accessible buttons for each difficulty level, the interface is user-friendly, making the selection process straightforward and quick.
+
+* Adaptive Challenge: Encourages players to experiment with different levels of difficulty, promoting learning and gradual improvement over time.
+
+* Preparation Step: Acts as a preparatory step before the game, setting expectations and building anticipation for the challenge ahead.
+
+![Difficulty Level](documentation/page-layout/difficulty-page.PNG)
+
+#### The Game Page
+
+The Game Page is the heart of the Toons Quiz Game, where players' knowledge is put to the test through a series of cartoon-related questions. Here's what makes it stand out:
+
+* Dynamic Question Display: Features a mix of questions tailored to the selected difficulty level, ensuring a varied and challenging experience.
+
+* Interactive Options: Presents multiple-choice answers, allowing players to click on their chosen response. Feedback is immediate, with correct answers turning green and incorrect ones turning red, providing a clear and educational interaction.
+
+* Score Tracking: A real-time score counter updates with each correct answer, motivating players to improve their performance as they progress through the quiz.
+
+* Progress Bar: A visual indicator shows the current question number and total questions, keeping players informed about their progress.
+
+* Next Question Feature: After answering, a "Next" button appears, letting players move at their own pace and preparing them for the next challenge.
+
+* End-of-Game Transition: Upon completing the quiz, players are directed to the End Game Page, where they can view their final score, save their high score, or choose to play again for a higher score or different difficulty level.
+
+![Game page](documentation/page-layout/game-page.PNG)
+
+#### The Exit Game Page
+
+The Exit Game Page offers a thoughtful pause in the gaming experience, allowing players to reconsider their decision to leave the quiz:
+
+* Confirmation Prompt: Players are greeted with a straightforward question, "Are you sure you want to exit the game?", ensuring that the exit is intentional and not accidental.
+
+* Yes or No Options: Two clear choices are provided. Selecting "Yes" directs players back to the Home Page, effectively exiting the game. Choosing "No" keeps the game session active, and players are returned to their current position in the quiz.
+
+* Preservation of Game State: For those who choose to continue playing, the game's current state, including scores and progress, is preserved, allowing for a seamless return to the quiz.
+
+* Visual Consistency: The page maintains the website's overall design theme, ensuring a cohesive user experience even in decision-making moments.
+
+![Exit Page](documentation/page-layout/exit-game-page.PNG)
+
+#### The Settings Page
+
+The Settings Page is designed to enhance player control and customisation of the gaming experience, featuring:
+
+* Sound Control: Offers an intuitive toggle for sound effects, allowing players to choose whether they prefer background music during the quiz. This feature respects the player's preference for an auditory backdrop.
+
+* Theme Selection: Players can switch between light and dark themes, accommodating different visual preferences and enhancing the accessibility of the game. The dark theme offers a restful visual alternative, especially in low-light conditions, contributing to a comfortable gaming experience.
+
+* Responsive Design: Just like the rest of the website, the settings page is fully responsive, ensuring that players can easily adjust their preferences across various devices and screen sizes.
+
+* Immediate Feedback: Changes made in the settings are immediately applied, giving players a real-time preview of their adjustments. This immediate feedback ensures a smooth and satisfying customization experience.
+
+* Preservation of Preferences: Players' settings are saved locally, ensuring that their preferences are maintained across gaming sessions. This thoughtful feature eliminates the need for players to reconfigure their settings each time they return to the game.
+
+![Settings Page](documentation/page-layout/settings-page.PNG)
+
+#### The End of game page
+The End Game Page serves as a crucial component of the Toons Quiz Game, marking the culmination of a player's quiz journey. It's designed to provide a satisfying conclusion to the game while encouraging further engagement. Here's an overview of its features:
+
+* Quiz Completion Acknowledgment: As players reach the end of their quiz journey, they're greeted with a congratulatory message that acknowledges their achievement. This message adds a personal touch, enhancing the overall gaming experience.
+
+* Final Score Display: The page prominently displays the player's final score, offering instant feedback on their performance. This feature motivates players to reflect on their quiz journey and sets a benchmark for future attempts.
+
+* Username Input for High Score Submission: A simple and intuitive input field allows players to enter their name or username, attaching a personal identity to their achieved score. This inclusion fosters a sense of community among players competing for high scores.
+
+* Save High Score Option: With a clearly labeled button, players can effortlessly save their scores to the High Scores list. This not only immortalizes their achievement but also propels a competitive spirit by encouraging players to outdo each other.
+
+* Play Again Button: To keep the engagement cycle ongoing, the End Game Page offers a "Play Again" option, allowing players to dive back into the quiz with ease. This feature is essential for maintaining user interest and replay value.
+
+* Navigation to Home or Difficulty Selection: For those looking to adjust their challenge level or explore other parts of the game, convenient navigation options are provided, ensuring a seamless user experience.
+
+* Dark/Light Theme Toggle: Consistent with the rest of the game, the End Game Page supports theme customization, allowing players to choose their preferred visual mode for comfort and accessibility.
+
+* Background Music Continuity: Echoing the game's emphasis on a cohesive auditory experience, the background music continues to play, maintaining the game's ambiance. Players have the option to toggle the sound settings according to their preference.
+
+![End Game](documentation/page-layout/end-game-page.PNG)
 
 ### Accessibility
 
