@@ -63,7 +63,6 @@ Dive into a vibrant journey through various questions ranging from the golden ag
 * [Credits](#credits)
   * [Code Used](#code-used)
   * [Content](#content)
-  * [Media](#media)
   * [Acknowledgments](#acknowledgments)
 
 - - -
