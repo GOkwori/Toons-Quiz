@@ -153,15 +153,14 @@ The primary and accent colours utilized across the site for textual and interact
 
 ### Typography
 
-Google Fonts was used to import the chosen fonts for use in the site.
+For the typography of the Quiz game website, Google Fonts was leveraged to import and integrate a font that complements the playful and engaging theme of the site.
 
-* Primary Font: [Comic Neue](https://fonts.google.com/specimen/Comic+Neue?query=comic) - As a modern and cleaner twist on the classic comic book font, Comic Neue brings a playful yet readable style to our game's interface, perfect for the cartoon trivia theme.
+* Primary Font: Comic Neue - Chosen for its modern reinterpretation of the traditional comic book font, Comic Neue adds a fun and legible touch to the user interface. Its design strikes a balance between playfulness and readability, making it an ideal choice for the cartoon trivia theme of my game. This font embodies the essence of the animated world, enhancing the overall user experience with its approachable and appealing appearance.
+
+The use of Comic Neue throughout the site not only reinforces the thematic elements of the game but also ensures that text is easy to read and interact with, thereby improving usability and accessibility for players of all ages.
 
 ![Comic Neue](documentation/google-fonts/comic-neue.png)
 
-* Secondary Font: [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) - For detailed explanations, feedback, and any informational text, we use Roboto. Its high readability and versatile weights make it an excellent complement to our primary font, ensuring that all users can comfortably read game content.
-
-![Roboto](documentation/google-fonts/roboto.png)
 
 ### Imagery
 
