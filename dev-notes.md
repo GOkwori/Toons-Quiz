@@ -14,8 +14,6 @@
 | 10 |![youtube tutorial](#)| Javascript Tutorial | Used this tutorial to save high scores in local storage [youtube tutorial](https://www.youtube.com/watch?v=DFhmNLKwwGw&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=8)|
 | 11 |![youtube tutorial](#)| Javascript Tutorial | Used this tutorial to load and display high scores from local storage [youtube tutorial](https://www.youtube.com/watch?v=jfOv18lCMmw&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=9)|
 
-
-
 1. Known Bug - classToApply on Question options for checking correctness and incorrectness not functional
 2. known bug - Save validation for end-game js not functional yet (disabled buttion-revisit)
 3. Known bug - blurry web pages across several devices once loaded
