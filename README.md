@@ -369,7 +369,7 @@ Looking ahead, the Toons Quiz Game is poised for further enhancements that aim t
 
 Accessibility forms the cornerstone of the Toons Quiz Game, reflecting a commitment to inclusivity. Understanding the diverse needs of players, I have diligently crafted the game to ensure that everyone, regardless of their abilities, can delight in the challenge and joy that cartoon trivia brings. This commitment to accessibility is manifested through several key practices integrated into the game's coding and design:
 
-*Semantic HTML: The foundation of accessibility, semantic HTML, is employed to enhance the structure and presentation of content, making it more understandable and navigable for users with assistive technologies.
+* Semantic HTML: The foundation of accessibility, semantic HTML, is employed to enhance the structure and presentation of content, making it more understandable and navigable for users with assistive technologies.
 
 * Responsive Design: The game's layout is fully responsive, ensuring a seamless experience across a wide range of devices, from desktops to tablets and smartphones. This flexibility guarantees that the game is accessible to players using any device.
 
