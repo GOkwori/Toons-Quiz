@@ -348,19 +348,23 @@ The End Game Page serves as a crucial component of the Toons Quiz Game, marking 
 
 ### Accessibility
 
-In developing the Quiz Game, my priority is to ensure that every player, regardless of ability, can fully participate in the fun and challenge of cartoon trivia. Accessibility isn't just a feature—it's a foundational aspect of the game's design and development.
+Accessibility forms the cornerstone of the Toons Quiz Game, reflecting a commitment to inclusivity. Understanding the diverse needs of players, I have diligently crafted the game to ensure that everyone, regardless of their abilities, can delight in the challenge and joy that cartoon trivia brings. This commitment to accessibility is manifested through several key practices integrated into the game's coding and design:
 
-I have also been mindful during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by:
+*Semantic HTML: The foundation of accessibility, semantic HTML, is employed to enhance the structure and presentation of content, making it more understandable and navigable for users with assistive technologies.
 
-* Using semantic HTML.
-* Optimising the website's design to be responsive and accessible on various devices, including desktops, tablets, and phones.
-* Maintaining a clear and intuitive navigation structure.
-* Ensuring that users can easily navigate through the website using both keyboard and mouse.
-* Implementing accessible forms with proper labels, instructions, and error messages.
-* Choosing readable font styles and sizes, allowing users to adjust text as needed.
-* Ensuring there is sufficient color contrast between text and background.
-* Providiing descriptive alternative text for all images to assist users with visual impairments.
-* Using concise and meaningful descriptions.
+* Responsive Design: The game's layout is fully responsive, ensuring a seamless experience across a wide range of devices, from desktops to tablets and smartphones. This flexibility guarantees that the game is accessible to players using any device.
+
+* Clear Navigation: The website features a straightforward and logical navigation structure, enabling easy movement through the game's sections with both keyboard and mouse inputs.
+
+* Accessible Forms: Forms within the game are designed with accessibility in mind, including clear labels, and instructions, facilitating an intuitive interaction for all players.
+
+* Adaptable Fonts: Readability is key; hence, font choices and sizes are selected for their clarity. Players have the flexibility to adjust text sizes according to their preferences.
+
+* Color Contrast: Adequate contrast between text and background colors is ensured, improving legibility for users, including those with visual impairments.
+
+* Descriptive Alt Text: All images come with detailed alternative text descriptions, offering context and clarity for players who use screen readers.
+
+* Meaningful Descriptions: Effort is made to ensure that all text content is concise yet descriptive, aiding comprehension without overwhelming users.
 
 - - -
 
