@@ -24,7 +24,7 @@ Dive into a vibrant journey through various questions ranging from the golden ag
   * [Project Goal](#project-goal)
   * [Trivia Enthusiast Goal](#trivia-enthusiast-goal)
   * [Casual Player Goal](#casual-player-goal)
-  * [Competitive User Goal](#business-goal)
+  * [Competitive User Goal](#comopetitive-user-goal)
   * [Social Gamer Goal](#social-gamer-goal)
   * [Visually Impaired User Goal](#visually-impaired-user-goal)
   * [Business Goal](#business-goal)
