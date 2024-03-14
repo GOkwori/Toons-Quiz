@@ -402,7 +402,7 @@ The development of Toons Quiz Game leverages a combination of modern web technol
 | -- | --|
 | ![HTML](https://img.shields.io/badge/1%20-%20HTML%20-%20green) | The backbone of our game, used to structure the content and layout of the web pages.|
 | ![CSS](https://img.shields.io/badge/2%20-%20CSS%20-%20orange) | Empowers the visual design of our game, including layouts, colors, and fonts, ensuring an engaging and responsive interface.|
-| ![JavaScript](https://img.shields.io/badge/3%20-%20JScript%20-%20yellow) | The driving force behind the game's interactivity, enabling dynamic content manipulation, real-time feedback, and seamless user interactions.|
+| ![JavaScript](https://img.shields.io/badge/3%20-%20JavaScript%20-%20black) | The driving force behind the game's interactivity, enabling dynamic content manipulation, real-time feedback, and seamless user interactions.|
 | | |
 
 ### Frameworks, Libraries & Programs Used
