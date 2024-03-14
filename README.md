@@ -25,6 +25,7 @@ Dive into a vibrant journey through various questions ranging from the golden ag
   * [Casual Player Goal](#casual-player-goal)
   * [Competitive User Goal](#business-goal)
   * [Social Gamer Goal](#social-gamer-goal)
+  * [Visually Impaired User Goal](#visually-impaired-user-goal)
   * [Business Goal](#business-goal)
   * [User Stories](#user-stories)
   
@@ -35,9 +36,13 @@ Dive into a vibrant journey through various questions ranging from the golden ag
   * [Wireframes](#wireframes)
   * [Features](#features)
     * [The Home Page](#the-home-page)
+    * [The How To Play Page](#the-how-to-play-page)
+    * [The High Score Page](#the-high-score-page)
+    * [The Difficulty Level Page](#the-difficulty-level-page)
     * [The Game Page](#the-game-page)
-    * [The How-To-Play Page](#the-how-to-play-page)
+    * [The Exit Game Page](#the-exit-game-page)
     * [The Settings Page](#the-settings-page)
+    * [The End Game Page](#the-end-game-page)
     * [Future Implementations](#future-implementations)
   * [Accessibility](#accessibility)
 
@@ -235,7 +240,7 @@ The Home Page of the Toons Quiz Game serves as the gateway to a vibrant and enga
 
 ![Home Page](documentation/page-layout/welcome-page.PNG)
 
-#### How To Play Page
+#### The How To Play Page
 
 The "How to Play" page of the Toons Quiz Game provides concise, easy-to-follow instructions tailored for players of all ages and skill levels. Here's what it includes:
 
@@ -325,7 +330,7 @@ The Settings Page is designed to enhance player control and customisation of the
 
 ![Settings Page](documentation/page-layout/settings-page.PNG)
 
-#### The End of game page
+#### The End Game Page
 
 The End Game Page serves as a crucial component of the Toons Quiz Game, marking the culmination of a player's quiz journey. It's designed to provide a satisfying conclusion to the game while encouraging further engagement. Here's an overview of its features:
 
@@ -347,7 +352,7 @@ The End Game Page serves as a crucial component of the Toons Quiz Game, marking 
 
 ![End Game](documentation/page-layout/end-game-page.PNG)
 
-### Future Implementation
+### Future Implementations
 
 Looking ahead, the Toons Quiz Game is poised for further enhancements that aim to enrich the user experience, expand content, and improve accessibility. Here are some of the anticipated future implementations:
 
