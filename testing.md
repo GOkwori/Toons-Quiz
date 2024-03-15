@@ -126,31 +126,42 @@ I tested each feature of my website to make sure that user interactions, forms, 
 
 ## User Story Testing
 
-I validated that my website meets the needs and expectations of different user groups. I tested scenarios based on user stories to ensure that the features align with the goals and requirements of first-time visitors, returning visitors, frequent users, art lovers, artists, and general users.
+To ensure the Toons Quiz Game meets the diverse expectations and enhances the user experience for different demographics, I conducted user story testing across various categories. Here’s an in-depth look at how the game addresses the goals of first-time users, returning users, frequent users, game developers, and from a business standpoint:
 
-`Art Lovers`
-
-| Goals | How are they achieved? |
-| :--- | :--- |
-| I want to easily access information about the gallery's objectives and mission. | To ensure easy access to comprehensive information about the gallery's objectives and mission, a dedicated "About Us" section is implemented on the website. This section serves as a central hub where art lovers can navigate to gain insights into the gallery's overarching goals and mission. | 
-I want a user-friendly platform to discover and preview the latest artwork releases. | Creating a user-friendly platform for art enthusiasts to discover and preview the latest artwork releases involves the implementation of features designed to showcase these artworks prominently. The website incorporates a dedicated "New Releases" section, providing a curated space where visitors can explore and engage with the gallery's most recent additions. |
-| I want to stay informed about upcoming exhibitions and events hosted by the gallery. | To ensure art lovers stay informed about upcoming exhibitions and events, the website incorporates a dedicated section that serves as a comprehensive source of information. This section may include a dynamic calendar highlighting key dates, detailed announcements about upcoming exhibitions, and a feature for newsletter subscription (which would be included in future implementations). |
-| I want the ability to explore the full art catalog and conveniently purchase paintings. | The website provides a robust and user-friendly online catalog, allowing art enthusiasts to explore the complete collection. The catalog is organized in a structured manner, featuring categories, genres, and artists. |
-
-`Artists`
-
-|  Goals | How are they achieved? |
-| :--- | :--- |
-| I want a simplified and expedited process for booking exhibitions at the gallery. | The website streamlines the exhibition booking process for artists, ensuring a simplified and expedited experience. The user interface is designed with a focus on efficiency and clarity. Artists can navigate to the dedicated "Booking" section, where a user-friendly form allows them to submit essential details for exhibition consideration. |
-| I want clear information about the gallery's availability for exhibitions and submission guidelines. | Comprehensive information about the gallery's availability for exhibitions and detailed submission guidelines are easily accessible on the website. A dedicated page outlines the submission process, exhibition criteria, and any specific requirements for artists. |
-
-`General Users`
+### `First-Time Users`
 
 | Goals | How are they achieved? |
 | :--- | :--- |
-| I want a visually appealing and intuitive interface that is easy to navigate. | The website boasts a visually appealing and intuitive interface designed to enhance user experience. A clean and modern design aesthetic is implemented, ensuring that the layout is visually engaging and easy to navigate. |
-| I want the website to load quickly and efficiently to access information without delays. | To meet the user's expectation of quick and efficient loading, the website is optimized for performance. Images and multimedia content are compressed without compromising quality, and the underlying code is streamlined to reduce unnecessary delays. |
-| I want the website to be responsive and provide a seamless experience on various devices. | The website prioritizes a responsive design, guaranteeing a seamless experience across various devices. Whether accessed from a desktop, laptop, tablet, or smartphone, the website adapts to different screen sizes and resolutions. The responsive design is achieved through the use of flexible layouts and media queries, allowing content to adjust dynamically. |
+| I want an easy-to-navigate interface to start playing immediately. | Upon landing on the home page, users are greeted with a clear and visually appealing layout that directs them to start playing, access how-to-play instructions, or adjust settings for a personalized experience. |
+| I wish to understand the game mechanics without effort. | A dedicated "How to Play" page provides simple, straightforward instructions alongside tips to enhance the user's gameplay, ensuring a smooth introduction to the game's mechanics. |
+
+### `Returning Users`
+
+| Goals | How are they achieved? |
+| :--- | :--- |
+| I'm interested in new content to keep the experience fresh. | The game regularly updates with new quiz questions and occasionally introduces themed quizzes, ensuring returning users always have something new to explore. |
+| I want to review my past performance and set new goals. | The "High Score" page not only displays the user's personal best scores but also encourages them to surpass their previous achievements, fostering a continuous drive for improvement. |
+
+### `Frequent Users`
+
+| Goals | How are they achieved? |
+| :--- | :--- |
+| I seek a challenging environment to test my knowledge to the fullest. | The game includes a variety of difficulty levels and timed quizzes, catering to users who desire a more challenging and competitive quiz experience. |
+| I aspire to be recognized within the game community. | Leaderboards and social sharing features allow users to compare scores, share achievements, and challenge friends, thereby cultivating a vibrant and competitive community. |
+
+### `Game Developer`
+
+| Goals | How are they achieved? |
+| :--- | :--- |
+| I aim to provide an accessible and engaging game for all users. | Through careful design and testing, the game supports screen readers and keyboard navigation, ensuring an inclusive experience. Feedback mechanisms are in place for continuous improvement based on user suggestions. |
+| I intend to grow the game's user base and foster a dedicated community. | Regular content updates, social media integration, and community engagement strategies are employed to attract new users and retain existing ones, creating a loyal fanbase around the Toons Quiz Game. |
+
+### `Business Perspective`
+
+| Goals | How are they achieved? |
+| :--- | :--- |
+| Our goal is to establish a widely recognized and monetizable gaming platform. | By providing a diverse range of quizzes, and ensuring high-quality content, the game aims to attract a broad audience. Monetization strategies such as in-game advertisements or premium content are explored to generate revenue while maintaining a positive user experience. |
+| We aim to utilize user data to improve engagement and tailor experiences. | Analytic tools are implemented to gather insights on user behavior, preferences, and engagement patterns. This data informs the development of new features and the optimization of existing ones to meet user needs more effectively, driving further growth and engagement. |
 
 - - -
 
@@ -166,47 +177,47 @@ I confirmed that my website performs consistently across various web browsers. T
 
 - - -
 
-    Google Chrome
+ ## `Google Chrome`
 
-| Home Page |  |  |
+| Home Page | How to Play | High Score Page |
 | --- | --- | --- |
-| ![Home Page](testing/browser/c1.png) | ![Home Page](testing/browser/c2.png) | ![Home Page](testing/browser/c3.png) | 
+| ![Home Page](testing/browser/chrome-home.png) | ![How to Play](testing/browser/chrome-howtoplay.png) | ![High Score Page](testing/browser/chrome-highscore.png) |
 
-| Gallery Page |  |  
-| --- | --- | 
-| ![Gallery Page](testing/browser/c4.png) | ![Gallery Page](testing/browser/c5.png) | 
-
-| Exhibition Page | Booking Page |
-| --- | --- | 
-|![Exhibition Page](testing/browser/c6.png) | ![Booking Page](testing/browser/c7.png) | 
-
-    Safari
-
-| Home Page |  |  |
+| Difficulty Level Page | Game Page | End Game Page |
 | --- | --- | --- |
-| ![Home Page](testing/browser/s1.png) | ![Home Page](testing/browser/s2.png) | ![Home Page](testing/browser/s3.png) | 
+| ![Difficulty Level Page](testing/browser/chrome-difficulty.png) | ![Game Page](testing/browser/chrome-game.png) | ![End Game Page](testing/browser/chrome-endgame.png) |
 
-| Gallery Page |  |  
-| --- | --- | 
-| ![Gallery Page](testing/browser/s4.png) | ![Gallery Page](testing/browser/s5.png) | 
-
-| Exhibition Page | Booking Page |
-| --- | --- | 
-|![Exhibition Page](testing/browser/s6.png) | ![Booking Page](testing/browser/s7.png) | 
-
-    Microsoft Edge
-
-| Home Page |  |  |
+| Exit Game Page | Settings Page |  |
 | --- | --- | --- |
-| ![Home Page](testing/browser/m1.png) | ![Home Page](testing/browser/m2.png) | ![Home Page](testing/browser/m3.png) | 
+|![Exit Game Page](testing/browser/chrome-exitgame.png) | ![Settings Page](testing/browser/chrome-settings.png) |  |
 
-| Gallery Page |  |  
-| --- | --- | 
-| ![Gallery Page](testing/browser/m4.png) | ![Gallery Page](testing/browser/m5.png) | 
+## `Safari`
 
-| Exhibition Page | Booking Page |
-| --- | --- | 
-|![Exhibition Page](testing/browser/m6.png) | ![Booking Page](testing/browser/m7.png) | 
+| Home Page | How to Play | High Score Page |
+| --- | --- | --- |
+| ![Home Page](testing/browser/safari-home.png) | ![How to Play](testing/browser/safari-howtoplay.png) | ![High Score Page](testing/browser/safari-highscore.png) |
+
+| Difficulty Level Page | Game Page | End Game Page |
+| --- | --- | --- |
+| ![Difficulty Level Page](testing/browser/safari-difficulty.png) | ![Game Page](testing/browser/safari-game.png) | ![End Game Page](testing/browser/safari-endgame.png) |
+
+| Exit Game Page | Settings Page |  |
+| --- | --- | --- |
+|![Exit Game Page](testing/browser/safari-exitgame.png) | ![Settings Page](testing/browser/safari-settings.png) |  |
+
+## `Microsoft Edge`
+
+| Home Page | How to Play | High Score Page |
+| --- | --- | --- |
+| ![Home Page](testing/browser/edge-home.png) | ![How to Play](testing/browser/edge-howtoplay.png) | ![High Score Page](testing/browser/edge-highscore.png) |
+
+| Difficulty Level Page | Game Page | End Game Page |
+| --- | --- | --- |
+| ![Difficulty Level Page](testing/browser/edge-difficulty.png) | ![Game Page](testing/browser/edge-game.png) | ![End Game Page](testing/browser/edge-endgame.png) |
+
+| Exit Game Page | Settings Page |  |
+| --- | --- | --- |
+|![Exit Game Page](testing/browser/edge-exitgame.png) | ![Settings Page](testing/browser/edge-settings.png) |  |
 
 - - -
 
