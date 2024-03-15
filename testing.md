@@ -126,7 +126,6 @@ I tested each feature of my website to make sure that user interactions, forms, 
 
 ## User Story Testing
 
-
 I validated that my website meets the needs and expectations of different user groups. I tested scenarios based on user stories to ensure that the features align with the goals and requirements of first-time visitors, returning visitors, frequent users, art lovers, artists, and general users.
 
 `Art Lovers`
