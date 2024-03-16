@@ -40,51 +40,49 @@
             </a>
         </div>
     </header>
-    <article class="container">
-        <!--Section-->
-        <section>
-            <!--Main container that holds the content-->
-            <div class="container text-center content-body">
-                <div class="row">
-                    <!--How to play header-->
-                    <div class="col-9 text-center score-header">
-                        <h2>Quiz Completed!</h2>
+    <!--Section-->
+    <section class="container">
+        <!--Main container that holds the content-->
+        <div class="container text-center content-body">
+            <div class="row">
+                <!--How to play header-->
+                <div class="col-9 text-center score-header">
+                    <h2>Quiz Completed!</h2>
+                </div>
+                <!--Close button-->
+                <div class="col-3" id="cls-btn">
+                    <a href="index.html" class="btn btn-primary btn-lg close-button" role="button">
+                        <i class="fa fa-power-off"></i>
+                    </a>
+                </div>
+            </div>
+            <br>
+            <div class="score-summary">
+                <h3 id="finalScore">Score</h3>
+            </div>
+            <form>
+                <input type="text" name="username" id="username" placeholder="username">
+                <div class="row text-center">
+                    <div class="col">
+                        <button type="submit" class="btn btn-primary btn-lg end-btn" id="saveScoreBtn"
+                            onclick="saveHighScore(event)" disabled>Save</button>
                     </div>
-                    <!--Close button-->
-                    <div class="col-3" id="cls-btn">
-                        <a href="index.html" class="btn btn-primary btn-lg close-button" role="button">
-                            <i class="fa fa-power-off"></i>
-                        </a>
+                    <div class="col">
+                        <a href="difficulty-level.html" class="btn btn-primary btn-lg end-btn" id="restart"
+                            role="button">Play
+                            Again</a>
                     </div>
                 </div>
-                <br>
-                <div class="score-summary">
-                    <h3 id="finalScore"></h3>
-                </div>
-                <form>
-                    <input type="text" name="username" id="username" placeholder="username">
-                    <div class="row text-center">
-                        <div class="col">
-                            <button type="submit" class="btn btn-primary btn-lg end-btn" id="saveScoreBtn"
-                                onclick="saveHighScore(event)" disabled>Save</button>
-                        </div>
-                        <div class="col">
-                            <a href="difficulty-level.html" class="btn btn-primary btn-lg end-btn" id="restart"
-                                role="button">Play
-                                Again</a>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <!--Background music-->
-            <div>
-                <audio id="background-music" loop>
-                    <source src="assets/audio/Dance-Monkey(PaglaSongs).mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </div>
-        </section>
-    </article>
+            </form>
+        </div>
+        <!--Background music-->
+        <div>
+            <audio id="background-music" loop>
+                <source src="assets/audio/Dance-Monkey(PaglaSongs).mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </section>
     <script src="assets/js/end-game.js"></script>
 </body>
 

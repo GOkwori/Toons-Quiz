@@ -40,40 +40,35 @@
             </a>
         </div>
     </header>
-    <article class="container">
-        <!--Section-->
-        <section>
-            <!--Main container that holds the content-->
-            <div class="container text-center content-body">
-                <div class="row">
-                    <!--Hgh score header-->
-                    <div class="col-9 text-center score-header" id="mq-heading-2">
-                        <h2 id="finaleScore">Score Board</h2>
-                    </div>
-                    <!--Close button-->
-                    <div class="col-3" id="cls-btn">
-                        <a href="index.html" class="btn btn-primary btn-lg close-button" role="button">
-                            <i class="fa fa-power-off"></i>
-                        </a>
-                    </div>
+    <!--Section-->
+    <section class="container">
+        <!--Main container that holds the content-->
+        <div class="container text-center content-body">
+            <div class="row">
+                <!--Hgh score header-->
+                <div class="col-9 text-center score-header" id="mq-heading-2">
+                    <h2 id="finaleScore">Score Board</h2>
                 </div>
-                <!--High score list container-->
-                <ul id="highScoresList"></ul>
-                <button class="clear-button btn btn-primary btn-lg" onclick="clearHighScores()">Reset Scores</button>
+                <!--Close button-->
+                <div class="col-3" id="cls-btn">
+                    <a href="index.html" class="btn btn-primary btn-lg close-button" role="button">
+                        <i class="fa fa-power-off"></i>
+                    </a>
+                </div>
             </div>
-            <!--Background music-->
-            <div>
-                <audio id="background-music" loop>
-                    <source src="assets/audio/Dance-Monkey(PaglaSongs).mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </div>
-        </section>
-    </article>
+            <!--High score list container-->
+            <ul id="highScoresList"></ul>
+            <button class="clear-button btn btn-primary btn-lg" onclick="clearHighScores()">Reset Scores</button>
+        </div>
+        <!--Background music-->
+        <div>
+            <audio id="background-music" loop>
+                <source src="assets/audio/Dance-Monkey(PaglaSongs).mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </section>
     <script src="assets/js/high-score.js"></script>
-</body>
-
-</html>
 </body>
 
 </html>
