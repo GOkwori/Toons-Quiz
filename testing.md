@@ -177,7 +177,7 @@ I confirmed that my website performs consistently across various web browsers. T
 
 - - -
 
- ## `Google Chrome`
+ ### `Google Chrome`
 
 | Home Page | How to Play | High Score Page |
 | --- | --- | --- |
@@ -191,7 +191,7 @@ I confirmed that my website performs consistently across various web browsers. T
 | --- | --- | --- |
 |![Exit Game Page](testing/browser/chrome-exitgame.png) | ![Settings Page](testing/browser/chrome-settings.png) |  |
 
-## `Safari`
+### `Safari`
 
 | Home Page | How to Play | High Score Page |
 | --- | --- | --- |
@@ -205,7 +205,7 @@ I confirmed that my website performs consistently across various web browsers. T
 | --- | --- | --- |
 |![Exit Game Page](testing/browser/safari-exitgame.png) | ![Settings Page](testing/browser/safari-settings.png) |  |
 
-## `Microsoft Edge`
+### `Microsoft Edge`
 
 | Home Page | How to Play | High Score Page |
 | --- | --- | --- |
@@ -221,42 +221,61 @@ I confirmed that my website performs consistently across various web browsers. T
 
 - - -
 
-## Responsiveness Testing
+## Responsiveness Testing for Toons Quiz Game
 
-I evaluated how well my website adapts to different devices and screen sizes. Testing the responsiveness of my design ensured that the layout, images, and features adjust appropriately for optimal viewing on desktops, tablets, and mobile devices.
+The responsiveness of the Toons Quiz Game was thoroughly tested to ensure a seamless and engaging experience across a variety of devices and screen sizes. This was crucial to ensure that every aspect of the game, from layout to interactivity and visuals, is optimized for all users.
 
-| Device Tested | Screen  | Site Response | Renders as intended |
-| --- | --- | --- | --- | 
-| iPhone 12 Pro | 390px * 844px  | Good | Yes |
-| iPhone 14 Pro Max | 430px * 932px  | Good | Yes |
-| iPad Mini | 768px * 1024px  | Good | Yes |
-| iPad Air | 820px * 1180px  | Good | Yes |
+### `Tested Devices and Results`
 
-- - -
+| Device Tested | Screen Size | Site Response | Renders as Intended |
+|---------------|-------------|---------------|---------------------|
+| iPhone 12 Pro | 390px * 844px | Good | Yes |
+| iPhone 14 Pro Max | 430px * 932px | Good | Yes |
+| iPad Mini | 768px * 1024px | Good | Yes |
+| iPad Air | 820px * 1180px | Good | Yes |
 
-    iPhone 12 Pro
+### Visual Representation
 
-| Home Page | Gallery Page | Exhibition Page  | Booking Page |
-| --- | --- | --- | --- |
-| ![Home Page](testing/responsiveness/i1.png) | ![Gallery Page](testing/responsiveness/i2.png) | ![Exhibition Page](testing/responsiveness/i3.png) | ![Booking Page](testing/responsiveness/i4.png) |
+#### `iPhone 12 Pro`
 
-    iPhone 14 Pro Max
+| Home Page | How to Play | High Score Page |
+|-----------|-------------|-----------------|
+| ![Home Page](testing/responsiveness/iphone12pro-home.png) | ![How to Play](testing/responsiveness/iphone12pro-howtoplay.png) | ![High Score Page](testing/responsiveness/iphone12pro-highscore.png) |
 
-| Home Page | Gallery Page | Exhibition Page  | Booking Page |
-| --- | --- | --- | --- |
-| ![Home Page](testing/responsiveness/f1.png) | ![Gallery Page](testing/responsiveness/f2.png) | ![Exhibition Page](testing/responsiveness/f3.png) | ![Booking Page](testing/responsiveness/f4.png) |
+| Difficulty Level Page | Game Page | End Game Page |
+|-----------------------|-----------|---------------|
+| ![Difficulty Level Page](testing/responsiveness/iphone12pro-difficultylevel.png) | ![Game Page](testing/responsiveness/iphone12pro-game.png) | ![End Game Page](testing/responsiveness/iphone12pro-endgame.png) |
 
-   iPad Mini
+#### `iPhone 14 Pro Max`
 
-| Home Page | Gallery Page | Exhibition Page  | Booking Page |
-| --- | --- | --- | --- |
-| ![Home Page](testing/responsiveness/d1.png) | ![Gallery Page](testing/responsiveness/d2.png) | ![Exhibition Page](testing/responsiveness/d3.png) | ![Booking Page](testing/responsiveness/d4.png) |
+| Home Page | How to Play | High Score Page |
+|-----------|-------------|-----------------|
+| ![Home Page](testing/responsiveness/iphone14promax-home.png) | ![How to Play](testing/responsiveness/iphone14promax-howtoplay.png) | ![High Score Page](testing/responsiveness/iphone14promax-highscore.png) |
 
-  iPad Air
+| Difficulty Level Page | Game Page | End Game Page |
+|-----------------------|-----------|---------------|
+| ![Difficulty Level Page](testing/responsiveness/iphone14promax-difficultylevel.png) | ![Game Page](testing/responsiveness/iphone14promax-game.png) | ![End Game Page](testing/responsiveness/iphone14promax-endgame.png) |
 
-| Home Page | Gallery Page | Exhibition Page  | Booking Page |
-| --- | --- | --- | --- |
-| ![Home Page](testing/responsiveness/e1.png) | ![Gallery Page](testing/responsiveness/e2.png) | ![Exhibition Page](testing/responsiveness/e3.png) | ![Booking Page](testing/responsiveness/e4.png) |
+#### `iPad Mini`
+
+| Home Page | How to Play | High Score Page |
+|-----------|-------------|-----------------|
+| ![Home Page](testing/responsiveness/ipadmini-home.png) | ![How to Play](testing/responsiveness/ipadmini-howtoplay.png) | ![High Score Page](testing/responsiveness/ipadmini-highscore.png) |
+
+| Difficulty Level Page | Game Page | End Game Page |
+|-----------------------|-----------|---------------|
+| ![Difficulty Level Page](testing/responsiveness/ipadmini-difficultylevel.png) | ![Game Page](testing/responsiveness/ipadmini-game.png) | ![End Game Page](testing/responsiveness/ipadmini-endgame.png) |
+
+#### `iPad Air`
+
+| Home Page | How to Play | High Score Page |
+|-----------|-------------|-----------------|
+| ![Home Page](testing/responsiveness/ipadair-home.png) | ![How to Play](testing/responsiveness/ipadair-howtoplay.png) | ![High Score Page](testing/responsiveness/ipadair-highscore.png) |
+
+| Difficulty Level Page | Game Page | End Game Page |
+|-----------------------|-----------|---------------|
+| ![Difficulty Level Page](testing/responsiveness/ipadair-difficultylevel.png) | ![Game Page](testing/responsiveness/ipadair-game.png) | ![End Game Page](testing/responsiveness/ipadair-endgame.png) |
+
 
 Full testing was also performed on the following devices with the same test outcome as above:
 
@@ -280,51 +299,77 @@ Each device tested the site using the following browsers:
 
 ## Code Validation
 
-I validated my website's code to ensure it adheres to industry standards and best practices. Using tools like W3C validators, I checked for HTML, CSS, and accessibility compliance to maintain a clean and error-free codebase.
+To ensure the Toons Quiz Game meets web standards and provides a high-quality experience across all browsers and devices, extensive code validation was performed. This process involved utilizing industry-standard tools to check the HTML, CSS, and JavaScript files for compliance with current web standards, accessibility guidelines, and best practices.
 
-[W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
+### `HTML Validation`
+
+The HTML code for each page of the Toons Quiz Game was validated using the [W3C Markup Validation Service](https://validator.w3.org/) to ensure it is free from errors and complies with the HTML5 standard.
 
 | Page Tested | Validation Output |
-| --- | --- |
-| Home Page | ![index.html](testing/w3/index-w3.png) | 
-| Gallery Page | ![gallery.html](testing/w3/gallery-w3.png) | 
-| Exhibition Page | ![exhibition.html](testing/w3/exhibition-w3.png) | 
-| Booking Page | ![booking.html](testing/w3/booking-w3.png) | 
-| Thank-you Page | ![thank-you.html](testing/w3/thank-you-w3.png) | 
-| Coming-soon Page | ![coming-soon.html](testing/w3/coming-soon-w3.png) | 
-| CSS |![style.css](testing/w3/css-validator.png) | 
+|-------------|-------------------|
+| Home Page | ![Home Page HTML](testing/w3/index-html.png) |
+| How to Play Page | ![How to Play HTML](testing/w3/howtoplay-html.png) |
+| High Score Page | ![High Score HTML](testing/w3/highscore-html.png) |
+| Difficulty Level Page | ![Difficulty Level HTML](testing/w3/difficultylevel-html.png) |
+| Game Page | ![Game Page HTML](testing/w3/game-html.png) |
+| End Game Page | ![End Game HTML](testing/w3/endgame-html.png) |
+| Exit Game Page | ![Exit Game HTML](testing/w3/exitgame-html.png) |
+| Settings Page | ![Settings HTML](testing/w3/settings-html.png) |
+
+### `CSS Validation`
+
+The CSS files were validated using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to ensure the styling adheres to the CSS3 standard, enhancing the visual consistency and performance across various platforms.
+
+| CSS File | Validation Output |
+|----------|-------------------|
+| Main Stylesheet | ![Main CSS](testing/w3/main-css.png) |
+
+### `JavaScript Validation`
+
+JavaScript code was tested for syntax errors and compatibility issues to ensure seamless interactivity and functionality across different browsers. Tools such as [JSHint](https://jshint.com/) were utilized for this purpose.
+
+| JS File | Validation Output |
+|---------|-------------------|
+| Game Logic | ![Game Logic JS](testing/w3/gamelogic-js.png) |
+| Settings | ![Settings JS](testing/w3/settings-js.png) |
+
+Through rigorous validation and testing, the Toons Quiz Game aims to deliver a reliable, accessible, and enjoyable experience for all users.
 
 - - -
 
-## Lighthouse
+## Lighthouse Performance Assessment
 
-I utilised Lighthouse within Chrome Developer Tools to assess my website's performance, accessibility, best practices, and SEO. Leveraging Lighthouse reports, I optimised my website for speed, user experience, and search engine visibility.
+To ensure that the Toons Quiz Game offers an optimized user experience, we conducted a series of performance and quality assessments using Google's Lighthouse tool within Chrome Developer Tools. This allowed us to evaluate the game's performance, accessibility, adherence to best practices, and SEO effectiveness across both desktop and mobile platforms. Here are the summarized results:
 
-### Desktop Results
+### `Desktop Results`
 
-All pages of the site are achieving a score of above 90 across the 4 categories.
+The desktop version of the Toons Quiz Game demonstrated excellent performance, with all pages scoring above 90 in the key areas of performance, accessibility, best practices, and SEO.
 
-| Page Tested | Validation Output |
-| --- | --- |
-| Home Page | ![index.html](testing/lighthouse/desktop-home-page.png)| 
-| Gallery Page | ![gallery.html](testing/lighthouse/desktop-gallery-page.png) | 
-| Exhibition Page | ![exhibition.html](testing/lighthouse/desktop-exhibition-page.png)| 
-| Booking Page | ![booking.html](testing/lighthouse/desktop-booking-page.png) | 
-| Thank-you Page | ![thank-you.html](testing/lighthouse/desktop-thank-you-page.png) | 
-| Coming-soon Page | ![coming-soon.html](testing/lighthouse/desktop-coming-soon-page.png) | 
+| Page Tested | Performance | Accessibility | Best Practices | SEO |
+|-------------|-------------|---------------|----------------|-----|
+| Home Page | ![Desktop Home](testing/lighthouse/desktop-home-page.png) |
+| How to Play Page | ![Desktop How to Play](testing/lighthouse/desktop-howtoplay-page.png) |
+| High Score Page | ![Desktop High Score](testing/lighthouse/desktop-highscore-page.png) |
+| Difficulty Level Page | ![Desktop Difficulty](testing/lighthouse/desktop-difficultylevel-page.png) |
+| Game Page | ![Desktop Game](testing/lighthouse/desktop-game-page.png) |
+| End Game Page | ![Desktop End Game](testing/lighthouse/desktop-endgame-page.png) |
+| Exit Game Page | ![Desktop Exit Game](testing/lighthouse/desktop-exitgame-page.png) |
+| Settings Page | ![Desktop Settings](testing/lighthouse/desktop-settings-page.png) |
 
-### Mobile Results
+### `Mobile Results`
 
-All pages of the site are achieving a score of above 90 across the 4 categories.
+Similarly, the mobile version of the Toons Quiz Game achieved impressive results, maintaining scores above 90 across the evaluated categories, ensuring a seamless experience for mobile users.
 
-| Page Tested | Validation Output |
-| --- | --- |
-| Home Page | ![index.html](testing/lighthouse/mobile-home-page.png)| 
-| Gallery Page | ![gallery.html](testing/lighthouse/mobile-gallery-page.png) | 
-| Exhibition Page | ![exhibition.html](testing/lighthouse/mobile-exhibition-page.png)| 
-| Booking Page | ![booking.html](testing/lighthouse/mobile-booking-page.png) | 
-| Thank-you Page | ![thank-you.html](testing/lighthouse/mobile-thank-you-page.png) | 
-| Coming-soon Page | ![coming-soon.html](testing/lighthouse/mobile-coming-soon-page.png) | 
+| Page Tested | Performance | Accessibility | Best Practices | SEO |
+|-------------|-------------|---------------|----------------|-----|
+| Home Page | ![Mobile Home](testing/lighthouse/mobile-home-page.png) |
+| How to Play Page | ![Mobile How to Play](testing/lighthouse/mobile-howtoplay-page.png) |
+| High Score Page | ![Mobile High Score](testing/lighthouse/mobile-highscore-page.png) |
+| Difficulty Level Page | ![Mobile Difficulty](testing/lighthouse/mobile-difficultylevel-page.png) |
+| Game Page | ![Mobile Game](testing/lighthouse/mobile-game-page.png) |
+| End Game Page | ![Mobile End Game](testing/lighthouse/mobile-endgame-page.png) |
+| Exit Game Page | ![Mobile Exit Game](testing/lighthouse/mobile-exitgame-page.png) |
+| Settings Page | ![Mobile Settings](testing/lighthouse/mobile-settings-page.png) |
 
   
 - - -
