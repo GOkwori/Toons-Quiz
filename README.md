@@ -135,8 +135,8 @@ The primary business goal of the Toons Quiz Game is to establish a vibrant, enga
 
 #### As the game developer
 
-* I want to attract a broad user base and keep them engaged so that the site can grow in popularity and explore potential monetization opportunities.
-* I need to ensure the game is accessible to all users, including those with visual impairments, to adhere to inclusivity standards and expand the game's reach.
+*I want to attract a broad user base and keep them engaged so that the site can grow in popularity and explore potential monetization opportunities.
+*I need to ensure the game is accessible to all users, including those with visual impairments, to adhere to inclusivity standards and expand the game's reach.
 
 - - -
 
