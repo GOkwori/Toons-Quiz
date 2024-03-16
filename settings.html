@@ -40,62 +40,60 @@
             </a>
         </div>
     </header>
-    <article class="container">
-        <!--Section-->
-        <section>
-            <!--Main container that holds the content-->
-            <div class="container text-center content-body">
-                <div class="row">
-                    <!--Settings header-->
-                    <div class="col-9 text-center score-header" id="settings-header">
-                        <h2>Settings</h2>
-                    </div>
-                    <!--Close button-->
-                    <div class="col-3" id="cls-btn">
-                        <a href="index.html" class="btn btn-primary btn-lg close-button" role="button">
-                            <i class="fa fa-power-off"></i>
-                        </a>
-                    </div>
+    <!--Section-->
+    <section class="container">
+        <!--Main container that holds the content-->
+        <div class="container text-center content-body">
+            <div class="row">
+                <!--Settings header-->
+                <div class="col-9 text-center score-header" id="settings-header">
+                    <h2>Settings</h2>
                 </div>
-                <!--Background-music container-->
-                <audio id="background-music" loop>
-                    <source src="assets/audio/Dance-Monkey(PaglaSongs).mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <div class="setting">
-                    <div class="row text-center">
-                        <div class="col-6 col-sm-6">
-                            <label for="sound-effects">
-                                <h3>Sound effect</h3>
-                            </label>
-                        </div>
-                        <div class="col-6 col-sm-6">
-                            <input type="checkbox" id="sound-effects">
-                        </div>
+                <!--Close button-->
+                <div class="col-3" id="cls-btn">
+                    <a href="index.html" class="btn btn-primary btn-lg close-button" role="button">
+                        <i class="fa fa-power-off"></i>
+                    </a>
+                </div>
+            </div>
+            <!--Background-music container-->
+            <audio id="background-music" loop>
+                <source src="assets/audio/Dance-Monkey(PaglaSongs).mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="setting">
+                <div class="row text-center">
+                    <div class="col-6 col-sm-6">
+                        <label for="sound-effects">
+                            <strong>Sound effect</strong>
+                        </label>
                     </div>
-                    <br>
-                    <div class="row text-center">
-                        <div class="col-6 col-sm-6">
-                            <label for="theme">
-                                <h3>Light theme</h3>
-                            </label>
-                        </div>
-                        <div class="col-6 col-sm-6">
-                            <input type="checkbox" id="theme">
-                        </div>
+                    <div class="col-6 col-sm-6">
+                        <input type="checkbox" id="sound-effects">
                     </div>
                 </div>
                 <br>
-                <!--Button container-->
                 <div class="row text-center">
-                    <div class="col">
-                        <a href="index.html" class="btn btn-primary btn-lg settings-close" role="button">Save
-                            Settings</a>
+                    <div class="col-6 col-sm-6">
+                        <label for="theme">
+                            <strong>Light theme</strong>
+                        </label>
+                    </div>
+                    <div class="col-6 col-sm-6">
+                        <input type="checkbox" id="theme">
                     </div>
                 </div>
             </div>
-        </section>
-    </article>
+            <br>
+            <!--Button container-->
+            <div class="row text-center">
+                <div class="col">
+                    <a href="index.html" class="btn btn-primary btn-lg settings-close" role="button">Save
+                        Settings</a>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="assets/js/settings.js"></script>
 </body>
 
