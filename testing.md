@@ -169,11 +169,31 @@ To ensure the Toons Quiz Game meets the diverse expectations and enhances the us
 
 I confirmed that my website performs consistently across various web browsers. Testing on popular browsers like Google Chrome, Safari, and Microsoft Edge was crucial to ensure a consistent and reliable user experience.
 
-| Browser Tested | Intended Appearance | Intended Responsiveness | Screen Shot | 
-| --- | --- | --- | --- | 
-| `Google Chrome` | Good  | Good | ![Chrome](testing/browser-compatibility/chrome-home.png) <br> ![Chrome](testing/browser-compatibility/chrome-how-to-play.png) <br> ![Chrome](testing/browser-compatibility/chrome-highscore.png) <br> ![Chrome](testing/browser-compatibility/chrome-difficulty.png) <br> ![Chrome](testing/browser-compatibility/chrome-game-page.png) <br> ![Chrome](testing/browser-compatibility/chrome-exit.png) <br> ![Chrome](testing/browser-compatibility/chrome-home.png) <br> ![Chrome](testing/browser-compatibility/chrome-end.png)|
-| `Safari`| Good  | Good | ![Safari](testing/browser-compatibility/safari-home.png) <br> ![Safari](testing/browser-compatibility/safari-how-to-play.png) <br> ![Safari](testing/browser-compatibility/safari-highscore.png) <br> ![Safari](testing/browser-compatibility/chrome-difficulty.png) <br> ![Safari](testing/browser-compatibility/safari-game.png) <br> ![Safari](testing/browser-compatibility/safari-exit.png) <br> ![Safari](testing/browser-compatibility/safari-end.png) <br> ![Safari](testing/browser-compatibility/safari-settings.png) |
-| `Microsoft Edge` | Good  | Good | ![Edge](testing/browser-compatibility/edge-home.png) <br> ![Edge](testing/browser-compatibility/edge-how-to-play.png) <br> ![Edge](testing/browser-compatibility/edge-highscore.png) <br> ![Edge](testing/browser-compatibility/edge-difficulty.png) <br> ![Edge](testing/browser-compatibility/edge-game-page.png) <br> ![Edge](testing/browser-compatibility/edge-exit.png) <br> ![Edge](testing/browser-compatibility/edge-end.png) <br> ![Edge](testing/browser-compatibility/edge-settings.png) |
+| Browser Tested | Intended Appearance | Intended Responsiveness |  
+| --- | --- | --- | 
+| `Google Chrome` | Good  | Good |
+| `Safari`| Good  | Good |
+| `Microsoft Edge` | Good  | Good |
+
+### Visual Representation
+
+####  `Google Chrome`
+
+| Home Page | How to Play Page | High Score Page | Difficulty Level Page | Game Page | Exit Page | End Game Page | Settings Page |
+|---------------|-------------|---------------|---------------------|---------------------|---------------------|---------------------|---------------------|
+| ![Chrome](testing/browser-compatibility/chrome-home.png) | ![Chrome](testing/browser-compatibility/chrome-how-to-play.png) | ![Chrome](testing/browser-compatibility/chrome-highscore.png) | ![Chrome](testing/browser-compatibility/chrome-difficulty.png) | ![Chrome](testing/browser-compatibility/chrome-game-page.png) | ![Chrome](testing/browser-compatibility/chrome-exit.png) | ![Chrome](testing/browser-compatibility/chrome-home.png) | ![Chrome](testing/browser-compatibility/chrome-end.png)|
+
+#### `Safari`
+
+| Home Page | How to Play Page | High Score Page | Difficulty Level Page | Game Page | Exit Page | End Game Page | Settings Page |
+|---------------|-------------|---------------|---------------------|---------------------|---------------------|---------------------|---------------------|
+| ![Safari](testing/browser-compatibility/safari-home.png) | ![Safari](testing/browser-compatibility/safari-how-to-play.png) | ![Safari](testing/browser-compatibility/safari-highscore.png) | ![Safari](testing/browser-compatibility/chrome-difficulty.png) | ![Safari](testing/browser-compatibility/safari-game.png) | ![Safari](testing/browser-compatibility/safari-exit.png) | ![Safari](testing/browser-compatibility/safari-end.png) | ![Safari](testing/browser-compatibility/safari-settings.png) |
+
+#### `Microsoft Edge`
+
+| Home Page | How to Play Page | High Score Page | Difficulty Level Page | Game Page | Exit Page | End Game Page | Settings Page |
+|---------------|-------------|---------------|---------------------|---------------------|---------------------|---------------------|---------------------|
+| ![Edge](testing/browser-compatibility/edge-home.png) | ![Edge](testing/browser-compatibility/edge-how-to-play.png) | ![Edge](testing/browser-compatibility/edge-highscore.png) | ![Edge](testing/browser-compatibility/edge-difficulty.png) | ![Edge](testing/browser-compatibility/edge-game-page.png) | ![Edge](testing/browser-compatibility/edge-exit.png) | ![Edge](testing/browser-compatibility/edge-end.png) | ![Edge](testing/browser-compatibility/edge-settings.png) |
 
 - - -
 
