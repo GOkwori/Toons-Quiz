@@ -99,7 +99,7 @@ h3 {
     margin-bottom: 20px;
 }
 
-p, strong {
+p {
     font-weight: 400;
     font-size: 1.6rem;
     margin-bottom: 20px;
@@ -117,6 +117,7 @@ p, strong {
     color: #091f34;
     border: none;
     border-radius: 5px;
+    font-size: 1.4rem;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -373,6 +374,10 @@ p, strong {
     color: white;
 }
 
+.option-text {
+    display: block; /* Ensure span takes the full width of the button */
+    width: 100%;
+}
 
 .next-container {
     display: flex;
@@ -384,7 +389,8 @@ p, strong {
 #next-btn-container {
     width: 20%;
     height: 50px;
-    display: none;
+    font-size: 1.4rem;
+    font-weight: 700;
 }
 
 /*---- Exit buttons on the exit game page----*/
@@ -725,6 +731,7 @@ label {
     }
 
 
+
     /*---- Home page button container ----*/
 
     /*---- Home page buttons ----*/
@@ -742,6 +749,9 @@ label {
     }
 
     /*---- Power button container ----*/
+
+   
+
     #cls-btn {
         padding: 0 10% 0 0;
     }
@@ -818,7 +828,7 @@ label {
     .answer-btn {
         width: 90%;
         margin: 7%;
-        font-size: 100%;
+        font-size: 1.4rem;
     }
 
 
