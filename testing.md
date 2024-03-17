@@ -171,9 +171,9 @@ I confirmed that my website performs consistently across various web browsers. T
 
 | Browser Tested | Intended Appearance | Intended Responsiveness | Screen Shot | 
 | --- | --- | --- | --- | 
-| `Google Chrome` | Good  | Good |  |
-| `Safari`| Good  | Good |  |
-| `Microsoft Edge` | Good  | Good |  |
+| `Google Chrome` | Good  | Good | ![Chrome](testing/browser-compatibility/chrome-home.png) <br> ![Chrome](testing/browser-compatibility/chrome-how-to-play.png) <br> ![Chrome](testing/browser-compatibility/chrome-highscore.png) <br> ![Chrome](testing/browser-compatibility/chrome-difficulty.png) <br> ![Chrome](testing/browser-compatibility/chrome-game-page.png) <br> ![Chrome](testing/browser-compatibility/chrome-exit.png) <br> ![Chrome](testing/browser-compatibility/chrome-home.png) <br> ![Chrome](testing/browser-compatibility/chrome-end.png)|
+| `Safari`| Good  | Good | ![Safari](testing/browser-compatibility/safari-home.png) <br> ![Safari](testing/browser-compatibility/safari-how-to-play.png) <br> ![Safari](testing/browser-compatibility/safari-highscore.png) <br> ![Safari](testing/browser-compatibility/chrome-difficulty.png) <br> ![Safari](testing/browser-compatibility/safari-game.png) <br> ![Safari](testing/browser-compatibility/safari-exit.png) <br> ![Safari](testing/browser-compatibility/safari-end.png) <br> ![Safari](testing/browser-compatibility/safari-settings.png) |
+| `Microsoft Edge` | Good  | Good | ![Edge](testing/browser-compatibility/edge-home.png) <br> ![Edge](testing/browser-compatibility/edge-how-to-play.png) <br> ![Edge](testing/browser-compatibility/edge-highscore.png) <br> ![Edge](testing/browser-compatibility/edge-difficulty.png) <br> ![Edge](testing/browser-compatibility/edge-game-page.png) <br> ![Edge](testing/browser-compatibility/edge-exit.png) <br> ![Edge](testing/browser-compatibility/edge-end.png) <br> ![Edge](testing/browser-compatibility/edge-settings.png) |
 
 - - -
 
