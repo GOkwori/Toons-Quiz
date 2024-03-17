@@ -295,31 +295,18 @@ To ensure that the Toons Quiz Game offers an optimized user experience, we condu
 
 The desktop version of the Toons Quiz Game demonstrated excellent performance, with all pages scoring above 90 in the key areas of performance, accessibility, best practices, and SEO.
 
-| Page Tested | Performance | Accessibility | Best Practices | SEO |
-|-------------|-------------|---------------|----------------|-----|
-| Home Page | ![Desktop Home](testing/lighthouse/desktop-home-page.png) |
-| How to Play Page | ![Desktop How to Play](testing/lighthouse/desktop-howtoplay-page.png) |
-| High Score Page | ![Desktop High Score](testing/lighthouse/desktop-highscore-page.png) |
-| Difficulty Level Page | ![Desktop Difficulty](testing/lighthouse/desktop-difficultylevel-page.png) |
-| Game Page | ![Desktop Game](testing/lighthouse/desktop-game-page.png) |
-| End Game Page | ![Desktop End Game](testing/lighthouse/desktop-endgame-page.png) |
-| Exit Game Page | ![Desktop Exit Game](testing/lighthouse/desktop-exitgame-page.png) |
-| Settings Page | ![Desktop Settings](testing/lighthouse/desktop-settings-page.png) |
+
+| Home Page | How to Play Page | High Score Page | Difficulty Level Page | Game Page | Exit Page | End Game Page | Settings Page |
+|---------------|-------------|---------------|---------------------|---------------------|---------------------|---------------------|---------------------|
+|![Desktop Home](testing/lighthouse/desktop/home-page.PNG)|![Desktop How to Play](testing/lighthouse/desktop/how-to-play.PNG)|![Desktop High Score](testing/lighthouse/desktop/high-score.PNG)|![Desktop Difficulty](testing/lighthouse/desktop/difficulty-level.PNG)|![Desktop Game](testing/lighthouse/desktop/game-page.PNG)|![Desktop Exit Game](testing/lighthouse/desktop/exit-page.PNG) |![Desktop End Game](testing/lighthouse/desktop/end-game.PNG)|![Desktop Settings](testing/lighthouse/desktop/settings.PNG)|
+
 
 ### `Mobile Results`
 
-Similarly, the mobile version of the Toons Quiz Game achieved impressive results, maintaining scores above 90 across the evaluated categories, ensuring a seamless experience for mobile users.
+Similarly, the mobile version of the Toons Quiz Game achieved impressive results, ensuring a seamless experience for mobile users.
 
-| Page Tested | Performance | Accessibility | Best Practices | SEO |
-|-------------|-------------|---------------|----------------|-----|
-| Home Page | ![Mobile Home](testing/lighthouse/mobile-home-page.png) |
-| How to Play Page | ![Mobile How to Play](testing/lighthouse/mobile-howtoplay-page.png) |
-| High Score Page | ![Mobile High Score](testing/lighthouse/mobile-highscore-page.png) |
-| Difficulty Level Page | ![Mobile Difficulty](testing/lighthouse/mobile-difficultylevel-page.png) |
-| Game Page | ![Mobile Game](testing/lighthouse/mobile-game-page.png) |
-| End Game Page | ![Mobile End Game](testing/lighthouse/mobile-endgame-page.png) |
-| Exit Game Page | ![Mobile Exit Game](testing/lighthouse/mobile-exitgame-page.png) |
-| Settings Page | ![Mobile Settings](testing/lighthouse/mobile-settings-page.png) |
+| Home Page | How to Play Page | High Score Page | Difficulty Level Page | Game Page | Exit Page | End Game Page | Settings Page |
+|---------------|-------------|---------------|---------------------|---------------------|---------------------|---------------------|---------------------|
+|![Mobile Home](testing/lighthouse/mobile/home-page.PNG)|![Mobile How to Play](testing/lighthouse/mobile/how-to-play.PNG)|![Mobile High Score](testing/lighthouse/mobile/high-score.PNG)|![Mobile Difficulty](testing/lighthouse/mobile/difficulty-level.PNG)|![Mobile Game](testing/lighthouse/mobile/game-page.PNG)|![Mobile Exit Game](testing/lighthouse/mobile/exit-page.PNG)|![Mobile End Game](testing/lighthouse/mobile/end-game.PNG)|![Mobile Settings](testing/lighthouse/mobile/settings-page.PNG)|
 
-  
 - - -

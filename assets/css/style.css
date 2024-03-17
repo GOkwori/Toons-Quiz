@@ -389,7 +389,8 @@ p {
 }
 
 .option-text {
-    display: block; /* Ensure span takes the full width of the button */
+    display: block;
+    /* Ensure span takes the full width of the button */
     width: 100%;
 }
 
@@ -767,7 +768,7 @@ label {
 
     /*---- Power button container ----*/
 
-   
+
 
     #cls-btn {
         padding: 0 10% 0 0;
@@ -1245,7 +1246,6 @@ label {
     }
 
     /*Game page----*/
-
     .timer-board {
         margin: 3% 0 0 0;
         height: 80px;
