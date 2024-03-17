@@ -262,16 +262,9 @@ To ensure the Toons Quiz Game meets web standards and provides a high-quality ex
 
 The HTML code for each page of the Toons Quiz Game was validated using the [W3C Markup Validation Service](https://validator.w3.org/) to ensure it is free from errors and complies with the HTML5 standard.
 
-| Page Tested | Validation Output |
-|-------------|-------------------|
-| Home Page | ![Home Page HTML](testing/w3/index-html.png) |
-| How to Play Page | ![How to Play HTML](testing/w3/howtoplay-html.png) |
-| High Score Page | ![High Score HTML](testing/w3/highscore-html.png) |
-| Difficulty Level Page | ![Difficulty Level HTML](testing/w3/difficultylevel-html.png) |
-| Game Page | ![Game Page HTML](testing/w3/game-html.png) |
-| End Game Page | ![End Game HTML](testing/w3/endgame-html.png) |
-| Exit Game Page | ![Exit Game HTML](testing/w3/exitgame-html.png) |
-| Settings Page | ![Settings HTML](testing/w3/settings-html.png) |
+| Home Page | How to Play Page | High Score Page | Difficulty Level Page | Game Page | Exit Page | End Game Page | Settings Page |
+|---------------|-------------|---------------|---------------------|---------------------|---------------------|---------------------|---------------------|
+|![HTML](testing/code-validation/html-validation/home-page.PNG)|![HTML](testing/code-validation/html-validation/how-to-play.PNG)|![HTML](testing/code-validation/html-validation/high-score.PNG)|![HTML](testing/code-validation/html-validation/difficulty-level.PNG)|![HTML](testing/code-validation/html-validation/#)|![HTML](testing/code-validation/html-validation/exit-game.PNG)|![HTML](testing/code-validation/html-validation/end-game.PNG)|![HTML](testing/code-validation/html-validation/settings.PNG)|
 
 ### `CSS Validation`
 
