@@ -139,29 +139,29 @@ To ensure the Toons Quiz Game meets the diverse expectations and enhances the us
 
 | Goals | How are they achieved? |
 | :--- | :--- |
-| I'm interested in new content to keep the experience fresh. | The game regularly updates with new quiz questions and occasionally introduces themed quizzes, ensuring returning users always have something new to explore. |
+| I'm interested in new content to keep the experience fresh. | Based on future implementations, the game will regularly update with new quiz questions and occasionally introduces themed quizzes, ensuring returning users always have something new to explore. |
 | I want to review my past performance and set new goals. | The "High Score" page not only displays the user's personal best scores but also encourages them to surpass their previous achievements, fostering a continuous drive for improvement. |
 
 ### `Frequent Users`
 
 | Goals | How are they achieved? |
 | :--- | :--- |
-| I seek a challenging environment to test my knowledge to the fullest. | The game includes a variety of difficulty levels and timed quizzes, catering to users who desire a more challenging and competitive quiz experience. |
-| I aspire to be recognized within the game community. | Leaderboards and social sharing features allow users to compare scores, share achievements, and challenge friends, thereby cultivating a vibrant and competitive community. |
+| I seek a challenging environment to test my knowledge to the fullest. | The game includes a variety of difficulty levels, catering to users who desire a more challenging and competitive quiz experience. |
+| I aspire to be recognized within the game community. | Future implementations will include leaderboards and social sharing features which allow users to compare scores, share achievements, and challenge friends, thereby cultivating a vibrant and competitive community. |
 
 ### `Game Developer`
 
 | Goals | How are they achieved? |
 | :--- | :--- |
 | I aim to provide an accessible and engaging game for all users. | Through careful design and testing, the game supports screen readers and keyboard navigation, ensuring an inclusive experience. Feedback mechanisms are in place for continuous improvement based on user suggestions. |
-| I intend to grow the game's user base and foster a dedicated community. | Regular content updates, social media integration, and community engagement strategies are employed to attract new users and retain existing ones, creating a loyal fanbase around the Toons Quiz Game. |
+| I intend to grow the game's user base and foster a dedicated community. | Regular content updates, social media integration, and community engagement strategies are to be employed to attract new users and retain existing ones, creating a loyal fanbase around the Toons Quiz Game. |
 
 ### `Business Perspective`
 
 | Goals | How are they achieved? |
 | :--- | :--- |
-| Our goal is to establish a widely recognized and monetizable gaming platform. | By providing a diverse range of quizzes, and ensuring high-quality content, the game aims to attract a broad audience. Monetization strategies such as in-game advertisements or premium content are explored to generate revenue while maintaining a positive user experience. |
-| We aim to utilize user data to improve engagement and tailor experiences. | Analytic tools are implemented to gather insights on user behavior, preferences, and engagement patterns. This data informs the development of new features and the optimization of existing ones to meet user needs more effectively, driving further growth and engagement. |
+| Our goal is to establish a widely recognized and monetizable gaming platform. | By providing a diverse range of quizzes, and ensuring high-quality content, the game aims to attract a broad audience. Monetization strategies such as in-game advertisements or premium content are to be explored to generate revenue while maintaining a positive user experience. |
+| We aim to utilize user data to improve engagement and tailor experiences. | Analytic tools would be implemented to gather insights on user behavior, preferences, and engagement patterns. This data informs the development of new features and the optimization of existing ones to meet user needs more effectively, driving further growth and engagement. |
 
 - - -
 
@@ -169,55 +169,11 @@ To ensure the Toons Quiz Game meets the diverse expectations and enhances the us
 
 I confirmed that my website performs consistently across various web browsers. Testing on popular browsers like Google Chrome, Safari, and Microsoft Edge was crucial to ensure a consistent and reliable user experience.
 
-| Browser Tested | Intended Appearance | Intended Responsiveness | 
-| --- | --- | --- | 
-| Google Chrome | Good  | Good | 
-| Safari | Good  | Good | 
-| Microsoft Edge | Good  | Good | 
-
-- - -
-
- ### `Google Chrome`
-
-| Home Page | How to Play | High Score Page |
-| --- | --- | --- |
-| ![Home Page](testing/browser/chrome-home.png) | ![How to Play](testing/browser/chrome-howtoplay.png) | ![High Score Page](testing/browser/chrome-highscore.png) |
-
-| Difficulty Level Page | Game Page | End Game Page |
-| --- | --- | --- |
-| ![Difficulty Level Page](testing/browser/chrome-difficulty.png) | ![Game Page](testing/browser/chrome-game.png) | ![End Game Page](testing/browser/chrome-endgame.png) |
-
-| Exit Game Page | Settings Page |  |
-| --- | --- | --- |
-|![Exit Game Page](testing/browser/chrome-exitgame.png) | ![Settings Page](testing/browser/chrome-settings.png) |  |
-
-### `Safari`
-
-| Home Page | How to Play | High Score Page |
-| --- | --- | --- |
-| ![Home Page](testing/browser/safari-home.png) | ![How to Play](testing/browser/safari-howtoplay.png) | ![High Score Page](testing/browser/safari-highscore.png) |
-
-| Difficulty Level Page | Game Page | End Game Page |
-| --- | --- | --- |
-| ![Difficulty Level Page](testing/browser/safari-difficulty.png) | ![Game Page](testing/browser/safari-game.png) | ![End Game Page](testing/browser/safari-endgame.png) |
-
-| Exit Game Page | Settings Page |  |
-| --- | --- | --- |
-|![Exit Game Page](testing/browser/safari-exitgame.png) | ![Settings Page](testing/browser/safari-settings.png) |  |
-
-### `Microsoft Edge`
-
-| Home Page | How to Play | High Score Page |
-| --- | --- | --- |
-| ![Home Page](testing/browser/edge-home.png) | ![How to Play](testing/browser/edge-howtoplay.png) | ![High Score Page](testing/browser/edge-highscore.png) |
-
-| Difficulty Level Page | Game Page | End Game Page |
-| --- | --- | --- |
-| ![Difficulty Level Page](testing/browser/edge-difficulty.png) | ![Game Page](testing/browser/edge-game.png) | ![End Game Page](testing/browser/edge-endgame.png) |
-
-| Exit Game Page | Settings Page |  |
-| --- | --- | --- |
-|![Exit Game Page](testing/browser/edge-exitgame.png) | ![Settings Page](testing/browser/edge-settings.png) |  |
+| Browser Tested | Intended Appearance | Intended Responsiveness | SCreen Shot | 
+| --- | --- | --- | --- | 
+| `Google Chrome` | Good  | Good |  |
+| `Safari`| Good  | Good |  |
+| `Microsoft Edge` | Good  | Good |  |
 
 - - -
 
