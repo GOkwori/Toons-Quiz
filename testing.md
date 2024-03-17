@@ -278,10 +278,9 @@ The CSS files were validated using the [W3C CSS Validation Service](https://jigs
 
 JavaScript code was tested for syntax errors and compatibility issues to ensure seamless interactivity and functionality across different browsers. Tools such as [JSHint](https://jshint.com/) were utilized for this purpose.
 
-| JS File | Validation Output |
-|---------|-------------------|
-| Game Logic | ![Game Logic JS](testing/w3/gamelogic-js.png) |
-| Settings | ![Settings JS](testing/w3/settings-js.png) |
+| High Score Page | Difficulty Level Page | Game Page | Exit Page  | End Game Page | Settings Page | background-music  | 
+|---------------|-------------|---------------|---------------------|---------------------|---------------------|---------------------|
+|![js](testing/code-validation/javascript-validation/high-score.PNG)|![js](testing/code-validation/javascript-validation/difficulty-page.PNG)|![js](testing/code-validation/javascript-validation/game-page.PNG)|![js](testing/code-validation/javascript-validation/exit-game.PNG)|![js](testing/code-validation/javascript-validation/end-game.PNG)|![js](testing/code-validation/javascript-validation/settings.PNG)|![js](testing/code-validation/javascript-validation/background-music.PNG)|
 
 Through rigorous validation and testing, the Toons Quiz Game aims to deliver a reliable, accessible, and enjoyable experience for all users.
 
