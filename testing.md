@@ -169,7 +169,7 @@ To ensure the Toons Quiz Game meets the diverse expectations and enhances the us
 
 I confirmed that my website performs consistently across various web browsers. Testing on popular browsers like Google Chrome, Safari, and Microsoft Edge was crucial to ensure a consistent and reliable user experience.
 
-| Browser Tested | Intended Appearance | Intended Responsiveness | SCreen Shot | 
+| Browser Tested | Intended Appearance | Intended Responsiveness | Screen Shot | 
 | --- | --- | --- | --- | 
 | `Google Chrome` | Good  | Good |  |
 | `Safari`| Good  | Good |  |
@@ -183,12 +183,12 @@ The responsiveness of the Toons Quiz Game was thoroughly tested to ensure a seam
 
 ### `Tested Devices and Results`
 
-| Device Tested | Screen Size | Site Response | Renders as Intended |
-|---------------|-------------|---------------|---------------------|
-| iPhone 12 Pro | 390px * 844px | Good | Yes |
-| iPhone 14 Pro Max | 430px * 932px | Good | Yes |
-| iPad Mini | 768px * 1024px | Good | Yes |
-| iPad Air | 820px * 1180px | Good | Yes |
+| Device Tested | Screen Size | Site Response | Renders as Intended | Screen Shot |
+|---------------|-------------|---------------|---------------------|---------------------|
+| iPhone 12 Pro | 390px * 844px | Good | Yes | |
+| iPhone 14 Pro Max | 430px * 932px | Good | Yes | |
+| iPad Mini | 768px * 1024px | Good | Yes | |
+| iPad Air | 820px * 1180px | Good | Yes | |
 
 ### Visual Representation
 
