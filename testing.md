@@ -264,7 +264,7 @@ The HTML code for each page of the Toons Quiz Game was validated using the [W3C 
 
 | Home Page | How to Play Page | High Score Page | Difficulty Level Page | Game Page | Exit Page | End Game Page | Settings Page |
 |---------------|-------------|---------------|---------------------|---------------------|---------------------|---------------------|---------------------|
-|![HTML](testing/code-validation/html-validation/home-page.PNG)|![HTML](testing/code-validation/html-validation/how-to-play.PNG)|![HTML](testing/code-validation/html-validation/high-score.PNG)|![HTML](testing/code-validation/html-validation/difficulty-level.PNG)|![HTML](testing/code-validation/html-validation/#)|![HTML](testing/code-validation/html-validation/exit-game.PNG)|![HTML](testing/code-validation/html-validation/end-game.PNG)|![HTML](testing/code-validation/html-validation/settings.PNG)|
+|![HTML](testing/code-validation/html-validation/home-page.PNG)|![HTML](testing/code-validation/html-validation/how-to-play.PNG)|![HTML](testing/code-validation/html-validation/high-score.PNG)|![HTML](testing/code-validation/html-validation/difficulty-level.PNG)|![HTML](testing/code-validation/html-validation/game-page.PNG)|![HTML](testing/code-validation/html-validation/exit-game.PNG)|![HTML](testing/code-validation/html-validation/end-game.PNG)|![HTML](testing/code-validation/html-validation/settings.PNG)|
 
 ### `CSS Validation`
 
