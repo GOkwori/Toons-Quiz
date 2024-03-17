@@ -202,6 +202,18 @@ The responsiveness of the Toons Quiz Game was thoroughly tested to ensure a seam
 |---------------|-------------|---------------|---------------------|---------------------|---------------------|---------------------|---------------------|
 |![iphone 14 Pro Max](testing/responsiveness-testing/iphone14-home.PNG)|![iphone 14 Pro Max](testing/responsiveness-testing/iphone14-how-to-play.PNG)|![iphone 14 Pro Max](testing/responsiveness-testing/iphone14-highscores.PNG)|![iphone 14 Pro Max](testing/responsiveness-testing/iphone-14-difficulty.PNG)|![iphone 14 Pro Max](testing/responsiveness-testing/iphone14-game.PNG)|![iphone 14 Pro Max](testing/responsiveness-testing/iphone14-exit.PNG)|![iphone 14 Pro Max](testing/responsiveness-testing/iphone14-end.PNG)|![iphone 14 Pro Max](testing/responsiveness-testing/iphone14-settings.PNG)|
 
+#### `iPad Mini`
+
+| Home Page | How to Play Page | High Score Page | Difficulty Level Page | Game Page | Exit Page | End Game Page | Settings Page |
+|---------------|-------------|---------------|---------------------|---------------------|---------------------|---------------------|---------------------|
+|![iPad Mini](testing/responsiveness-testing/ipad-mini-home.PNG)|![iPad Mini](testing/responsiveness-testing/ipad-mini-how-to-play.PNG)|![iPad Mini](testing/responsiveness-testing/ipad-mini-highscore.PNG)|![iPad Mini](testing/responsiveness-testing/ipad-mini-difficulty.PNG)|![iPad Mini](testing/responsiveness-testing/ipad-mini-game.PNG)|![iPad Mini](testing/responsiveness-testing/ipad-mini-exit.PNG)|![iPad Mini](testing/responsiveness-testing/ipad-mini-end.PNG)|![iPad Mini](testing/responsiveness-testing/ipad-mini-settings.PNG)|
+
+#### `iPad Air`
+
+| Home Page | How to Play Page | High Score Page | Difficulty Level Page | Game Page | Exit Page | End Game Page | Settings Page |
+|---------------|-------------|---------------|---------------------|---------------------|---------------------|---------------------|---------------------|
+|![iPad Air](testing/responsiveness-testing/ipad-air-home.PNG)|![iPad Air](testing/responsiveness-testing/ipad-air-how-to-play.PNG)|![iPad Air](testing/responsiveness-testing/ipad-air-highscore.PNG)|![iPad Air](testing/responsiveness-testing/ipad-air-difficulty.PNG)|![iPad Air](testing/responsiveness-testing/ipad-air-game.PNG)|![iPad Air](testing/responsiveness-testing/ipad-air-exit.PNG)|![iPad Air](testing/responsiveness-testing/ipad-air-end.PNG)|![iPad Air](testing/responsiveness-testing/ipad-air-settings.PNG)|
+
 Full testing was also performed on the following devices with the same test outcome as above:
 
 * `Laptop`:
