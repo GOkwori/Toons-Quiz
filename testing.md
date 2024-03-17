@@ -2,7 +2,7 @@
 
 ![Toons shown on a variety of screen sizes](documentation/page-layout/welcome-page.PNG)
 
-Visit the deployed site: [Grizk Art Gallery](https://gokwori.github.io/Toons-Quiz/)
+Visit the deployed site: [Toons Quiz](https://gokwori.github.io/Toons-Quiz/)
 
 - - -
 
