@@ -272,7 +272,7 @@ The CSS files were validated using the [W3C CSS Validation Service](https://jigs
 
 | CSS File | Validation Output |
 |----------|-------------------|
-| Main Stylesheet | ![Main CSS](testing/w3/main-css.png) |
+| Main Stylesheet | ![Main CSS](testing/code-validation/css-validation/css-jigsaw.PNG) |
 
 ### `JavaScript Validation`
 
