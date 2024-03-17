@@ -196,7 +196,11 @@ The responsiveness of the Toons Quiz Game was thoroughly tested to ensure a seam
 |---------------|-------------|---------------|---------------------|---------------------|---------------------|---------------------|---------------------|
 |![iphone 12 pro](testing/responsiveness-testing/iphone12-home.PNG)|![iphone 12 pro](testing/responsiveness-testing/iphone12-how%20to%20play.PNG)|![iphone 12 pro](testing/responsiveness-testing/iphone12-highscores.PNG)|![iphone 12 pro](testing/responsiveness-testing/iphone12-difficulty.PNG)|![iphone 12 pro](testing/responsiveness-testing/iphone12-game.PNG)|![iphone 12 pro](testing/responsiveness-testing/iphone12-exit.PNG)|![iphone 12 pro](testing/responsiveness-testing/iphone12-end.PNG)|![iphone 12 pro](testing/responsiveness-testing/iphone12-settings.PNG)|
 
+#### `iPhone 14 Pro Max`
 
+| Home Page | How to Play Page | High Score Page | Difficulty Level Page | Game Page | Exit Page | End Game Page | Settings Page |
+|---------------|-------------|---------------|---------------------|---------------------|---------------------|---------------------|---------------------|
+|![iphone 14 Pro Max](testing/responsiveness-testing/iphone14-home.PNG)|![iphone 14 Pro Max](testing/responsiveness-testing/iphone14-how-to-play.PNG)|![iphone 14 Pro Max](testing/responsiveness-testing/iphone14-highscores.PNG)|![iphone 14 Pro Max](testing/responsiveness-testing/iphone-14-difficulty.PNG)|![iphone 14 Pro Max](testing/responsiveness-testing/iphone14-game.PNG)|![iphone 14 Pro Max](testing/responsiveness-testing/iphone14-exit.PNG)|![iphone 14 Pro Max](testing/responsiveness-testing/iphone14-end.PNG)|![iphone 14 Pro Max](testing/responsiveness-testing/iphone14-settings.PNG)|
 
 Full testing was also performed on the following devices with the same test outcome as above:
 
