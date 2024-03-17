@@ -68,7 +68,7 @@ Dive into a vibrant journey through various questions ranging from the golden ag
 
 ## User Experience (UX)
 
-### Project Goal
+### `Project Goal`
 
 The primary goal of the Toons Quiz Game is to create an engaging, interactive web application that offers users a fun and educational way to test their knowledge of cartoons. This project aims to deliver an immersive experience where users can interact with the site in their unique way to achieve their personal goals and find answers to their specific questions.
 
@@ -76,7 +76,7 @@ By leveraging HTML, CSS, and JavaScript, this app will present interactive data 
 
 Through this project, I seek to not only entertain users but also to provide a platform for learning and engagement.
 
-### First Time User Goal
+### `First Time User Goal`
 
 For first-time users venturing into the Toons Quiz Game, the objective is to offer an inviting, easy-to-navigate platform that sparks interest and curiosity about cartoon trivia. This project seeks to provide a smooth onboarding experience that quickly demonstrates the game's value and entertainment potential without overwhelming newcomers.
 
@@ -85,11 +85,11 @@ First-time users are guided through a brief introduction that highlights key fea
 By balancing educational content with entertainment, the game aims to pique the curiosity of first-time users, inviting them to dive deeper into the world of cartoons and discover the breadth and depth of content available. Through a user-friendly interface and positive early interactions, first-time users are motivated to transition from casual players to regular participants.
 
 
-### Returning User Goal
+### `Returning User Goal`
 
 For returning users, the goal is to reinforce the positive experience had during their initial play, providing enough variety and challenge to encourage continued engagement and deeper involvement. The Toons Quiz Game seeks to build on the foundation laid during the first visit by offering personalized content, remembering user preferences, and presenting new questions and challenges that match their growing expertise.
 
-### Frequent User Goal
+### `Frequent User Goal`
 
 For frequent users, the Toons Quiz Game aims to deepen their connection to the game and its community, offering advanced challenges, opportunities for social interaction, and recognition for their dedication and achievements. This project seeks to transform frequent users into ambassadors of the game, leveraging their enthusiasm to foster a vibrant and welcoming community.
 
@@ -97,13 +97,13 @@ Frequent users are offered access to exclusive content, such as advanced difficu
 
 Recognition plays a key role in rewarding frequent users, with achievements, leaderboard rankings, and special accolades highlighting their contributions and expertise. This recognition not only serves to celebrate their accomplishments but also motivates others within the community to reach similar heights.
 
-### Business Goal
+### `Business Goal`
 
 The primary business goal of the Toons Quiz Game is to establish a vibrant, engaging online platform that not only entertains users but also fosters a community around a shared love for cartoons. By providing an interactive and educational experience, the game aims to attract a diverse audience, from casual players to trivia enthusiasts and competitive gamers, thereby increasing user engagement and retention.
 
 ## User Stories
 
-### First-Time Users
+### `First-Time Users`
 
 - **Exploring the Interface**:  
   *I want the site to be intuitive and welcoming, so I can easily understand how to start playing and navigate the game without feeling lost.*
@@ -114,7 +114,7 @@ The primary business goal of the Toons Quiz Game is to establish a vibrant, enga
 - **Learning How to Play**:  
   *I want clear instructions or a quick tutorial on how the game works, ensuring I have a positive experience right from the start.*
 
-### Returning Users
+### `Returning Users`
 
 - **Tracking Progress**:  
   *I would like to see my previous scores or progress when I return, giving me a sense of achievement and a reason to improve.*
@@ -125,7 +125,7 @@ The primary business goal of the Toons Quiz Game is to establish a vibrant, enga
 - **Personalized Experience**:  
   *I appreciate any customization or recommendations based on my past interactions, making my return visits more relevant and enjoyable.*
 
-### Frequent Users
+### `Frequent Users`
 
 - **Community Engagement**:  
   *I want to participate in a community of fellow cartoon enthusiasts, where I can share experiences, compete, and discuss trivia.*
@@ -133,7 +133,7 @@ The primary business goal of the Toons Quiz Game is to establish a vibrant, enga
 - **Exclusive Content**:  
   *As a loyal player, I'm interested in accessing exclusive quizzes, challenges, or rewards that acknowledge my frequent engagement.*
 
-#### As the game developer
+### `As the game developer`
 
 *I want to attract a broad user base and keep them engaged so that the site can grow in popularity and explore potential monetization opportunities.
 *I need to ensure the game is accessible to all users, including those with visual impairments, to adhere to inclusivity standards and expand the game's reach.
@@ -142,7 +142,7 @@ The primary business goal of the Toons Quiz Game is to establish a vibrant, enga
 
 ## Design Choices
 
-### Colour Scheme
+### `Colour Scheme`
 
 In designing the Quiz game website, a carefully curated colour palette was chosen to complement the site's aesthetic and functionality, featuring `#091f34` (deep navy blue), `#FFA500` (vibrant orange), and `#fff` (white) as primary elements. Additionally, specific colours are employed to visually signify correctness and incorrectness within the game interface: `#10862b` (green) for correct answers and `#8d111e` (red) for incorrect ones.
 
@@ -158,7 +158,7 @@ The primary and accent colours utilized across the site for textual and interact
 
 ![Colour Scheme](documentation/colour-scheme/colour-palettes.PNG)
 
-### Typography
+### `Typography`
 
 For the typography of the Quiz game website, Google Fonts was leveraged to import and integrate a font that complements the playful and engaging theme of the site.
 
@@ -169,7 +169,7 @@ The use of Comic Neue throughout the site not only reinforces the thematic eleme
 ![Comic Neue](documentation/google-fonts/comic-neue.png)
 
 
-### Imagery
+### `Imagery`
 
 The imagery used in the Quiz game website plays a pivotal role in creating an immersive and visually appealing experience that captivates users and enhances the thematic focus on cartoons and animation. Each visual element has been carefully selected and integrated to complement the game's design and user interface, providing a rich and engaging atmosphere that resonates with fans of animated content.
 
@@ -177,7 +177,7 @@ The imagery used in the Quiz game website plays a pivotal role in creating an im
 
 * Iconography and Logo: The website's logo and icons are designed to echo the playful and animated theme of the quiz. The logo (sourced from [Wallpaperaccess](https://wallpaperaccess.com/3d-cartoon#google_vignette)), featuring a stylized representation of cartoon elements, serves as a visual anchor for the site, reinforcing the game's identity and purpose. The icons used throughout the site, are chosen for their clear visual communication, thematic consistency and sourced from [Font Awesome](https://fontawesome.com/icons) . 
 
-### Wireframes
+### `Wireframes`
 
 Toons Quiz Game's development process began with the creation of detailed wireframes using Balsamiq wireframes. These wireframes served as blueprints for the game's design, ensuring a user-friendly interface and a seamless experience across various screens.
 
@@ -190,7 +190,7 @@ Toons Quiz Game's development process began with the creation of detailed wirefr
 ![Exit Game Page](documentation/wireframes/exit-game.png)
 ![End Game Page](documentation/wireframes/end-game-page.png)
 
-### Features
+### `Features`
 
 The Toons Quiz Game offers an engaging online platform, consisting of a series of interactive pages including the Home Page, How-to-Play, High Scores, Difficulty Level Selection, Quiz Game, End Game, Exit Game Confirmation, and Settings. Designed to cater to both casual browsers and avid quiz enthusiasts, the game ensures a seamless user experience across various devices with its responsive design.
 
@@ -220,7 +220,7 @@ All Pages Feature:
 
 Special Page Features:
 
-#### The Home Page
+#### `The Home Page`
 
 The Home Page of the Toons Quiz Game serves as the gateway to a vibrant and engaging journey through the world of animated trivia. Designed with attention to detail and user engagement at its core, this page sets the tone for an exciting quiz experience. Here's a detailed overview of its features:
 
@@ -242,7 +242,7 @@ The Home Page of the Toons Quiz Game serves as the gateway to a vibrant and enga
 
 ![Home Page](documentation/page-layout/welcome-page.PNG)
 
-#### The How To Play Page
+#### `The How To Play Page`
 
 The "How to Play" page of the Toons Quiz Game provides concise, easy-to-follow instructions tailored for players of all ages and skill levels. Here's what it includes:
 
@@ -250,7 +250,7 @@ The "How to Play" page of the Toons Quiz Game provides concise, easy-to-follow i
 
 ![How to play](documentation/page-layout/how-to-play-page.PNG)
 
-#### The High Score Page
+#### `The High Score Page`
 
 The High Score page stands as a motivational hub for the Toons Quiz Game, showcasing the achievements of top players. Here's a snapshot of its features:
 
@@ -268,7 +268,7 @@ The High Score page stands as a motivational hub for the Toons Quiz Game, showca
 
 ![High Scores](documentation/page-layout/high-score-page.PNG)
 
-#### The Difficulty Level Page
+#### `The Difficulty Level Page`
 
 The Difficulty Level page in the Toons Quiz Game serves as a crucial juncture for players, tailoring the game's challenge to their preference. Here's what it entails:
 
@@ -284,7 +284,7 @@ The Difficulty Level page in the Toons Quiz Game serves as a crucial juncture fo
 
 ![Difficulty Level](documentation/page-layout/difficulty-page.PNG)
 
-#### The Game Page
+#### `The Game Page`
 
 The Game Page is the heart of the Toons Quiz Game, where players' knowledge is put to the test through a series of cartoon-related questions. Here's what makes it stand out:
 
@@ -302,7 +302,7 @@ The Game Page is the heart of the Toons Quiz Game, where players' knowledge is p
 
 ![Game page](documentation/page-layout/game-page.PNG)
 
-#### The Exit Game Page
+#### `The Exit Game Page`
 
 The Exit Game Page offers a thoughtful pause in the gaming experience, allowing players to reconsider their decision to leave the quiz:
 
@@ -316,7 +316,7 @@ The Exit Game Page offers a thoughtful pause in the gaming experience, allowing 
 
 ![Exit Page](documentation/page-layout/exit-game-page.PNG)
 
-#### The End Game Page
+#### `The End Game Page`
 
 The End Game Page serves as a crucial component of the Toons Quiz Game, marking the culmination of a player's quiz journey. It's designed to provide a satisfying conclusion to the game while encouraging further engagement. Here's an overview of its features:
 
@@ -338,7 +338,7 @@ The End Game Page serves as a crucial component of the Toons Quiz Game, marking 
 
 ![End Game](documentation/page-layout/end-game-page.PNG)
 
-#### The Settings Page
+#### `The Settings Page`
 
 The Settings Page is designed to enhance player control and customisation of the gaming experience, featuring:
 
@@ -354,7 +354,7 @@ The Settings Page is designed to enhance player control and customisation of the
 
 ![Settings Page](documentation/page-layout/settings-page.PNG)
 
-### Future Implementations
+### `Future Implementations`
 
 Looking ahead, the Toons Quiz Game is poised for further enhancements that aim to enrich the user experience, expand content, and improve accessibility. Here are some of the anticipated future implementations:
 
@@ -372,7 +372,7 @@ Looking ahead, the Toons Quiz Game is poised for further enhancements that aim t
 
 * `Themed Quiz Events`: Regular introduction of themed quiz events centered around specific cartoons, holidays, or current events, keeping the content dynamic and engaging.
 
-### Accessibility
+### `Accessibility`
 
 Accessibility forms the cornerstone of the Toons Quiz Game, reflecting a commitment to inclusivity. Understanding the diverse needs of players, I have diligently crafted the game to ensure that everyone, regardless of their abilities, can delight in the challenge and joy that cartoon trivia brings. This commitment to accessibility is manifested through several key practices integrated into the game's coding and design:
 
@@ -398,7 +398,7 @@ Accessibility forms the cornerstone of the Toons Quiz Game, reflecting a commitm
 
 The development of Toons Quiz Game leverages a combination of modern web technologies and software tools to ensure a robust, interactive, and user-friendly experience. Here’s a brief overview of the key technologies and tools employed in the game’s creation:
 
-### Languages Used
+### `Languages Used`
 
 |  |  |
 | -- | --|
@@ -407,7 +407,7 @@ The development of Toons Quiz Game leverages a combination of modern web technol
 | ![JavaScript](https://img.shields.io/badge/3%20-%20JavaScript%20-%20black) | The driving force behind the game's interactivity, enabling dynamic content manipulation, real-time feedback, and seamless user interactions.|
 | | |
 
-### Frameworks, Libraries & Programs Used
+### `Frameworks, Libraries & Programs Used`
 
 * [Adobe Express](https://new.express.adobe.com/tools/convert-to-gif) - Used to remove background from logo image and to convert videos to GIF
 
@@ -435,7 +435,7 @@ The development of Toons Quiz Game leverages a combination of modern web technol
 
 ## Deployment & Local Development
 
-### Deployment
+### `Deployment`
 
 The site is deployed using GitHub Pages - [Toons Quiz](https://gokwori.github.io/CN-Toons-Quiz/).
 
@@ -448,7 +448,7 @@ To Deploy the site using GitHub Pages:
 5. From the source dropdown select main branch and "/(root)", then press save.
 6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
 
-### Local Development
+### `Local Development`
 
 #### How to Fork
 
@@ -474,7 +474,7 @@ To clone the repository:
 
 Please refer to [Testing.md](testing.md) file for all testing carried out.
 
-### Solved Bugs
+### `Solved Bugs`
 
 | No | Bug | Description | Solution Applied | 
 | --- | --- | --- | --- | 
@@ -493,7 +493,7 @@ Please refer to [Testing.md](testing.md) file for all testing carried out.
 
 ## Credits
 
-### Code Used
+### `Code Used`
 | No | Component | Comment | Source | Code Snippet | 
 | --- | --- | --- | --- | --- |
 | 1 |   |   | [#](#) | ![#](#) |
@@ -508,7 +508,7 @@ Please refer to [Testing.md](testing.md) file for all testing carried out.
 | 10 |   |   | [#](#) | ![#](#) |
 
 
-### Content
+### `Content`
 | No | Content | Remark | Source | Screenshot |
 | --- | --- | --- | --- | --- |
 | 1 |  `Logo`  |  The icon used for my logo was gotten from Wallpaper access | [Wallpaper Access](https://wallpaperaccess.com/3d-cartoon#google_vignette)| ![Logo](./assets/images/logo.jpg)|
@@ -520,7 +520,7 @@ Please refer to [Testing.md](testing.md) file for all testing carried out.
 
 
 
-### Acknowledgments
+### `Acknowledgments`
 
 I would like to acknowledge:
 
