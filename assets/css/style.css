@@ -105,6 +105,9 @@ p, strong {
     margin-bottom: 20px;
 }
 
+.option-text {
+    font-weight: 700;
+}
 
 /*---- Buttons ----*/
 

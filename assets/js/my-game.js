@@ -173,10 +173,10 @@ let mediumQuestions = [
   {
     question: "What is Gargamel's main goal in 'The Smurfs'?",
     options: [
-      "To capture the Smurfs",
-      "To destroy the Smurf village",
-      "To become friends with the Smurfs",
-      "To steal Smurfette",
+      "Capture the Smurfs",
+      "Destroy the Smurf village",
+      "Be friends with the Smurfs",
+      "Steal Smurfette",
     ],
     answer: 1,
   },
