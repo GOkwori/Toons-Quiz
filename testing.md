@@ -185,63 +185,20 @@ The responsiveness of the Toons Quiz Game was thoroughly tested to ensure a seam
 
 | Device Tested | Screen Size | Site Response | Renders as Intended | Screen Shot |
 |---------------|-------------|---------------|---------------------|---------------------|
-| iPhone 12 Pro | 390px * 844px | Good | Yes | |
-| iPhone 14 Pro Max | 430px * 932px | Good | Yes | |
-| iPad Mini | 768px * 1024px | Good | Yes | |
-| iPad Air | 820px * 1180px | Good | Yes | |
-
-### Visual Representation
-
-#### `iPhone 12 Pro`
-
-| Home Page | How to Play | High Score Page |
-|-----------|-------------|-----------------|
-| ![Home Page](testing/responsiveness/iphone12pro-home.png) | ![How to Play](testing/responsiveness/iphone12pro-howtoplay.png) | ![High Score Page](testing/responsiveness/iphone12pro-highscore.png) |
-
-| Difficulty Level Page | Game Page | End Game Page |
-|-----------------------|-----------|---------------|
-| ![Difficulty Level Page](testing/responsiveness/iphone12pro-difficultylevel.png) | ![Game Page](testing/responsiveness/iphone12pro-game.png) | ![End Game Page](testing/responsiveness/iphone12pro-endgame.png) |
-
-#### `iPhone 14 Pro Max`
-
-| Home Page | How to Play | High Score Page |
-|-----------|-------------|-----------------|
-| ![Home Page](testing/responsiveness/iphone14promax-home.png) | ![How to Play](testing/responsiveness/iphone14promax-howtoplay.png) | ![High Score Page](testing/responsiveness/iphone14promax-highscore.png) |
-
-| Difficulty Level Page | Game Page | End Game Page |
-|-----------------------|-----------|---------------|
-| ![Difficulty Level Page](testing/responsiveness/iphone14promax-difficultylevel.png) | ![Game Page](testing/responsiveness/iphone14promax-game.png) | ![End Game Page](testing/responsiveness/iphone14promax-endgame.png) |
-
-#### `iPad Mini`
-
-| Home Page | How to Play | High Score Page |
-|-----------|-------------|-----------------|
-| ![Home Page](testing/responsiveness/ipadmini-home.png) | ![How to Play](testing/responsiveness/ipadmini-howtoplay.png) | ![High Score Page](testing/responsiveness/ipadmini-highscore.png) |
-
-| Difficulty Level Page | Game Page | End Game Page |
-|-----------------------|-----------|---------------|
-| ![Difficulty Level Page](testing/responsiveness/ipadmini-difficultylevel.png) | ![Game Page](testing/responsiveness/ipadmini-game.png) | ![End Game Page](testing/responsiveness/ipadmini-endgame.png) |
-
-#### `iPad Air`
-
-| Home Page | How to Play | High Score Page |
-|-----------|-------------|-----------------|
-| ![Home Page](testing/responsiveness/ipadair-home.png) | ![How to Play](testing/responsiveness/ipadair-howtoplay.png) | ![High Score Page](testing/responsiveness/ipadair-highscore.png) |
-
-| Difficulty Level Page | Game Page | End Game Page |
-|-----------------------|-----------|---------------|
-| ![Difficulty Level Page](testing/responsiveness/ipadair-difficultylevel.png) | ![Game Page](testing/responsiveness/ipadair-game.png) | ![End Game Page](testing/responsiveness/ipadair-endgame.png) |
-
+| `iPhone 12 Pro` | 390px * 844px | Good | Yes | |
+| `iPhone 14 Pro Max` | 430px * 932px | Good | Yes | |
+| `iPad Mini` | 768px * 1024px | Good | Yes | |
+| `iPad Air` | 820px * 1180px | Good | Yes | |
 
 Full testing was also performed on the following devices with the same test outcome as above:
 
-* Laptop:
+* `Laptop`:
   * Macbook Pro 2017 13"
   * Hp Spectre x360
   * HP EliteBook 830 G10 13.3"
   * Dell Latitude 5530 15"
 
-* Mobile Devices:
+* `Mobile Devices`:
   * iPhone 13 Pro Max
   * Samsung S10+
 
