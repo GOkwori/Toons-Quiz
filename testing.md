@@ -183,12 +183,20 @@ The responsiveness of the Toons Quiz Game was thoroughly tested to ensure a seam
 
 ### `Tested Devices and Results`
 
-| Device Tested | Screen Size | Site Response | Renders as Intended | Screen Shot |
-|---------------|-------------|---------------|---------------------|---------------------|
-| `iPhone 12 Pro` | 390px * 844px | Good | Yes | |
-| `iPhone 14 Pro Max` | 430px * 932px | Good | Yes | |
-| `iPad Mini` | 768px * 1024px | Good | Yes | |
-| `iPad Air` | 820px * 1180px | Good | Yes | |
+| Device Tested | Screen Size | Site Response | Renders as Intended | 
+|---------------|-------------|---------------|---------------------|
+| `iPhone 12 Pro` | 390px * 844px | Good | Yes | 
+| `iPhone 14 Pro Max` | 430px * 932px | Good | Yes |
+| `iPad Mini` | 768px * 1024px | Good | Yes | 
+| `iPad Air` | 820px * 1180px | Good | Yes | 
+
+#### `iPhone 12 Pro`
+
+| Home Page | How to Play Page | High Score Page | Difficulty Level Page | Game Page | Exit Page | End Game Page | Settings Page |
+|---------------|-------------|---------------|---------------------|---------------------|---------------------|---------------------|---------------------|
+|![iphone 12 pro](testing/responsiveness-testing/iphone12-home.PNG)|![iphone 12 pro](testing/responsiveness-testing/iphone12-how%20to%20play.PNG)|![iphone 12 pro](testing/responsiveness-testing/iphone12-highscores.PNG)|![iphone 12 pro](testing/responsiveness-testing/iphone12-difficulty.PNG)|![iphone 12 pro](testing/responsiveness-testing/iphone12-game.PNG)|![iphone 12 pro](testing/responsiveness-testing/iphone12-exit.PNG)|![iphone 12 pro](testing/responsiveness-testing/iphone12-end.PNG)|![iphone 12 pro](testing/responsiveness-testing/iphone12-settings.PNG)|
+
+
 
 Full testing was also performed on the following devices with the same test outcome as above:
 
