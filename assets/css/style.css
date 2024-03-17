@@ -134,13 +134,15 @@ p {
 
 /*---- Buttons on home page ----*/
 .welcome-btn {
-    width: 40%;
+    width: 60%;
     margin: 2%;
+    font-weight: 700;
 }
 
 /*---- Settings close button ----*/
 .settings-close {
     width: 20%;
+    font-weight: 700;
 }
 
 /*---- Settings Page Form Elements ----*/
@@ -264,6 +266,18 @@ p {
     height: 50px;
     border-radius: 20%;
     margin-bottom: 20px;
+}
+
+#easy {
+    font-weight: 700;
+}
+
+#medium {
+    font-weight: 700;
+}
+
+#hard {
+    font-weight: 700;
 }
 
 /*---- Difficulty level buttons container ----*/
@@ -397,11 +411,13 @@ p {
 .exit-button {
     width: 20%;
     margin-bottom: 20px;
+    font-weight: 700;
 }
 
 /*---- Clear High Scores Button on the high score page ----*/
 .clear-button {
-    width: 20%;
+    width: 30%;
+    font-weight: 700;
 }
 
 /*---- High Scores List ----*/
@@ -421,6 +437,7 @@ p {
 /*---- End Game Button ----*/
 .end-btn {
     width: 40%;
+    font-weight: 700;
 }
 
 #username {
