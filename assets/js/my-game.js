@@ -308,20 +308,11 @@ const MAX_QUESTIONS = 10;
 startGame = (questions) => {
   questionCounter = 0;
   score = 0;
-  availableQuestions = [...questions];
+  availableQuestions = [...easyQuestions, ...mediumQuestions, ...hardQuestions];
   nextButton.style.display = "none";
   getNewQuestion();
 
-  // Set click listener for the Next button
-  nextButton.addEventListener("click", () => {
-    options.forEach((option) => {
-      // Remove classes for next question
-      option.parentElement.classList.remove("correct", "incorrect");
-    });
-    getNewQuestion();
-    // Hide Next button until another option is selected
-    nextButton.style.display = "none";
-  });
+
 };
 
 // Fetch and display a new question
@@ -391,5 +382,16 @@ incrementScore = (num) => {
   score += num;
   scoreText.innerText = score;
 };
+
+// This function will handle the 'click' event of the next button
+function handleNextButton() {
+  options.forEach(option => {
+      // Remove classes for next question
+      option.parentElement.classList.remove('correct', 'incorrect');
+  });
+  getNewQuestion(); // Fetch and display the next question
+  // Hide Next button until another answer is selected
+  nextButton.style.display = 'none';
+}
 
 startGame();
