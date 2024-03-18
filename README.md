@@ -272,7 +272,7 @@ The High Score page stands as a motivational hub for the Toons Quiz Game, showca
 
 The Difficulty Level page in the Toons Quiz Game serves as a crucial juncture for players, tailoring the game's challenge to their preference. Here's what it entails:
 
-* `Customisable Experience`: Offers a choice between `Easy,` `Medium,` and `Hard` levels, allowing players to align the game's difficulty with their comfort and skill level.
+* `Customisable Experience`: Offers a choice between `Easy`, `Medium`, and `Hard` levels, allowing players to align the game's difficulty with their comfort and skill level.
 
 * `Immediate Impact`: The selected difficulty level dynamically adjusts the questions' complexity, ensuring a tailored quiz experience right from the start.
 
