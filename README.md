@@ -494,18 +494,29 @@ Please refer to [Testing.md](testing.md) file for all testing carried out.
 ## Credits
 
 ### `Code Used`
+
+| Component | Comment | Source |
+| --- | --- | --- |
+| `Javascript`  | In preparing my JavaScript files, I made references to youtube tutorials prepared by James Q Quick and Brian Design | [James Q Quick](https://www.youtube.com/watch?v=rFWbAj40JrQ&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF) & [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY) |
+
+#### `Game Page Javascript`
+
 | No | Component | Comment | Source | Code Snippet | 
 | --- | --- | --- | --- | --- |
-| 1 |   |   | [#](#) | ![#](#) |
-| 2 |   |   | [#](#) | ![#](#) |
-| 3 |   |   | [#](#) | ![#](#) |
-| 4 |   |   | [#](#) | ![#](#) |
-| 5 |   |   | [#](#) | ![#](#) |
-| 6 |   |   | [#](#) | ![#](#) |
-| 7 |   |   | [#](#) | ![#](#) |
-| 8 |   |   | [#](#) | ![#](#) |
-| 9 |   |   | [#](#) | ![#](#) |
-| 10 |   |   | [#](#) | ![#](#) |
+| 1 | `Hard-coded Questions`  | The code used in displaying my hard-coded questions on the game page was adopted from the youtube video by James Q Quick and was modified for my game | [Hard-coded questions](https://www.youtube.com/watch?v=zZdQGs62cR8&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=3) | ![Hard-coded Questions](documentation/code-snippet/hard-coded-questions.PNG) |
+| 2 |  `Correct/Incorrect Answers Feedback` | The code used in displaying my feedback for correct/incorrect answers was sourcedd from the youtube video by James Q Quick and was modified for my game | [Answer Feedback](https://www.youtube.com/watch?v=_LYxkClHnV0&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=4) | ![Answer-Feedback](documentation/code-snippet/answer-feedback.PNG) |
+| 3 | `QuestionCounter & Score`  | The code used in iterating my questionCounter & Score was sourcedd from the youtube video by James Q Quick and was modified for my game  | [Question Counter & Score](https://www.youtube.com/watch?v=BOQLbu_Crc0&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=5) | ![Question Counter](documentation/code-snippet/question-counter.PNG) <br> ![Score](documentation/code-snippet/score.PNG)|
+| 4 | `Progress Bar` | The code used in creating my progress bar was sourcedd from the youtube video by James Q Quick and was modified for my game   | [Progress Bar](https://www.youtube.com/watch?v=4bctmtuZVcM&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=6) | ![Progress Bar](documentation/code-snippet/progress-bar.PNG) |
+| 5 |  `Local Storage` | The code used in saving high scores to local storage was sourcedd from the youtube video by James Q Quick and was modified for my game   | [Local Storage](https://www.youtube.com/watch?v=DFhmNLKwwGw&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=8) | ![Local Storage](documentation/code-snippet/local-storage.PNG) |
+
+
+
+#### `High Score Javascript`
+
+| No | Component | Comment | Source | Code Snippet | 
+| --- | --- | --- | --- | --- |
+| 1 | `Display Score from Storage` | The code used in displaying high scores from local storage was sourcedd from the youtube video by James Q Quick and was modified for my game   | [Local Storage](https://https://www.youtube.com/watch?v=jfOv18lCMmw&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=9) | ![Local Storage](documentation/code-snippet/display-highscore.PNG) |
+
 
 
 ### `Content`
