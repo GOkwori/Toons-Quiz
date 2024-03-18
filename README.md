@@ -476,18 +476,17 @@ Please refer to [Testing.md](testing.md) file for all testing carried out.
 
 ### `Solved Bugs`
 
-| No | Bug | Description | Solution Applied | 
+| No | Bug | Description | Fix Applied | 
 | --- | --- | --- | --- | 
-| 1 |  | | ![#](#) |
-| 2 |  | | ![#](#) |
-| 3 |  | | ![#](#) |
-| 4 |  | | ![#](#) |
-| 5 |  | | ![#](#) |
-| 6 |  | | ![#](#) |
-| 7 |  | | ![#](#) |
-| 8 |  | | ![#](#) |
-| 9 |  | | ![#](#) |
-| 10 |  | | ![#](#) |
+| 1 | `Distortion of all webpages` | Elements were not properly aligned which created a distortion in my web layout across all pages | ![Code Fix](testing/bugs/bug-1.PNG) |
+| 2 | `Save game button not functional` | The save game button on the end game page was not working as intended due to an error in the JS code written| ![Code Fix](testing/bugs/bug-2.PNG) |
+| 3 |`QuestionCounter error`  | The question counter was incrementing wrongly causing an incomplete set of questions being dusplayed per game session  | ![Code Fix](testing/bugs/bug-3.0.PNG) <br> ![Code Fix](testing/bugs/bug-3.1.PNG) ||
+| 4 | `404 error on Game Page`  | I was experiencing a 404 error when navigating from my game page to the end game page due to an error in my JS file | ![Code Fix](testing/bugs/bug-4.PNG) |
+| 5 | `404 error on End Game Page` | I encountered another 404 error when navigating from the end game page back to the home page due to an error in my JS file| ![Code Fix](testing/bugs/bug-5.PNG) |
+| 6 | `Error saving actual game score` | I experienced with random numbers being saved as scores instead of the game actual scores| ![Code Fix](testing/bugs/bug-6.PNG) <br> ![Code Fix](testing/bugs/bug-6.1.PNG) |
+| 7 | `Font display error` | My web fonts were not displaying as they should on the deployed site due to an error in my google font import syntax| ![Code Fix](testing/bugs/bug-7.PNG) |
+| 8 | `Next button error`  | The next button stopped functioning as intended due to mltiple event listeners for the next button| ![Code Fix](testing/bugs/bug-8.PNG) |
+| 9 | `Question selection error` | Questions were randomly displayed during the game sessions instead of being displayed according to the various difficulty levels| ![Code Fix](testing/bugs/bug-9.PNG) <br> ![Code Fix](testing/bugs/bug-9.1.PNG) |
 
 - - -
 
