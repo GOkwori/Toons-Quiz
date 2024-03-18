@@ -36,10 +36,11 @@ function applySettings() {
 
 // Function to set up the game
 function setupGame() {
+  const selectedDifficulty = localStorage.getItem("difficulty") || "easy"; // Ensure a default value
   let questions;
-  const difficulty = localStorage.getItem("difficulty");
 
-  switch (difficulty) {
+  // Using a switch or if-else structure to map selectedDifficulty to the correct array
+  switch (selectedDifficulty) {
     case "easy":
       questions = easyQuestions;
       break;
@@ -50,8 +51,11 @@ function setupGame() {
       questions = hardQuestions;
       break;
     default:
-      questions = easyQuestions; // Fallback to easy if something goes wrong
+      console.error("Unexpected difficulty level:", selectedDifficulty);
+      questions = []; // Default to an empty array to avoid errors
+      break;
   }
+
   startGame(questions);
 }
 
@@ -71,6 +75,7 @@ let questionCounter = 0;
 let availableQuestions = [];
 
 // Questions
+
 // Easy Questions
 let easyQuestions = [
   {
@@ -306,13 +311,15 @@ const MAX_QUESTIONS = 10;
 
 // Initialize the game
 startGame = (questions) => {
+  // Ensure questions is an array before proceeding
+  if (!Array.isArray(questions)) {
+    return; // Exit the function if questions is not an array
+  }
   questionCounter = 0;
   score = 0;
-  availableQuestions = [...easyQuestions, ...mediumQuestions, ...hardQuestions];
+  availableQuestions = [...questions];
   nextButton.style.display = "none";
   getNewQuestion();
-
-
 };
 
 // Fetch and display a new question
@@ -385,13 +392,13 @@ incrementScore = (num) => {
 
 // This function will handle the 'click' event of the next button
 function handleNextButton() {
-  options.forEach(option => {
-      // Remove classes for next question
-      option.parentElement.classList.remove('correct', 'incorrect');
+  options.forEach((option) => {
+    // Remove classes for next question
+    option.parentElement.classList.remove("correct", "incorrect");
   });
   getNewQuestion(); // Fetch and display the next question
   // Hide Next button until another answer is selected
-  nextButton.style.display = 'none';
+  nextButton.style.display = "none";
 }
 
 startGame();
