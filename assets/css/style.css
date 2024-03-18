@@ -99,7 +99,7 @@ h3 {
     margin-bottom: 20px;
 }
 
-p {
+p, strong {
     font-weight: 400;
     font-size: 1.6rem;
     margin-bottom: 20px;

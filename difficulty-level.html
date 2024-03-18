@@ -40,45 +40,44 @@
             </a>
         </div>
     </header>
-        <!--Section-->
-        <section class="container">
-            <!--Main container that holds the content-->
-            <div class="container text-center content-body">
-                <div class="row">
-                    <!--Difficulty level header-->
-                    <div class="col-9 text-center difficulty-header" id="mq-heading">
-                        <h2> Difficulty Level</h2>
-                    </div>
-                    <!--Close button-->
-                    <div class="col-3" id="cls-btn">
-                        <a href="index.html" class="btn btn-primary btn-lg close-button" role="button">
-                            <i class="fa fa-power-off"></i>
-                        </a>
-                    </div>
+    <!--Section-->
+    <section class="container">
+        <!--Main container that holds the content-->
+        <div class="container text-center content-body">
+            <div class="row">
+                <!--Difficulty level header-->
+                <div class="col-9 text-center difficulty-header" id="mq-heading">
+                    <h2> Difficulty Level</h2>
                 </div>
-                <!--Button container-->
-                <div class="difficulty-button-container">
-                    <div class="row text-center difficulty-button">
-                        <button class="btn btn-primary btn-lg" id="easy" onclick="setDifficulty('easy')">Easy</button>
-                    </div>
+                <!--Close button-->
+                <div class="col-3" id="cls-btn">
+                    <a href="index.html" class="btn btn-primary btn-lg close-button" role="button">
+                        <i class="fa fa-power-off"></i>
+                    </a>
+                </div>
+            </div>
+            <!--Button container-->
+            <div class="difficulty-button-container">
+                <div class="row text-center difficulty-button">
+                    <button class="btn btn-primary btn-lg" id="easy" onclick="setDifficulty('easy')">Easy</button>
+                </div>
 
-                    <div class="row text-center difficulty-button">
-                        <button class="btn btn-primary btn-lg" id="medium"
-                            onclick="setDifficulty('medium')">Medium</button>
-                    </div>
-                    <div class="row text-center difficulty-button">
-                        <button class="btn btn-primary btn-lg" id="hard" onclick="setDifficulty('hard')">Hard</button>
-                    </div>
+                <div class="row text-center difficulty-button">
+                    <button class="btn btn-primary btn-lg" id="medium" onclick="setDifficulty('medium')">Medium</button>
+                </div>
+                <div class="row text-center difficulty-button">
+                    <button class="btn btn-primary btn-lg" id="hard" onclick="setDifficulty('hard')">Hard</button>
                 </div>
             </div>
-            <!--Background music-->
-            <div>
-                <audio id="background-music" loop>
-                    <source src="assets/audio/Dance-Monkey(PaglaSongs).mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </div>
-        </section>
+        </div>
+        <!--Background music-->
+        <div>
+            <audio id="background-music" loop>
+                <source src="assets/audio/Dance-Monkey(PaglaSongs).mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </section>
     <script src="assets/js/difficulty.js"></script>
 </body>
 

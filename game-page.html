@@ -40,84 +40,84 @@
             </a>
         </div>
     </header>
-        <!--Section-->
-        <section class="container">
-            <!--Main container that holds the Quiz-->
-            <div class="row content-body timer-board">
-                <div class="col-6 score-count">
-                    <h2 class="hud-prefix" id="score-count-h2">Score:</h2>
-                    <h2 class="hud-main-text" id="score">0</h2>
-                </div>
-                <!--Close button-->
-                <div class="col-6 timer">
-                    <a href="exit-game-page.html" class="btn btn-primary btn-lg close-button" role="button">
-                        <i class="fa fa-power-off"></i>
-                    </a>
-                </div>
+    <!--Section-->
+    <section class="container">
+        <!--Main container that holds the Quiz-->
+        <div class="row content-body timer-board">
+            <div class="col-6 score-count">
+                <h2 class="hud-prefix" id="score-count-h2">Score:</h2>
+                <h2 class="hud-main-text" id="score">0</h2>
             </div>
-            <div class="container text-center content-body quiz-info">
+            <!--Close button-->
+            <div class="col-6 timer">
+                <a href="exit-game-page.html" class="btn btn-primary btn-lg close-button" role="button">
+                    <i class="fa fa-power-off"></i>
+                </a>
+            </div>
+        </div>
+        <div class="container text-center content-body quiz-info">
+            <div class="row">
+                <!--Question-->
                 <div class="row">
-                    <!--Question-->
-                    <div class="row">
-                        <div class="col-6 col" id="hud-q">
-                            <h2 id="progressText" class="hud-prefix">Question:</h2>
-                        </div>
-                        <div class="col-6 d-none d-sm-block progress-bar-container">
-                            <!--Progress bar-->
-                            <div id="progressBar">
-                                <div ID="progressBarFull">
-                                </div>
+                    <div class="col-6 col" id="hud-q">
+                        <h2 id="progressText" class="hud-prefix">Question:</h2>
+                    </div>
+                    <div class="col-6 d-none d-sm-block progress-bar-container">
+                        <!--Progress bar-->
+                        <div id="progressBar">
+                            <div ID="progressBarFull">
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <br>
+            <div class="question-section">
+                <div class="question">
+                    <h2 id="question">Question</h2>
                 </div>
                 <br>
-                <div class="question-section">
-                    <div class="question">
-                        <h2 id="question">Question</h2>
-                    </div>
-                    <br>
-                    <div class="answers">
-                        <div class="row btn-row">
-                            <div class="col-6">
-                                <button class="answer-btn btn btn-primary btn-lg">
-                                    <span class="option-text" data-number="1"></span>
-                                </button>
-                            </div>
-                            <div class="col-6">
-                                <button class="answer-btn btn btn-primary btn-lg">
-                                    <span class="option-text" data-number="2"></span>
-                                </button>
-                            </div>
+                <div class="answers">
+                    <div class="row btn-row">
+                        <div class="col-6">
+                            <button class="answer-btn btn btn-primary btn-lg">
+                                <span class="option-text" data-number="1"></span>
+                            </button>
                         </div>
-                        <div class="row btn-row">
-                            <div class="col-6">
-                                <button class="answer-btn btn btn-primary btn-lg">
-                                    <span class="option-text" data-number="3"></span>
-                                </button>
-                            </div>
-                            <div class="col-6">
-                                <button class="answer-btn btn btn-primary btn-lg">
-                                    <span class="option-text" data-number="4"></span>
-                                </button>
-                            </div>
+                        <div class="col-6">
+                            <button class="answer-btn btn btn-primary btn-lg">
+                                <span class="option-text" data-number="2"></span>
+                            </button>
                         </div>
                     </div>
-                    <div class="next-container">
-                        <button class="btn btn-primary btn-lg" id="next-btn-container">
-                            <span id="next-btn">Next</span>
-                        </button>
+                    <div class="row btn-row">
+                        <div class="col-6">
+                            <button class="answer-btn btn btn-primary btn-lg">
+                                <span class="option-text" data-number="3"></span>
+                            </button>
+                        </div>
+                        <div class="col-6">
+                            <button class="answer-btn btn btn-primary btn-lg">
+                                <span class="option-text" data-number="4"></span>
+                            </button>
+                        </div>
                     </div>
                 </div>
+                <div class="next-container">
+                    <button class="btn btn-primary btn-lg" id="next-btn-container">
+                        <span id="next-btn">Next</span>
+                    </button>
+                </div>
             </div>
-            <!--Background music-->
-            <div>
-                <audio id="background-music" loop>
-                    <source src="assets/audio/Dance-Monkey(PaglaSongs).mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </div>
-        </section>
+        </div>
+        <!--Background music-->
+        <div>
+            <audio id="background-music" loop>
+                <source src="assets/audio/Dance-Monkey(PaglaSongs).mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </section>
     <script src="assets/js/my-game.js"></script>
 </body>
 
