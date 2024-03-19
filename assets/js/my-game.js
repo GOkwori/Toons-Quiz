@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Initialization logic, including setting up the questions based on difficulty
   setupGame();
 
-  // Add event listener to the Next button only once
+  // Add event listener to the Next button
   nextButton.addEventListener("click", handleNextButton);
 });
 
@@ -39,7 +39,7 @@ function setupGame() {
   const selectedDifficulty = localStorage.getItem("difficulty") || "easy"; // Ensure a default value
   let questions;
 
-  // Using a switch or if-else structure to map selectedDifficulty to the correct array
+  // Using a switch structure to map selectedDifficulty to the correct array
   switch (selectedDifficulty) {
     case "easy":
       questions = easyQuestions;
@@ -73,8 +73,6 @@ let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
-
-// Questions
 
 // Easy Questions
 let easyQuestions = [

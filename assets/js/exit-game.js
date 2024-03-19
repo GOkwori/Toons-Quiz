@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     music.pause();
   }
 
-  // Apply dark theme setting
+  // Apply light theme setting
   if (darkThemeEnabled) {
     body.classList.add("dark-theme");
   } else {

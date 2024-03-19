@@ -42,23 +42,21 @@
     </header>
     <!--Section-->
     <section class="container">
-        <!--Main container that holds the content-->
+        <!--Main container-->
         <div class="container text-center content-body">
-            <div class="row">
-                <!--Hgh score header-->
-                <div class="col-9 text-center score-header" id="mq-heading-2">
-                    <h2 id="finaleScore">Score Board</h2>
+            <br>
+            <div class="question-section">
+                <div class="question">
+                    <h2>Are you sure you want to clear all scores?</h2>
                 </div>
-                <!--Close button-->
-                <div class="col-3" id="cls-btn">
-                    <a href="index.html" class="btn btn-primary btn-lg close-button" role="button">
-                        <i class="fa fa-power-off"></i>
-                    </a>
+                <br>
+                <div class="col">
+                    <button class="btn btn-primary btn-lg exit-button" onclick="clearHighScores()">Yes</button>
+                </div>
+                <div class="col">
+                    <a href="high-score.html" class="btn btn-primary btn-lg exit-button" role="button" id="noBtn">No</a>
                 </div>
             </div>
-            <!--High score list container-->
-            <ul id="highScoresList"></ul>
-            <a href= "clear-score.html" class="clear-button btn btn-primary btn-lg" role="button">Reset Scores</a>
         </div>
         <!--Background music-->
         <div>
@@ -68,7 +66,7 @@
             </audio>
         </div>
     </section>
-    <script src="assets/js/high-score.js"></script>
+    <script src="assets/js/clear-score.js"></script>
 </body>
 
 </html>

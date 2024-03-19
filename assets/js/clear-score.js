@@ -1,17 +1,23 @@
 document.addEventListener("DOMContentLoaded", () => {
   applySettings();
-  displayHighScores();
+  setupEventListeners();
 });
 
-// Function to display high scores
-function displayHighScores() {
-  const highScoresList = document.getElementById("highScoresList");
-  const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
+// Function to clear high scores from local storage
+function clearHighScores() {
+  // User confirmed, clear high scores from local storage
+  localStorage.removeItem("highScores");
 
-  // Create list items for each high score and append to the highScoresList
-  highScoresList.innerHTML = highScores
-    .map(score => `<li class="high-score">${score.name} - ${score.score}</li>`)
-    .join('');
+  // Redirect back to the high scores page to see the updated (now empty) list
+  window.location.href = "high-score.html";
+}
+
+// Function to set up event listeners
+function setupEventListeners() {
+  const clearButton = document.querySelector(".yes-button");
+  if (clearButton) {
+    clearButton.addEventListener("click", clearHighScores);
+  }
 }
 
 // Function to apply settings for sound and dark theme

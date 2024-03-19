@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     music.play().catch((e) => console.error("Error playing music:", e));
   }
 
-  // Apply dark theme setting
+  // Apply light theme setting
   if (darkThemeEnabled) {
     body.classList.add("dark-theme");
   }
@@ -34,12 +34,13 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       music.pause();
       
-      // Clear saved playback time since sound is disabled
+      // Clear saved playback time if sound is disabled
       localStorage.removeItem("musicTime"); 
       localStorage.setItem("soundEnabled", "false");
     }
   });
 
+  // Event listener for applying theme
   themeCheckbox.addEventListener("change", () => {
     if (themeCheckbox.checked) {
       body.classList.add("dark-theme");
