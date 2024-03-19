@@ -262,9 +262,9 @@ To ensure the Toons Quiz Game meets web standards and provides a high-quality ex
 
 The HTML code for each page of the Toons Quiz Game was validated using the [W3C Markup Validation Service](https://validator.w3.org/) to ensure it is free from errors and complies with the HTML5 standard.
 
-| Home Page | How to Play Page | High Score Page | Difficulty Level Page | Game Page | Exit Page | End Game Page | Settings Page |
-|---------------|-------------|---------------|---------------------|---------------------|---------------------|---------------------|---------------------|
-|![HTML](testing/code-validation/html-validation/home-page.PNG)|![HTML](testing/code-validation/html-validation/how-to-play.PNG)|![HTML](testing/code-validation/html-validation/high-score.PNG)|![HTML](testing/code-validation/html-validation/difficulty-level.PNG)|![HTML](testing/code-validation/html-validation/game-page.PNG)|![HTML](testing/code-validation/html-validation/exit-game.PNG)|![HTML](testing/code-validation/html-validation/end-game.PNG)|![HTML](testing/code-validation/html-validation/settings.PNG)|
+| Home Page | How to Play Page | High Score Page | Difficulty Level Page | Game Page | Exit Page | End Game Page | Settings Page | Clear Score Page |
+|---------------|-------------|---------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|
+|![HTML](testing/code-validation/html-validation/home-page.PNG)|![HTML](testing/code-validation/html-validation/how-to-play.PNG)|![HTML](testing/code-validation/html-validation/high-score.PNG)|![HTML](testing/code-validation/html-validation/difficulty-level.PNG)|![HTML](testing/code-validation/html-validation/game-page.PNG)|![HTML](testing/code-validation/html-validation/exit-game.PNG)|![HTML](testing/code-validation/html-validation/end-game.PNG)|![HTML](testing/code-validation/html-validation/settings.PNG)| ![HTML](testing/code-validation/html-validation/clear-score.PNG|
 
 ### `CSS Validation`
 
@@ -278,9 +278,9 @@ The CSS files were validated using the [W3C CSS Validation Service](https://jigs
 
 JavaScript code was tested for syntax errors and compatibility issues to ensure seamless interactivity and functionality across different browsers. Tools such as [JSHint](https://jshint.com/) were utilized for this purpose.
 
-| High Score Page | Difficulty Level Page | Game Page | Exit Page  | End Game Page | Settings Page | background-music  | 
-|---------------|-------------|---------------|---------------------|---------------------|---------------------|---------------------|
-|![js](testing/code-validation/javascript-validation/high-score.PNG)|![js](testing/code-validation/javascript-validation/difficulty-page.PNG)|![js](testing/code-validation/javascript-validation/game-page.PNG)|![js](testing/code-validation/javascript-validation/exit-game.PNG)|![js](testing/code-validation/javascript-validation/end-game.PNG)|![js](testing/code-validation/javascript-validation/settings.PNG)|![js](testing/code-validation/javascript-validation/background-music.PNG)|
+| High Score Page | Difficulty Level Page | Game Page | Exit Page  | End Game Page | Settings Page | background-music  | Clear Score Page |
+|---------------|-------------|---------------|---------------------|---------------------|---------------------|---------------------| ---------------------|
+|![js](testing/code-validation/javascript-validation/high-score.PNG)|![js](testing/code-validation/javascript-validation/difficulty-page.PNG)|![js](testing/code-validation/javascript-validation/game-page.PNG)|![js](testing/code-validation/javascript-validation/exit-game.PNG)|![js](testing/code-validation/javascript-validation/end-game.PNG)|![js](testing/code-validation/javascript-validation/settings.PNG)|![js](testing/code-validation/javascript-validation/background-music.PNG)||![js](testing/code-validation/javascript-validation/clear-score.PNG)|
 
 Through rigorous validation and testing, the Toons Quiz Game aims to deliver a reliable, accessible, and enjoyable experience for all users.
 
