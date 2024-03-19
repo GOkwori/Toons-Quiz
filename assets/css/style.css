@@ -552,7 +552,7 @@ label {
         font-size: 100%;
     }
 
-    p {
+    p, strong {
         font-size: 90%;
     }
 
@@ -744,7 +744,7 @@ label {
         font-size: 130%;
     }
 
-    p {
+    p, strong {
         font-size: 110%;
     }
 
@@ -930,7 +930,7 @@ label {
         font-size: 150%;
     }
 
-    p {
+    p, strong {
         font-size: 120%;
     }
 
@@ -1113,7 +1113,7 @@ label {
         margin-bottom: 20px;
     }
 
-    p {
+    p, strong {
         font-weight: 400;
         font-size: 1.1rem;
         margin: 0;
@@ -1215,7 +1215,7 @@ label {
         margin-bottom: 20px;
     }
 
-    p {
+    p, strong {
         font-weight: 400;
         font-size: 1.4rem;
         margin: 0;
