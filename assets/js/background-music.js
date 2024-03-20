@@ -1,5 +1,5 @@
 // Script is for playing background music on the website
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function () {
   const music = document.getElementById("background-music");
   if (music) {
     const savedTime = parseFloat(localStorage.getItem("musicTime")) || 0;

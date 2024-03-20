@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Apply settings
-applySettings = () => {
+function applySettings() {
   const body = document.body;
   const music = document.getElementById("background-music");
 
@@ -35,7 +35,7 @@ applySettings = () => {
 }
 
 // Function to set up the game
-setupGame = () => {
+function setupGame() {
   const selectedDifficulty = localStorage.getItem("difficulty") || "easy"; // Ensure a default value
   let questions;
 
@@ -308,7 +308,7 @@ const MAX_QUESTIONS = 10;
 // Functions
 
 // Initialize the game
-startGame = (questions) => {
+function startGame(questions) {
   // Ensure questions is an array before proceeding
   if (!Array.isArray(questions)) {
     return; // Exit the function if questions is not an array
@@ -318,10 +318,10 @@ startGame = (questions) => {
   availableQuestions = [...questions];
   nextButton.style.display = "none";
   getNewQuestion();
-};
+}
 
 // Fetch and display a new question
-getNewQuestion = () => {
+function getNewQuestion() {
   if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
     // Save the most recent score to local storage
     localStorage.setItem("mostRecentScore", score.toString());
@@ -349,7 +349,7 @@ getNewQuestion = () => {
 
   // Remove the question from the available questions
   availableQuestions.splice(questionIndex, 1);
-};
+}
 
 // Set click listeners for each option
 options.forEach((option) => {
@@ -383,13 +383,13 @@ options.forEach((option) => {
 });
 
 // Increment the score
-incrementScore = (num) => {
+function incrementScore(num) {
   score += num;
   scoreText.innerText = score;
-};
+}
 
 // This function will handle the 'click' event of the next button
-handleNextButton = () => {
+function handleNextButton() {
   options.forEach((option) => {
     // Remove classes for next question
     option.parentElement.classList.remove("correct", "incorrect");

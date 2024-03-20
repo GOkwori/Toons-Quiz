@@ -1,5 +1,5 @@
 // JavaScript file for the difficulty page.
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function () {
   applySettings();
 });
 
@@ -12,7 +12,7 @@ setDifficulty = (level) => {
 }
 
 // Apply settings
-applySettings = () => {
+function applySettings() {
   const body = document.body;
   const music = document.getElementById("background-music");
 

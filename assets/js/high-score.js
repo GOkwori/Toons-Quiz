@@ -4,20 +4,20 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Function to display high scores
-displayHighScores = () => {
+function displayHighScores() {
   const highScoresList = document.getElementById("highScoresList");
   const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 
   // Create list items for each high score and append to the highScoresList
   highScoresList.innerHTML = highScores
-    .map(
-      (score) => `<li class="high-score">${score.name} - ${score.score}</li>`
-    )
+    .map((score) => {
+      return `<li class="high-score">${score.name} - ${score.score}</li>`;
+    })
     .join("");
-}
+};
 
 // Function to apply settings for sound and dark theme
-applySettings = () => {
+function applySettings() {
   const body = document.body;
   const music = document.getElementById("background-music");
 
@@ -38,4 +38,4 @@ applySettings = () => {
   } else {
     body.classList.remove("dark-theme");
   }
-}
+};
