@@ -10,8 +10,10 @@ function displayHighScores() {
 
   // Create list items for each high score and append to the highScoresList
   highScoresList.innerHTML = highScores
-    .map(score => `<li class="high-score">${score.name} - ${score.score}</li>`)
-    .join('');
+    .map(
+      (score) => `<li class="high-score">${score.name} - ${score.score}</li>`
+    )
+    .join("");
 }
 
 // Function to apply settings for sound and dark theme
