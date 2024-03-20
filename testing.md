@@ -210,6 +210,8 @@ The responsiveness of the Toons Quiz Game was thoroughly tested to ensure a seam
 | `iPad Mini` | 768px * 1024px | Good | Yes | 
 | `iPad Air` | 820px * 1180px | Good | Yes | 
 
+### Visual Representation
+
 #### `iPhone 12 Pro`
 
 | Home Page | How to Play Page | High Score Page | Difficulty Level Page | Game Page | Exit Page | End Game Page | Settings Page |
@@ -292,7 +294,7 @@ To ensure that the Toons Quiz Game offers an optimized user experience, we condu
 
 ### `Desktop Results`
 
-The desktop version of the Toons Quiz Game demonstrated excellent performance, with all pages scoring above 90 in the key areas of performance, accessibility, best practices, and SEO.
+The desktop version of the Toons Quiz Game demonstrated excellent performance, with all pages scoring above 89% in the key areas of performance, accessibility, best practices, and SEO.
 
 
 | Home Page | How to Play Page | High Score Page | Difficulty Level Page | Game Page | Exit Page | End Game Page | Settings Page |

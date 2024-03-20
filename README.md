@@ -165,7 +165,7 @@ The primary and accent colours utilized across the site for textual and interact
 
 For the typography of the Quiz game website, Google Fonts was leveraged to import and integrate a font that complements the playful and engaging theme of the site.
 
-* Primary Font: Comic Neue - Chosen for its modern reinterpretation of the traditional comic book font, Comic Neue adds a fun and legible touch to the user interface. Its design strikes a balance between playfulness and readability, making it an ideal choice for the cartoon trivia theme of my game. This font embodies the essence of the animated world, enhancing the overall user experience with its approachable and appealing appearance.
+* `Primary Font`: Comic Neue - Chosen for its modern reinterpretation of the traditional comic book font, Comic Neue adds a fun and legible touch to the user interface. Its design strikes a balance between playfulness and readability, making it an ideal choice for the cartoon trivia theme of my game. This font embodies the essence of the animated world, enhancing the overall user experience with its approachable and appealing appearance.
 
 The use of Comic Neue throughout the site not only reinforces the thematic elements of the game but also ensures that text is easy to read and interact with, thereby improving usability and accessibility for players of all ages.
 
@@ -176,9 +176,9 @@ The use of Comic Neue throughout the site not only reinforces the thematic eleme
 
 The imagery used in the Quiz game website plays a pivotal role in creating an immersive and visually appealing experience that captivates users and enhances the thematic focus on cartoons and animation. Each visual element has been carefully selected and integrated to complement the game's design and user interface, providing a rich and engaging atmosphere that resonates with fans of animated content.
 
-* Background Images: The background of the website features high-resolution images inspired by popular animations, such as "Kung Fu Panda." These images set a vibrant and dynamic tone for the game, inviting users into the whimsical world of cartoons. The backgrounds are sourced from [Wall AlphaCoders](https://wall.alphacoders.com/big.php?i=690190), ensuring that they are of high quality and contribute positively to the aesthetic appeal of the site.
+* `Background Images`: The background of the website features high-resolution images inspired by popular animations, such as "Kung Fu Panda." These images set a vibrant and dynamic tone for the game, inviting users into the whimsical world of cartoons. The backgrounds are sourced from [Wall AlphaCoders](https://wall.alphacoders.com/big.php?i=690190), ensuring that they are of high quality and contribute positively to the aesthetic appeal of the site.
 
-* Iconography and Logo: The website's logo and icons are designed to echo the playful and animated theme of the quiz. The logo (sourced from [Wallpaperaccess](https://wallpaperaccess.com/3d-cartoon#google_vignette)), featuring a stylized representation of cartoon elements, serves as a visual anchor for the site, reinforcing the game's identity and purpose. The icons used throughout the site, are chosen for their clear visual communication, thematic consistency and sourced from [Font Awesome](https://fontawesome.com/icons) . 
+* `Iconography and Logo`: The website's logo and icons are designed to echo the playful and animated theme of the quiz. The logo (sourced from [Wallpaperaccess](https://wallpaperaccess.com/3d-cartoon#google_vignette)), featuring a stylized representation of cartoon elements, serves as a visual anchor for the site, reinforcing the game's identity and purpose. The icons used throughout the site, are chosen for their clear visual communication, thematic consistency and sourced from [Font Awesome](https://fontawesome.com/icons) . 
 
 ### `Wireframes`
 
