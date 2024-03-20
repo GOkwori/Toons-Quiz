@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Function to display high scores
-function displayHighScores() {
+displayHighScores = () => {
   const highScoresList = document.getElementById("highScoresList");
   const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 
@@ -17,7 +17,7 @@ function displayHighScores() {
 }
 
 // Function to apply settings for sound and dark theme
-function applySettings() {
+applySettings = () => {
   const body = document.body;
   const music = document.getElementById("background-music");
 

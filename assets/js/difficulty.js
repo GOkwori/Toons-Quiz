@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Set the difficulty level
-function setDifficulty(level) {
+setDifficulty = (level) => {
   localStorage.setItem("difficulty", level);
 
   // Redirect to the game page
@@ -12,7 +12,7 @@ function setDifficulty(level) {
 }
 
 // Apply settings
-function applySettings() {
+applySettings = () => {
   const body = document.body;
   const music = document.getElementById("background-music");
 

@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Function to clear high scores from local storage
-function clearHighScores() {
+clearHighScores = () => {
   // User confirmed, clear high scores from local storage
   localStorage.removeItem("highScores");
 
@@ -13,7 +13,7 @@ function clearHighScores() {
 }
 
 // Function to set up event listeners
-function setupEventListeners() {
+setupEventListeners = () => {
   const clearButton = document.querySelector(".yes-button");
   if (clearButton) {
     clearButton.addEventListener("click", clearHighScores);
@@ -21,7 +21,7 @@ function setupEventListeners() {
 }
 
 // Function to apply settings for sound and dark theme
-function applySettings() {
+applySettings = () => {
   const body = document.body;
   const music = document.getElementById("background-music");
 

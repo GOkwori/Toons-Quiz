@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Apply settings
-function applySettings() {
+applySettings = () => {
   const body = document.body;
   const music = document.getElementById("background-music");
 
@@ -35,7 +35,7 @@ function applySettings() {
 }
 
 // Function to set up the game
-function setupGame() {
+setupGame = () => {
   const selectedDifficulty = localStorage.getItem("difficulty") || "easy"; // Ensure a default value
   let questions;
 
@@ -389,7 +389,7 @@ incrementScore = (num) => {
 };
 
 // This function will handle the 'click' event of the next button
-function handleNextButton() {
+handleNextButton = () => {
   options.forEach((option) => {
     // Remove classes for next question
     option.parentElement.classList.remove("correct", "incorrect");

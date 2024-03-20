@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Save high score function
-  function saveHighScore(e) {
+  saveHighScore = (e) => {
     e.preventDefault();
 
     const score = {
