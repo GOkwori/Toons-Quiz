@@ -417,7 +417,7 @@ p, strong {
 
 /*---- Clear High Scores Button on the high score page ----*/
 .clear-button {
-    width: 30%;
+    width: auto;
     font-weight: 700;
 }
 
