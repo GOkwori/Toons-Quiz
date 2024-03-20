@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", () => {
+// javascript for highscore page
+document.addEventListener("DOMContentLoaded", function () {
   applySettings();
   displayHighScores();
 });
@@ -14,7 +15,7 @@ function displayHighScores() {
       return `<li class="high-score">${score.name} - ${score.score}</li>`;
     })
     .join("");
-};
+}
 
 // Function to apply settings for sound and dark theme
 function applySettings() {
@@ -38,4 +39,4 @@ function applySettings() {
   } else {
     body.classList.remove("dark-theme");
   }
-};
+}

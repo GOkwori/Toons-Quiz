@@ -1,3 +1,4 @@
+// Javascript for home page & how to play page
 document.addEventListener("DOMContentLoaded", function () {
     const body = document.body;
     const music = document.getElementById("background-music");

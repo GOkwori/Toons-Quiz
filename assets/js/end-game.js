@@ -1,5 +1,5 @@
 // This script is for the end game page.
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function () {
   applySettings();
 
   const username = document.getElementById("username");
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
   finalScore.innerText = mostRecentScore;
 
   // Disable the save high score button if the username is empty
-  username.addEventListener("keyup", () => {
+  username.addEventListener("keyup", function () {
     saveScoreBtn.disabled = !username.value.trim();
   });
 

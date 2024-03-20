@@ -1,5 +1,5 @@
 // This file contains the JavaScript code for my game.
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function () {
   // Apply settings
   applySettings();
 

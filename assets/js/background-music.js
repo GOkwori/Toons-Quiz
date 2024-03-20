@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // Save the music time when the user leaves the page
-window.addEventListener("beforeunload", () => {
+window.addEventListener("beforeunload", function () {
   const music = document.getElementById("background-music");
   if (music) {
     localStorage.setItem("musicTime", music.currentTime.toString());

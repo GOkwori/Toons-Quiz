@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Event listeners for the checkboxes
-  soundCheckbox.addEventListener("change", () => {
+  soundCheckbox.addEventListener("change", function () {
     if (soundCheckbox.checked) {
       music.currentTime = 0; // Reset time to start music from the beginning
       music.play().catch((e) => console.error("Error playing music:", e));
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Event listener for applying theme
-  themeCheckbox.addEventListener("change", () => {
+  themeCheckbox.addEventListener("change", function () {
     if (themeCheckbox.checked) {
       body.classList.add("dark-theme");
       localStorage.setItem("darkThemeEnabled", "true");
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // Save the current time of the music when navigating away from the page, if sound is enabled
-window.addEventListener("beforeunload", () => {
+window.addEventListener("beforeunload", function () {
   if (localStorage.getItem("soundEnabled") === "true" && music) {
     localStorage.setItem("musicTime", music.currentTime.toString());
   }
