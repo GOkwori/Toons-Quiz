@@ -4,7 +4,7 @@
 
 Visit the deployed site: [Toons Quiz](https://gokwori.github.io/Toons-Quiz/)
 
-Welcome to the Toons Quiz Game! A thrilling interactive web application designed to test your knowledge and love for the colorful world of cartoons. Whether you’re a die-hard fan of classic animations or a follower of the latest animated series, this game is crafted just for you.
+Welcome to the Toons Quiz Game! A thrilling interactive web application designed to test your knowledge and love for the colourful world of cartoons. Whether you’re a die-hard fan of classic animations or a follower of the latest animated series, this game is crafted just for you.
 
 Dive into a vibrant journey through various questions ranging from the golden age of cartoons to the contemporary masterpieces that have captured the hearts of millions. Our app challenges you with an array of questions that will intrigue both casual viewers and avid enthusiasts.
 
@@ -135,8 +135,11 @@ The primary business goal of the Toons Quiz Game is to establish a vibrant, enga
 
 ### `As the game developer`
 
-* I want to attract a broad user base and keep them engaged so that the site can grow in popularity and explore potential monetization opportunities.
-* I need to ensure the game is accessible to all users, including those with visual impairments, to adhere to inclusivity standards and expand the game's reach.
+- **Broad User Base**:
+  *I want to attract a broad user base and keep them engaged so that the site can grow in popularity and explore potential monetization opportunities.*
+
+- **Accessibity**:
+  *I need to ensure the game is accessible to all users, including those with visual impairments, to adhere to inclusivity standards and expand the game's reach.*
 
 - - -
 
@@ -386,7 +389,7 @@ Accessibility forms the cornerstone of the Toons Quiz Game, reflecting a commitm
 
 * `Adaptable Fonts`: Readability is key; hence, font choices and sizes are selected for their clarity. Players have the flexibility to adjust text sizes according to their preferences.
 
-* `Color Contrast`: Adequate contrast between text and background colors is ensured, improving legibility for users, including those with visual impairments.
+* `Colour Contrast`: Adequate contrast between text and background colours is ensured, improving legibility for users, including those with visual impairments.
 
 * `Descriptive Alt Text`: All images come with detailed alternative text descriptions, offering context and clarity for players who use screen readers.
 
@@ -403,7 +406,7 @@ The development of Toons Quiz Game leverages a combination of modern web technol
 |  |  |
 | -- | --|
 | ![HTML](https://img.shields.io/badge/1%20-%20HTML%20-%20green) | The backbone of our game, used to structure the content and layout of the web pages.|
-| ![CSS](https://img.shields.io/badge/2%20-%20CSS%20-%20orange) | Empowers the visual design of our game, including layouts, colors, and fonts, ensuring an engaging and responsive interface.|
+| ![CSS](https://img.shields.io/badge/2%20-%20CSS%20-%20orange) | Empowers the visual design of our game, including layouts, colours, and fonts, ensuring an engaging and responsive interface.|
 | ![JavaScript](https://img.shields.io/badge/3%20-%20JavaScript%20-%20black) | The driving force behind the game's interactivity, enabling dynamic content manipulation, real-time feedback, and seamless user interactions.|
 | | |
 

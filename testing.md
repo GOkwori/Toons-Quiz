@@ -13,7 +13,7 @@ Visit the deployed site: [Toons Quiz](https://gokwori.github.io/Toons-Quiz/)
 * [Browser Compatibility](#browser-compatibility)
 * [Responsiveness Testing](#responsiveness-testing)
 * [Code Validation](#code-validation)
-* [Lighthouse](#lighthouse)
+* [Lighthouse Performance Assessment](#lighthouse-performance-assessment)
 
 Testing occurred continuously throughout the entire development process. I employed Chrome Developer Tools extensively during the build to identify and resolve issues promptly.
 
@@ -197,7 +197,7 @@ I confirmed that my website performs consistently across various web browsers. T
 
 - - -
 
-## Responsiveness Testing for Toons Quiz Game
+## Responsiveness Testing
 
 The responsiveness of the Toons Quiz Game was thoroughly tested to ensure a seamless and engaging experience across a variety of devices and screen sizes. This was crucial to ensure that every aspect of the game, from layout to interactivity and visuals, is optimized for all users.
 
